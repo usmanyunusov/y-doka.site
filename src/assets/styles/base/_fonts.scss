@@ -7,3 +7,21 @@
 //         url('/assets/fonts/noe-display-regular.woff2') format('woff2'),
 //         url('/assets/fonts/noe-display-regular.woff') format('woff');
 // }
+
+@font-face {
+  font-family: 'SuisseIntl';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local('SuisseIntl'), local('SuisseIntl-Regular'),
+    url('/assets/fonts/SuisseIntl-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local('SuisseIntl'), local('SuisseIntl-Regular'),
+    url('/assets/fonts/SuisseIntl-Bold.otf') format('opentype');
+}
