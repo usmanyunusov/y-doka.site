@@ -1,0 +1,7 @@
+<ul>
+  {%- for htmlDoka in collections.htmlDoka -%}
+    <a href="/posts/{{ htmlDoka.data.section }}/{{ htmlDoka.data.type }}/{{ htmlDoka.data.name }}">
+      <li>{{ htmlDoka.data.title }}</li>
+    </a>
+  {%- endfor -%}
+</ul>

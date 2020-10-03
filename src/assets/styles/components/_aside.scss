@@ -1,0 +1,175 @@
+.aside {
+  width: 330px;
+  height: 100vh;
+  overflow: hidden;
+  padding: 37px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: $nb-grey-background;
+
+  &_hidden {
+    width: 46px;
+    padding: 0;
+  }
+
+  &__logo {
+    display: block;
+    height: 30px;
+    margin-bottom: 80px;
+    margin-left: -74px; /*<= it is temporary. normal => margin-left: 0;*/
+    
+    &_hidden {
+      display: none;
+    }
+  }
+
+  &__elements {
+    &_hidden {
+      display: none;
+    }
+  }
+
+  &__footer {
+    position: absolute;
+    bottom: 30px;
+    left: 37px;
+  }
+
+  &__navigation {
+    width: 100%;
+  }
+
+  &__item {
+    & summary {
+      position: relative;
+
+      &::-webkit-details-marker {
+        padding-bottom: 7px;
+        position: absolute;
+        right: 0;
+        bottom: 7px;
+
+        -moz-transform: scale(-1, 1);
+        -webkit-transform: scale(-1, 1);
+        -o-transform: scale(-1, 1);
+        transform: scale(-1, 1);
+      }
+    }
+  }
+
+  &__subitem {
+    padding-left: 20px;
+    max-height: 50vh;
+
+    &:first-of-type {
+      padding-top: 20px;
+    }
+
+    &:last-of-type {
+      padding-bottom: 20px;
+    }
+
+    & summary {
+      cursor: pointer;
+    }
+
+    & ul {
+      max-height: 40vh;
+      overflow-y: auto;
+
+      padding-inline-start: 0px;
+      list-style-type: none;
+
+      font-size: 18px;
+      line-height: 30px;
+
+      color: $nb-gray-darkest;
+
+      &::-webkit-scrollbar {
+        background-color: white;
+        width: 5px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        width: 5px;
+        height: 37px;
+        border-radius: 5px;
+        background-color: $nb-grey-dark;
+      }
+
+      &::-webkit-scrollbar-track {
+        -webkit-box-shadow: none;
+        background-color: $nb-grey-background;
+      }
+
+      a {
+        color: inherit;
+      }
+    }
+
+    & summary {
+      position: relative;
+
+      &::-webkit-details-marker {
+        padding-bottom: 3px;
+        position: absolute;
+        right: 0;
+        bottom: 3px;
+
+        -moz-transform: scale(-1, 1);
+        -webkit-transform: scale(-1, 1);
+        -o-transform: scale(-1, 1);
+        transform: scale(-1, 1);
+      }
+    }
+  }
+
+  & details {
+    & summary {
+      &::-webkit-details-marker {
+        display: inline;
+        font-size: 10px;
+      }
+    }
+  }
+
+  &__block-title {
+    font-size: 30px;
+    line-height: 36px;
+    cursor: pointer;
+  }
+
+  &__arrow {
+    height: 22px;
+
+    &_hidden {
+      -moz-transform: scale(-1, 1);
+      -webkit-transform: scale(-1, 1);
+      -o-transform: scale(-1, 1);
+      transform: scale(-1, 1);
+      margin-left: -30px;
+      /*
+        TODO: временный отрицательный маржин,
+        появляется при скрытии бокового меню, нужно придумать способ поизящнее
+      */
+    }
+  }
+
+  &__search {
+    & .search {
+      &__input {
+        width: 100%;
+      }
+
+      &__suggestions {
+        width: 100%;
+        position: relative; /* чтобы не перекрывать боковое меню */
+      }
+    }
+  }
+
+  @media screen and (max-width: 769px) {
+    display: none;
+  }
+}

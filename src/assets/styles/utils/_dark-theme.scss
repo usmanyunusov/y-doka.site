@@ -1,0 +1,9 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    $bg-color: $gray-darkest;
+    $text-color: $not-so-white;
+    $brand-color-primary: $brand-red;
+    $brand-color-primary-offset: darken($brand-red, 6%);
+    $callout-background: $gray-light;
+  }
+}

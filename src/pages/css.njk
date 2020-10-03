@@ -1,0 +1,32 @@
+---
+layout: no-aside
+permalink: /posts/css/
+eleventyNavigation:
+  key: CSS
+---
+
+<div class="container">
+  <div style="display:flex;justify-content:space-between;">
+    <h2>CSS</h2>
+    <div style="max-width:30%">
+      <h3>Справочник</h3>
+      <ul>
+        {%- for cssDoka in collections.cssDoka -%}
+        <a href="/posts/{{ cssDoka.data.section }}/{{ cssDoka.data.type }}/{{ cssDoka.data.name }}">
+          <li>{{ cssDoka.data.title }}</li>
+        </a>
+        {%- endfor -%}
+      </ul>
+    </div>
+    <div style="max-width:30%">
+      <h3>Лонгриды</h3>
+      <ul>
+        {%- for cssLong in collections.cssLong -%}
+        <a href="/posts/{{ cssLong.data.section }}/{{ cssLong.data.type }}/{{ cssLong.data.name }}">
+          <li>{{ cssLong.data.title }}</li>
+        </a>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</div>

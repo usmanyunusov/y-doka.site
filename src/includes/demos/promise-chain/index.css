@@ -1,0 +1,27 @@
+#promise-chain-demo {
+  margin: 1rem 0;
+}
+
+#promise-chain {
+  padding-left: 2rem;
+}
+
+#promise-chain > div, #promise-chain-demo-fetch {
+  transition: all .3s;
+  height: 2rem;
+  width: 7rem;
+  font-family: monospace;
+  user-select: none;
+}
+
+#promise-chain > div {
+  cursor: pointer;
+}
+
+.block-catch {
+  color: #FF0000;
+}
+
+.block-then {
+  color: #CE7C00;
+}

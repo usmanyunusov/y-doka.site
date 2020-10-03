@@ -1,0 +1,35 @@
+.search {
+  position: relative;
+  margin: 0 0 2rem;
+
+  &__container > * {
+    width: 100%;
+  }
+
+  &__suggestions {
+    &__hidden {
+      display: none;
+    }
+
+    position: absolute;
+    background: #f7f7f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border: none;
+    padding: 5px 2px;
+  }
+
+  &__suggestions__item {
+    display: block;
+  }
+
+  &__input {
+    border: none;
+    border-bottom: 1px solid $black;
+    background: none;
+
+    &.focus-visible {
+      border-bottom: 1px solid $brand-color-primary;
+      outline: none!important;
+    }
+  }
+}

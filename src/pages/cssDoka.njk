@@ -1,0 +1,22 @@
+---
+layout: no-aside
+permalink: /posts/css/doka/
+eleventyNavigation:
+  key: cssDoka
+---
+
+<div class="container">
+  <div style="display:flex;justify-content:space-between;">
+    <div style="max-width:30%">
+      <h2>CSS</h2>
+      <h3>Справочник</h3>
+      <ul>
+        {%- for cssDoka in collections.cssDoka -%}
+        <a href="/posts/{{ cssDoka.data.section }}/{{ cssDoka.data.type }}/{{ cssDoka.data.name }}">
+          <li>{{ cssDoka.data.title }}</li>
+        </a>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+---
+layout: no-aside
+permalink: /posts/html/long/
+eleventyNavigation:
+  key: htmlLong
+---
+
+<div class="container">
+  <div style="display:flex;justify-content:space-between;">
+    <div style="max-width:30%">
+      <h2>HTML</h2>
+      <h3>Лонгриды</h3>
+      <ul>
+        {%- for htmlLong in collections.htmlLong -%}
+        <a href="/posts/{{ htmlLong.data.section }}/{{ htmlLong.data.type }}/{{ htmlLong.data.name }}">
+          <li>{{ htmlLong.data.title }}</li>
+        </a>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</div>

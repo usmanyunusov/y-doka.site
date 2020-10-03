@@ -1,0 +1,22 @@
+---
+layout: no-aside
+permalink: /posts/html/doka/
+eleventyNavigation:
+  key: htmlDoka
+---
+
+<div class="container">
+  <div style="display:flex;justify-content:space-between;">
+    <div style="max-width:30%">
+      <h2>HTML</h2>
+      <h3>Справочник</h3>
+      <ul>
+        {%- for htmlDoka in collections.htmlDoka -%}
+        <a href="/posts/{{ htmlDoka.data.section }}/{{ htmlDoka.data.type }}/{{ htmlDoka.data.name }}">
+          <li>{{ htmlDoka.data.title }}</li>
+        </a>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</div>

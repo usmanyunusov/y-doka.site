@@ -1,0 +1,7 @@
+<ul>
+  {%- for cssLong in collections.cssLong -%}
+    <a href="/posts/{{ cssLong.data.section }}/{{ cssLong.data.type }}/{{ cssLong.data.name }}">
+      <li>{{ cssLong.data.title }}</li>
+    </a>
+  {%- endfor -%}
+</ul>

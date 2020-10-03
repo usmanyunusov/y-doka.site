@@ -1,0 +1,22 @@
+---
+layout: no-aside
+permalink: /posts/js/doka/
+eleventyNavigation:
+  key: jsDoka
+---
+
+<div class="container">
+  <div style="display:flex;justify-content:space-between;">
+    <div style="max-width:30%">
+      <h2>JavaScript</h2>
+      <h3>Справочник</h3>
+      <ul>
+        {%- for jsDoka in collections.jsDoka -%}
+        <a href="/posts/{{ jsDoka.data.section }}/{{ jsDoka.data.type }}/{{ jsDoka.data.name }}">
+          <li>{{ jsDoka.data.title }}</li>
+        </a>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,145 @@
+.mainpage {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: black;
+
+  a, a:hover, a:visited {
+    color: inherit;
+  }
+
+  .focus-visible {
+    outline: none!important;
+  }
+
+  &__header {
+    position: relative;
+  }
+
+  &__main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  &__footer {
+    position: relative;
+  }
+
+  &__logo {
+    position: absolute;
+    top: 34px;
+    left: -44px; /*<= it is temporary. normal => left: 30px;*/
+  }
+
+  &__slogan {
+    position: absolute;
+    top: 34px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__slogan-text {
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 23px;
+  }
+
+  &__search {
+    width: 90%;
+
+    &_suggestion {
+      display: flex;
+    }
+
+    &_hidden-suggestion {
+      max-width: 484px;
+      max-height: 110px;
+    }
+  }
+
+  &__search-suggestions.search__suggestions {
+    position: relative;
+    background: $white;
+    box-shadow: 0px 0px 20px rgba(158, 158, 158, 0.2);
+    border-radius: 3px;
+  }
+
+  &__search-toggler {
+    font-size: 14px;
+    line-height: 167.44%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-right: 24px;
+    color: $gray-darkest;
+    cursor: pointer;
+
+    &_active {
+      padding: 2px 20px 2px 10px;
+      background: $black;
+      border-radius: 18px;
+      color: $white;
+      position: relative;
+    }
+
+    &_active::after {
+      content: 'x';
+      position: absolute;
+      top: 0px;
+      right: 6px;
+      font-size: 0.7em;
+    }
+  }
+
+  &__search-input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid $nb-grey-lightest;
+    font-size: 48px;
+    line-height: 58px;
+    color: $gray-darkest;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  ::-webkit-input-placeholder {color:$gray;}
+  ::-moz-placeholder          {color:$gray;}/* Firefox 19+ */
+  :-moz-placeholder           {color:$gray;}/* Firefox 18- */
+  :-ms-input-placeholder      {color:$gray;}
+
+  &__support {
+    font-size: 12px;
+    line-height: 15px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+  }
+
+  &__support-link {
+    font-weight: bold;
+  }
+
+  &__man {
+    width: 268px;
+    height: 334px;
+    background: url(/assets/images/mainpage/mainpage-man.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    position: fixed;
+    bottom: -50px;
+    right: 72px;
+
+    &_sleep {
+      background-position: 49.8% 0;
+    }
+
+    &_wow {
+      background-position: 100% 0;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+<aside id="aside" class="aside">
+  <a href="/" class="aside__logo aside__logo_show">
+    {% include "../ui/logo.njk" %}
+  </a>
+  <section class="aside__elements">
+    <div class="aside__search">
+      {% include "../search.njk" %}
+    </div>
+    <nav class="aside__navigation">
+      <details class="aside__item aside__html">
+        <summary class="aside__block-title">HTML</summary>
+        <details class="aside__subitem aside__html-doka aside__doka">
+          <summary>Справочник</summary>
+          {% include "../postlists/html/doka.njk" %}
+        </details>
+        <details class="aside__subitem aside__html-long aside__long">
+          <summary>Лонгриды</summary>
+          {% include "../postlists/html/long.njk" %}
+        </details>
+      </details>
+      <details class="aside__item aside__css">
+        <summary class="aside__block-title">CSS</summary>
+        <details class="aside__subitem aside__css-doka aside__doka">
+          <summary>Справочник</summary>
+          {% include "../postlists/css/doka.njk" %}
+        </details>
+        <details class="aside__subitem aside__css-long aside__long">
+          <summary>Лонгриды</summary>
+          {% include "../postlists/css/long.njk" %}
+        </details>
+      </details>
+      <details class="aside__item aside__js">
+        <summary class="aside__block-title">JavaScript</summary>
+        <details class="aside__subitem aside__js-doka aside__doka">
+          <summary>Справочник</summary>
+          {% include "../postlists/js/doka.njk" %}
+        </details>
+        <details class="aside__subitem aside__js-long aside__long">
+          <summary>Лонгриды</summary>
+          {% include "../postlists/js/long.njk" %}
+        </details>
+      </details>
+    </nav>
+  </section>
+  <div class="aside__footer">
+    {% include "../footer/footer.njk" %}
+  </div>
+</aside>
