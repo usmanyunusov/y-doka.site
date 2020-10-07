@@ -1,5 +1,5 @@
 const DEBOUNCE_DELAY = 300
-const MIN_CHARACTERS = 3
+const MIN_CHARACTERS = 1
 const HIDDEN_CLS = 'search__suggestions__hidden'
 
 const searchInput = document.getElementById('search')
@@ -9,6 +9,7 @@ let isFetchingSearchIndex = false
 let promise
 let searchIndex
 let timer
+let currentFocus = -1
 
 const buildSuggestionItem = (caption, url) => {
   let item;
@@ -17,7 +18,8 @@ const buildSuggestionItem = (caption, url) => {
   } else {
     item = document.createElement('a')
     item.href = url
-    item.rel = 'noopener'
+    // item.rel = 'noopener'
+    // item.setAttribute("role", "option")
   }
 
   item.classList.add("search__suggestions__item")
@@ -93,7 +95,50 @@ searchInput.addEventListener('keydown', (event) => {
         suggestionsContainer.appendChild(buildSuggestionItem('Ничего не нашлось'))
       }
 
-      showSuggestionContainer()
+      showSuggestionContainer();
+      let x = document.getElementById("search-suggestions");
+      if (x) x = x.getElementsByTagName("a");
+
+      if (event.key === "ArrowDown") {
+        /*If the arrow DOWN key is pressed,
+        increase the currentFocus variable:*/
+        currentFocus++;
+        /*and and make the current item more visible:*/
+        addActive(x);
+      } else if (event.key === "ArrowUp") { //up
+        /*If the arrow UP key is pressed,
+        decrease the currentFocus variable:*/
+        currentFocus--;
+        /*and and make the current item more visible:*/
+        addActive(x);
+      } else if (event.key === "Enter" || event.keyCode === 13) {
+        /*If the ENTER key is pressed, prevent the form from being submitted,*/
+        event.preventDefault();
+
+        // window.location.href = window.location.href + "bla-bla";
+        if (currentFocus > -1) {
+          /*and simulate a click on the "active" item:*/
+          if (x) x[currentFocus].click();
+        }
+      }
+
+      function addActive(x) {
+        /*a function to classify an item as "active":*/
+        if (!x) return false;
+        /*start by removing the "active" class on all items:*/
+        removeActive(x);
+        if (currentFocus >= x.length) currentFocus = 0;
+        if (currentFocus < 0) currentFocus = (x.length - 1);
+        /*add class "autocomplete-active":*/
+        x[currentFocus].classList.add("autocomplete-active");
+      }
+
+      function removeActive(x) {
+        /*a function to remove the "active" class from all autocomplete items:*/
+        for (let i = 0; i < x.length; i++) {
+          x[i].classList.remove("autocomplete-active");
+        }
+      }
     } else {
       hideSuggestionContainer()
     }
@@ -113,3 +158,5 @@ searchInput.addEventListener('focus', () => {
     showSuggestionContainer()
   }
 })
+
+
