@@ -1,5 +1,7 @@
 {%- for htmlLong in collections.htmlLong -%}
-  <a href="/posts/{{ htmlLong.data.section }}/{{ htmlLong.data.type }}/{{ htmlLong.data.name }}">
-    <li>{{ htmlLong.data.title }}</li>
-  </a>
+  <li>
+    <a href="/posts/{{ htmlLong.data.section }}/{{ htmlLong.data.type }}/{{ htmlLong.data.name }}">
+      {{ htmlLong.data.title }}
+    </a>
+  </li>
 {%- endfor -%}

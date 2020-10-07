@@ -7,14 +7,16 @@
   top: 0;
   left: 0;
   background: $nb-grey-background;
+  transition: width 0.2s ease-in;
 
   &_hidden {
     width: 46px;
     padding: 0;
+    transition: width 0.2s ease-out;
   }
 
   &__logo {
-    display: block;
+    display: inline-block;
     height: 30px;
     margin-bottom: 80px;
 
