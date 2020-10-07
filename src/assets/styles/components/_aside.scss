@@ -17,8 +17,11 @@
     display: block;
     height: 30px;
     margin-bottom: 80px;
-    margin-left: -74px; /*<= it is temporary. normal => margin-left: 0;*/
-    
+
+    & img {
+      height: 100%;
+    }
+
     &_hidden {
       display: none;
     }
