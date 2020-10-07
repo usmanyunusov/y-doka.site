@@ -75,6 +75,7 @@ html {
 }
 
 body {
+    min-width: 320px;
     // Make the `body` use the `font-size-root`
     font-family: $font-family-base;
     font-size: $font-size-base;

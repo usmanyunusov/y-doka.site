@@ -42,11 +42,15 @@
   }
 
   .container {
-    width: 90%;
+    width: calc(100vw - 350px);
     margin-left: auto;
     margin-right: auto;
     max-width: $container-max-width;
+    transition: all 0.2s ease-in;
+
+    @media screen and (max-width: 769px){
+      width: 100%;
+    }
   }
 }
-
 
