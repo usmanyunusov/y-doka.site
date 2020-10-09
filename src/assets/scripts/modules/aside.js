@@ -1,12 +1,12 @@
 const body = document.querySelector('body');
 const aside = document.querySelector('aside');
 
-function asideMoving () {
-  const arrow = aside.querySelector('.aside__arrow');
-  arrow.addEventListener('click', toggleaside)
+function asideMoving() {
+  const arrow = aside.querySelector('.footer__arrow-btn');
+  arrow.addEventListener('click', toggleaside, false)
 }
 
-function toggleaside () {
+function toggleaside() {
   const logo = aside.querySelector('.aside__logo');
   const elements = aside.querySelector('.aside__elements');
   const support = aside.querySelector('.footer__support');

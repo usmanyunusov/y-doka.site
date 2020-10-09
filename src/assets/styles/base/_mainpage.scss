@@ -9,7 +9,7 @@
   }
 
   .focus-visible {
-    outline: none!important;
+    //outline: none!important;
   }
 
   &__header {
@@ -31,7 +31,12 @@
   &__logo {
     position: absolute;
     top: 34px;
-    left: -44px; /*<= it is temporary. normal => left: 30px;*/
+    left: 30px;
+    height: 30px;
+
+    & img {
+      height: 100%;
+    }
   }
 
   &__slogan {
@@ -56,26 +61,29 @@
     }
 
     &_hidden-suggestion {
+      position: relative;
       max-width: 484px;
       max-height: 110px;
     }
   }
 
   &__search-suggestions.search__suggestions {
-    position: relative;
+    position: absolute;
+    width: 100%;
     background: $white;
     box-shadow: 0px 0px 20px rgba(158, 158, 158, 0.2);
     border-radius: 3px;
   }
 
   &__search-toggler {
+    padding: 2px 10px;
     font-size: 14px;
-    line-height: 167.44%;
+    line-height: 1.67;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    margin-right: 24px;
     color: $gray-darkest;
     cursor: pointer;
+    transition: all 0.2s;
 
     &_active {
       padding: 2px 20px 2px 10px;
@@ -88,10 +96,51 @@
     &_active::after {
       content: 'x';
       position: absolute;
-      top: 0px;
+      top: 3px;
       right: 6px;
       font-size: 0.7em;
     }
+
+    &__label:not(:last-child) {
+      margin-right: 15px;
+    }
+
+    &__input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+
+      &:focus + .mainpage__search-toggler {
+        background: gray;
+        border-radius: 18px;
+        color: $white;
+        position: relative;
+        box-shadow: 4px 4px 1px darkblue;
+      }
+
+      &:checked:focus + .mainpage__search-toggler {
+        box-shadow: 4px 4px 1px darkblue;
+      }
+
+      &:checked + .mainpage__search-toggler {
+        padding-right: 20px;
+        background: $black;
+        border-radius: 18px;
+        color: $white;
+        position: relative;
+      }
+
+      &:checked + .mainpage__search-toggler::after {
+        content: 'x';
+        position: absolute;
+        top: 3px;
+        right: 6px;
+        font-size: 0.7em;
+      }
+    }
+
   }
 
   &__search-input {
@@ -101,9 +150,11 @@
     font-size: 48px;
     line-height: 58px;
     color: $gray-darkest;
+    transition: border 0.2s;
 
     &:focus {
       outline: none;
+      border-bottom: 1px solid $black;
     }
   }
 
@@ -127,7 +178,7 @@
   &__man {
     width: 268px;
     height: 334px;
-    background: url(/assets/images/mainpage/mainpage-man.png);
+    background-image: url(/assets/images/mainpage/mainpage-man.png);
     background-repeat: no-repeat;
     background-position: 0 0;
     position: fixed;
@@ -142,4 +193,8 @@
       background-position: 100% 0;
     }
   }
+}
+
+.autocomplete-active {
+  background-color: lightskyblue;
 }

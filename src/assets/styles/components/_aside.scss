@@ -7,18 +7,23 @@
   top: 0;
   left: 0;
   background: $nb-grey-background;
+  transition: width 0.2s ease-in;
 
   &_hidden {
     width: 46px;
     padding: 0;
+    transition: width 0.2s ease-out;
   }
 
   &__logo {
-    display: block;
+    display: inline-block;
     height: 30px;
     margin-bottom: 80px;
-    margin-left: -74px; /*<= it is temporary. normal => margin-left: 0;*/
-    
+
+    & img {
+      height: 100%;
+    }
+
     &_hidden {
       display: none;
     }

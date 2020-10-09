@@ -1,5 +1,5 @@
 ---
-title: flexbox-гайд
+title: Гайд по flexbox
 name: flexbox-guide
 section: css
 type: long

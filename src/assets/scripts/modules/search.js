@@ -1,5 +1,5 @@
 const DEBOUNCE_DELAY = 300
-const MIN_CHARACTERS = 3
+const MIN_CHARACTERS = 1
 const HIDDEN_CLS = 'search__suggestions__hidden'
 
 const searchInput = document.getElementById('search')
@@ -9,6 +9,7 @@ let isFetchingSearchIndex = false
 let promise
 let searchIndex
 let timer
+let currentFocus = -1
 
 const buildSuggestionItem = (caption, url) => {
   let item;
@@ -17,7 +18,7 @@ const buildSuggestionItem = (caption, url) => {
   } else {
     item = document.createElement('a')
     item.href = url
-    item.rel = 'noopener'
+    item.setAttribute("role", "option")
   }
 
   item.classList.add("search__suggestions__item")
@@ -93,7 +94,37 @@ searchInput.addEventListener('keydown', (event) => {
         suggestionsContainer.appendChild(buildSuggestionItem('Ничего не нашлось'))
       }
 
-      showSuggestionContainer()
+      showSuggestionContainer();
+      let x = document.getElementById("search-suggestions");
+      if (x) x = x.getElementsByTagName("a");
+
+      if (event.key === "ArrowDown") {
+        currentFocus++;
+        addActive(x);
+      } else if (event.key === "ArrowUp") {
+        currentFocus--;
+        addActive(x);
+      } else if (event.key === "Enter" || event.keyCode === 13) {
+        event.preventDefault();
+
+        if (currentFocus > -1) {
+          if (x) x[currentFocus].click();
+        }
+      }
+
+      function addActive(x) {
+        if (!x) return false;
+        removeActive(x);
+        if (currentFocus >= x.length) currentFocus = 0;
+        if (currentFocus < 0) currentFocus = (x.length - 1);
+        x[currentFocus].classList.add("autocomplete-active");
+      }
+
+      function removeActive(x) {
+        for (let i = 0; i < x.length; i++) {
+          x[i].classList.remove("autocomplete-active");
+        }
+      }
     } else {
       hideSuggestionContainer()
     }
@@ -113,3 +144,5 @@ searchInput.addEventListener('focus', () => {
     showSuggestionContainer()
   }
 })
+
+
