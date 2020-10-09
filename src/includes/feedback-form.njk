@@ -1,0 +1,30 @@
+<h3>Обратная связь</h3>
+
+<div class="feedback-form">
+  <form method="POST" name="doka-feeback" data-netlify="true">
+    <div class="feedback-form__row">
+      <p>
+        Оказалась ли статья полезной?
+      </p>
+      <label>
+        👍
+        <input type="radio" name="isUseful" value="true" />
+      </label>
+      <label>
+        👎
+        <input type="radio" name="isUseful" value="false" />
+      </label>
+    </div>
+    <div class="feedback-form__row">
+      <label for="comment">
+        Расскажите подробнее:
+      </label>
+      <div>
+        <textarea name="comment" id="comment" rows="5" cols="100"></textarea>
+      </div>
+    </div>
+    <div class="feedback-form__row">
+      <button type="submit">Отправить</button>
+    </div>
+  </form>
+</div>
