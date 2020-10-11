@@ -8,7 +8,7 @@ button:focus {
 }
 
 a:focus {
-    outline: 1px solid darkblue;
+    //outline: 1px solid darkblue;
 }
 
 // =================
@@ -16,10 +16,11 @@ a:focus {
 // =================
 
 .js-focus-visible :focus:not(.focus-visible) {
-    //outline: none;
+    outline: none;
 }
 
 .js-focus-visible .focus-visible {
+    outline: 1px solid darkblue;
 }
 
 // =================
