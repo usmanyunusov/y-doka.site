@@ -10,11 +10,6 @@ function toggleAside() {
   aside.classList.toggle("_hidden");
 }
 
-/* TODO:
-  при клике на элемент меню, он открывается, а остальные закрываются
-  надо переписать
-*/
-
 function asideOpener() {
   let postPath = window.location.pathname.split("/").filter(el => el)
   let [tmp, postSection, postType, postName] = postPath
@@ -37,8 +32,14 @@ function asideClickHelper(target) {
   }
 }
 
+function hideEmpty() {
+  let items = aside.querySelectorAll("details ul");
+  items.forEach(item => item.children.length === 0 ? item.parentElement.style.display = "none" : item.parentElement.style.display = "block")
+}
+
 if (body.contains(aside)) {
   asideMoving()
+  hideEmpty()
   aside.querySelector(".aside__navigation").addEventListener("click", (event) => asideClickHelper(event.target));
   asideOpener()
 }
