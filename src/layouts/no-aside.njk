@@ -14,11 +14,11 @@
     <a href="#main" class="sr-skip-link">skip to main content</a>
 
     <div class="layout" role="document">
-        {% include "header.njk" %}
+        {% include "header/header.njk" %}
           <main id="main" class="main container" tabindex="-1">
             {{ content | safe }}
           </main>
-        {% include "footer.njk" %}
+        {% include "footer/footer.njk" %}
     </div>
 
     <script type="text/javascript" src="{{ '/assets/scripts/main.js' | url }}"></script>
