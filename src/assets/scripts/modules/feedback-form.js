@@ -6,17 +6,13 @@ const form = document.querySelector('form.feedback-form')
 form && form.addEventListener('submit', function(event) {
 	event.preventDefault()
 	const formData = new FormData(this)
-	const payload = {}
-	for (let [field, value] of formData.entries()) {
-		payload[field] = value
-	}
 
 	fetch(window.location.href, {
 		method: 'POST',
 		headers: {
-			'Content-Type': 'application/json'
+			'Content-Type': 'multipart/form-data'
 		},
-		body: JSON.stringify(payload)
+		body: formData
 	}).then(res => {
 		console.log(res)
 		alert('all good')
@@ -43,8 +39,7 @@ notUsefulContentRadioButton && notUsefulContentRadioButton.addEventListener('cha
 
 optionalFeedbackCells && optionalFeedbackCells.forEach(cell => {
 	cell.addEventListener('transitionend', () => {
-		debugger
-		if (cell.classList.has('feedback-form__cell')) {
+		if (cell.classList.contains('feedback-form__cell')) {
 			window.scrollTo({
 				top: submitButton.offsetTop,
 				left: 0,
