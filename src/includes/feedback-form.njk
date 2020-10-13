@@ -1,31 +1,51 @@
+<div class="feedback">
 <h3>Обратная связь</h3>
 
-<div class="feedback-form">
-  <form method="POST" name="doka-feeback" data-netlify="true">
-    <input type="hidden" name="article" value="{{title}}">
-    <div class="feedback-form__row">
-      <p>
-        Оказалась ли статья полезной?
-      </p>
-      <label>
-        👍
-        <input type="radio" name="isUseful" value="true" />
-      </label>
-      <label>
-        👎
-        <input type="radio" name="isUseful" value="false" />
-      </label>
-    </div>
-    <div class="feedback-form__row">
-      <label for="comment">
-        Расскажите подробнее:
-      </label>
-      <div>
-        <textarea name="comment" id="comment" rows="5" cols="100"></textarea>
-      </div>
-    </div>
-    <div class="feedback-form__row">
-      <button type="submit">Отправить</button>
-    </div>
-  </form>
+<form method="POST" name="doka-feeback" data-netlify="true"  class="feedback-form">
+  <input type="hidden" name="article" value="{{title}}">
+  <div class="feedback-form__label">
+    Статья была полезной?
+  </div>
+  <div class="feedback-form__input feedback-form__inline-radiogroup">
+    <input 
+    id="feedack-useful"
+    class="feedback-form__inline-radiogroup__input"
+    type="radio" 
+    name="isUseful" 
+    value="1" 
+    />
+    <label for="feedack-useful" class="feedback-form__inline-radiogroup__label">
+      👍
+    </label>
+
+    <input 
+    id="feedack-not-useful" 
+    class="feedback-form__inline-radiogroup__input"
+    type="radio" 
+    name="isUseful" 
+    value="0" 
+    />
+    <label for="feedack-not-useful" class="feedback-form__inline-radiogroup__label">
+      👎
+    </label>
+  </div>
+  <div class="feedback-form__cell__hidden feedback-form__optional-feedback">
+    <label for="comment">
+      Что добавить?
+    </label>
+  </div>
+  <div class="feedback-form__cell__hidden feedback-form__optional-feedback">
+    <textarea 
+      name="comment" 
+      id="comment" 
+      class="feedback-form__textarea"
+      rows="5" 
+      placeholder="Чего вы ожидали увидеть в статье, но не нашли?">
+    </textarea>
+  </div>
+
+  <div class="feedback-form__actionbar">
+    <button type="submit">Отправить</button>
+  </div>
+</form>
 </div>
