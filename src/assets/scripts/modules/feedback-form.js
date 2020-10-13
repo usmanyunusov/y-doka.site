@@ -11,7 +11,7 @@ form && form.addEventListener('submit', function(event) {
 		payload[field] = value
 	}
 
-	fetch(this.getAttribute('action'), {
+	fetch(window.location.href, {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json'
