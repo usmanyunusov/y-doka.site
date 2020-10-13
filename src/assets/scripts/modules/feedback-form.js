@@ -11,7 +11,7 @@ form && form.addEventListener('submit', function(event) {
 	// So we need to encode fields and values to query string
 	const urlEncodedEntries = []
 	for (let [field, value] of formData.entries()) {
-		urlEncodedEntries.push(encodeURIComponent(name) + '=' + encodeURIComponent(value))
+		urlEncodedEntries.push(encodeURIComponent(field) + '=' + encodeURIComponent(value))
 	}
 
 	fetch(window.location.href, {
