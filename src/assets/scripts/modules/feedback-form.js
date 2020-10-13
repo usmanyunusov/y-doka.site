@@ -7,12 +7,19 @@ form && form.addEventListener('submit', function(event) {
 	event.preventDefault()
 	const formData = new FormData(this)
 
+	// Netlify Form API	supports only `application/x-www-form-urlencoded` content type
+	// So we need to encode fields and values to query string
+	const urlEncodedEntries = []
+	for (let [field, value] of formData.entries()) {
+		urlEncodedEntries.push(encodeURIComponent(name) + '=' + encodeURIComponent(value))
+	}
+
 	fetch(window.location.href, {
 		method: 'POST',
 		headers: {
-			'Content-Type': 'multipart/form-data'
+			'Content-Type': 'application/x-www-form-urlencoded'
 		},
-		body: formData
+		body: urlEncodedEntries.join('&')
 	}).then(res => {
 		console.log(res)
 		alert('all good')
