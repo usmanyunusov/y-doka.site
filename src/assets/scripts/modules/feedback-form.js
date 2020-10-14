@@ -6,6 +6,9 @@ const form = document.querySelector('form.feedback-form')
 form && form.addEventListener('submit', function(event) {
 	event.preventDefault()
 	const formData = new FormData(this)
+	if (formData.get('isUseful') === null) {
+		return
+	}
 
 	// Netlify Form API	supports only `application/x-www-form-urlencoded` content type
 	// So we need to encode fields and values to query string
@@ -14,17 +17,21 @@ form && form.addEventListener('submit', function(event) {
 		urlEncodedEntries.push(encodeURIComponent(field) + '=' + encodeURIComponent(value))
 	}
 
+	submitButton.disabled = true
+	submitButton.textContent = 'Отправляю...'
 	fetch(window.location.href, {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/x-www-form-urlencoded'
 		},
 		body: urlEncodedEntries.join('&')
-	}).then(res => {
-		console.log(res)
-		alert('all good')
-	}).catch(err => {
-		alert('all bad')
+	})
+	.then(res => {
+		const isSuccess = res.status >= 200 && res.status < 300
+		showMessage(isSuccess ? 'success' : 'error')
+	})
+	.catch(e => {
+		showMessage('error')
 	})
 })
 
@@ -55,3 +62,14 @@ optionalFeedbackCells && optionalFeedbackCells.forEach(cell => {
 		}
 	})
 })
+
+function showMessage(type) {
+	if (typeof type === 'string') {
+		const message = document.querySelector(`.feedback__${type}-message__hidden`)
+
+		if (message) {
+			form.classList.replace('feedback-form', 'feedback-form__hidden')
+			message.classList.replace(`feedback__${type}-message__hidden`, `feedback__${type}-message`)
+		}
+	}
+}

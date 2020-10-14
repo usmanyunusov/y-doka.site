@@ -1,6 +1,15 @@
 .feedback {
   margin: 1rem 0 2rem;
+
+  &__success-message, &__error-message {
+    display: block;
+
+    &__hidden {
+      display: none;
+    }
+  }
 }
+
 .feedback-form {
   display: grid;
   align-items: center;
@@ -12,13 +21,17 @@
     grid-template-columns: auto;
   }
 
+  &__hidden {
+    display: none;
+  }
+
   &__cell {
-    transition: max-height 1s ease-in;
+    transition: max-height 0.2s ease-in;
     max-height: 10rem;
     overflow-y: hidden;
 
     &__hidden {
-      transition: max-height 1s ease-out;
+      transition: max-height 0.2s ease-out;
       max-height: 0;
       overflow-y: hidden;
     }
