@@ -10,21 +10,18 @@ form && form.addEventListener('submit', function(event) {
 		return
 	}
 
-	// Netlify Form API	supports only `application/x-www-form-urlencoded` content type
-	// So we need to encode fields and values to query string
-	const urlEncodedEntries = []
-	for (let [field, value] of formData.entries()) {
-		urlEncodedEntries.push(encodeURIComponent(field) + '=' + encodeURIComponent(value))
-	}
-
 	submitButton.disabled = true
 	submitButton.textContent = 'Отправляю...'
+
+	// Netlify Form API	supports only `application/x-www-form-urlencoded` content type
+	// So we need to encode fields and values to query string
+	const urlEncodedData = (new URLSearchParams(formData)).toString()
 	fetch(window.location.href, {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/x-www-form-urlencoded'
 		},
-		body: urlEncodedEntries.join('&')
+		body: urlEncodedData
 	})
 	.then(res => {
 		const isSuccess = res.status >= 200 && res.status < 300
