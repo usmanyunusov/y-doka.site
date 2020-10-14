@@ -24,11 +24,11 @@ function asideOpener() {
 function asideClickHelper(target) {
   if (target.parentElement.classList.contains("aside__item")) {
     aside.querySelectorAll(".aside__item").forEach(el => {
-      el.removeAttribute("open")
+      if (el !== target.parentElement) {
+        el.removeAttribute("open")
+      }
       el.querySelectorAll("details").forEach(el => el.removeAttribute("open"))
-    });
-  } else {
-    target.closest(".aside__item").querySelectorAll("details").forEach(el => el.removeAttribute("open"))
+    })
   }
 }
 
