@@ -1,0 +1,75 @@
+.feedback {
+  margin: 1rem 0 2rem;
+
+  &__success-message, &__error-message {
+    display: block;
+
+    &__hidden {
+      display: none;
+    }
+  }
+}
+
+.feedback-form {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 12rem auto;
+  column-gap: 1rem;
+  row-gap: 1rem;
+
+  @include mq-down(md) {
+    grid-template-columns: auto;
+  }
+
+  &__hidden {
+    display: none;
+  }
+
+  &__cell {
+    transition: max-height 0.2s ease-in;
+    max-height: 10rem;
+    overflow-y: hidden;
+
+    &__hidden {
+      transition: max-height 0.2s ease-out;
+      max-height: 0;
+      overflow-y: hidden;
+    }
+  }
+
+  &__actionbar {
+    grid-row: span 2;
+    margin-bottom: 1rem;
+  }
+
+  &__inline-radiogroup {
+    &__label {
+      font-size: 2rem;
+      cursor: pointer;
+      margin-left: .5rem;
+      padding: 0 .5rem;
+      border-radius: 5px;
+      user-select: none;
+
+      @include hover-focus {
+        background-color: $gray;
+      }
+    }
+
+    &__input {
+      position: absolute;
+      opacity: 0;
+      height: 0;
+      width: 0;
+    }
+
+    &__input:checked + label {
+      background-color: $gray-light;
+    }
+  }
+
+  &__textarea {
+    width: 100%;
+  }
+
+}
