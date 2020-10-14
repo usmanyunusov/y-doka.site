@@ -1,8 +1,8 @@
-const optionalFeedbackCells = document.querySelectorAll('.feedback-form__optional-feedback')
-const textArea = document.querySelector('.feedback-form__textarea')
-const submitButton = document.querySelector('.feedback-form__actionbar button[type=submit]')
+const optionalFeedbackCells = document.querySelectorAll('.js-feedback-optional-cell')
+const textArea = document.querySelector('.js-feedback-textarea')
+const submitButton = document.querySelector('.js-feedback-submit-button')
 
-const form = document.querySelector('form.feedback-form')
+const form = document.querySelector('form.js-feedback-form')
 form && form.addEventListener('submit', function(event) {
 	event.preventDefault()
 	const formData = new FormData(this)

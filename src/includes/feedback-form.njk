@@ -1,7 +1,7 @@
 <div class="feedback">
   <h2>Обратная связь</h2>
 
-  <form method="POST" name="doka-feeback" data-netlify="true" class="feedback-form">
+  <form method="POST" name="doka-feeback" data-netlify="true" class="feedback-form js-feedback-form">
     <input type="hidden" name="article" value="{{title}}">
     <div class="feedback-form__label">
       Статья была полезной?
@@ -29,22 +29,22 @@
         👎
       </label>
     </div>
-    <div class="feedback-form__cell__hidden feedback-form__optional-feedback">
+    <div class="feedback-form__cell__hidden js-feedback-optional-cell">
       <label for="comment">
         Что добавить?
       </label>
     </div>
-    <div class="feedback-form__cell__hidden feedback-form__optional-feedback">
+    <div class="feedback-form__cell__hidden js-feedback-optional-cell">
       <textarea 
       name="comment" 
       id="comment" 
-      class="feedback-form__textarea"
+      class="feedback-form__textarea js-feedback-textarea"
       rows="5" 
       placeholder="Чего вы ожидали увидеть в статье, но не нашли?"></textarea>
     </div>
 
     <div class="feedback-form__actionbar">
-      <button type="submit">Отправить</button>
+      <button type="submit" class="js-feedback-submit-button">Отправить</button>
     </div>
   </form>
   <p class="feedback__success-message__hidden">
