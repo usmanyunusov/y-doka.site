@@ -32,14 +32,8 @@ function asideClickHelper(target) {
   }
 }
 
-function hideEmpty() {
-  let items = aside.querySelectorAll("details ul");
-  items.forEach(item => item.children.length === 0 ? item.parentElement.style.display = "none" : item.parentElement.style.display = "block")
-}
-
 if (body.contains(aside)) {
   asideMoving()
-  hideEmpty()
   aside.querySelector(".aside__navigation").addEventListener("click", (event) => asideClickHelper(event.target));
   asideOpener()
 }
