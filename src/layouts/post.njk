@@ -2,7 +2,10 @@
 layout: base
 ---
 <article class="article">
-  <h1 class="article__title">{{ title }}</h1>
+  <h1 class="article__title">{{ title }}
+    <span class="article__section">{{ section }}</span>
+  </h1>
+
   {{ content | safe }}
   {% include 'feedback-form.njk' %}
 </article>
