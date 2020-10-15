@@ -1,0 +1,309 @@
+/* PrismJS 1.22.0
+https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript&plugins=line-numbers+show-language+toolbar+copy-to-clipboard */
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: "Menlo", monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: "Menlo", monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+
+	&::-moz-selection, ::-moz-selection {
+		text-shadow: none;
+		background: #b3d4fc;
+	}
+}
+
+code[class*="language-"] {
+	&::-moz-selection, ::-moz-selection {
+		text-shadow: none;
+		background: #b3d4fc;
+	}
+}
+
+pre[class*="language-"] {
+	&::selection, ::selection {
+		text-shadow: none;
+		background: #b3d4fc;
+	}
+}
+
+code[class*="language-"] {
+	&::selection, ::selection {
+		text-shadow: none;
+		background: #b3d4fc;
+	}
+}
+
+@media print {
+	code[class*="language-"], pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+	padding: 35px 20px 20px;
+	background: #f5f2f0;
+}
+
+/* Inline code */
+
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token {
+	&.comment, &.prolog, &.doctype, &.cdata {
+		color: slategray;
+	}
+
+	&.punctuation {
+		color: #999;
+	}
+
+	&.namespace {
+		opacity: .7;
+	}
+
+	&.property, &.tag, &.boolean, &.number, &.constant, &.symbol, &.deleted {
+		color: #905;
+	}
+
+	&.selector, &.attr-name, &.string, &.char, &.builtin, &.inserted {
+		color: #690;
+	}
+
+	&.operator, &.entity, &.url {
+		color: #9a6e3a;
+
+		/* This background color was intended by the author of this theme. */
+		background: hsla(0, 0%, 100%, 0.5);
+	}
+}
+
+.language-css .token.string, .style .token.string {
+	color: #9a6e3a;
+
+	/* This background color was intended by the author of this theme. */
+	background: hsla(0, 0%, 100%, 0.5);
+}
+
+.token {
+	&.atrule, &.attr-value, &.keyword {
+		color: #07a;
+	}
+
+	&.function, &.class-name {
+		color: #DD4A68;
+	}
+
+	&.regex, &.important, &.variable {
+		color: #e90;
+	}
+
+	&.important, &.bold {
+		font-weight: bold;
+	}
+
+	&.italic {
+		font-style: italic;
+	}
+
+	&.entity {
+		cursor: help;
+	}
+}
+
+pre[class*="language-"].line-numbers {
+	position: relative;
+	padding-left: 3.8em;
+	counter-reset: linenumber;
+
+	> code {
+		position: relative;
+		white-space: inherit;
+	}
+}
+
+.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 0;
+	font-size: 100%;
+	left: -3.8em;
+	width: 3em;
+
+	/* works for line-numbers below 1000 lines */
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.line-numbers-rows > span {
+	display: block;
+	counter-increment: linenumber;
+
+	&:before {
+		content: counter(linenumber);
+		color: #999;
+		display: block;
+		padding-right: 0.8em;
+		text-align: right;
+	}
+}
+
+div.code-toolbar {
+	position: relative;
+
+	> .toolbar {
+		position: absolute;
+		top: .3em;
+		right: .2em;
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	> .toolbar {
+		.toolbar-item {
+			display: inline-block;
+		}
+
+		a {
+			cursor: pointer;
+		}
+
+		button {
+			background: none;
+			border: 0;
+			color: inherit;
+			font: inherit;
+			line-height: normal;
+			overflow: visible;
+			padding: 0;
+			-webkit-user-select: none;
+
+			/* for button */
+			-moz-user-select: none;
+			-ms-user-select: none;
+		}
+
+		a, button, span {
+			color: #B7B7B7;
+			font-size: .8em;
+			padding: 0 .5em;
+			user-select: none;
+		}
+
+		a {
+			&:hover, &:focus {
+				color: inherit;
+				text-decoration: none;
+			}
+		}
+
+		button {
+			&:hover, &:focus {
+				color: inherit;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+pre.language-html,
+pre.language-css,
+pre.language-js {
+	position: relative;
+}
+
+pre.language-html:before,
+pre.language-css:before,
+pre.language-js:before {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	opacity: 0.5;
+	font-family: "Inter", Arial, sans-serif;
+	font-size: 0.625em;
+	user-select: none;
+}
+
+pre.language-html:before, {
+	content: "HTML";
+}
+pre.language-css:before {
+	content: "CSS";
+}
+pre.language-js:before {
+	content: "JS";
+}
+
+//pre {
+//	counter-reset: lineNumber;
+//}
+//
+//code[class*="language-"] > .token:before {
+//	-webkit-user-select: none;
+//	border-right: 1px solid lightgray;
+//	color: lightgray;
+//	content: counter(lineNumber);
+//	counter-increment: lineNumber;
+//	display: inline-block;
+//	font-variant-numeric: tabular-nums;
+//	margin-right: 1.2em;
+//	padding-right: 1.2em;
+//	text-align: right;
+//	width: 2.4em;
+//}
