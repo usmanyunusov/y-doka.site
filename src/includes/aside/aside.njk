@@ -9,40 +9,44 @@
     <nav class="aside__navigation">
       <details class="aside__item aside__html">
         <summary class="aside__block-title">HTML</summary>
-        <details class="aside__subitem aside__html-doka aside__doka">
-          <summary>Справочник</summary>
-          {% include "../postlists/html/doka.njk" %}
-        </details>
+        {% if collections.htmlLong | length %}
         <details class="aside__subitem aside__html-long aside__long">
           <summary>Лонгриды</summary>
           {% include "../postlists/html/long.njk" %}
         </details>
+        {% endif %}
+        <div class="aside__subitem aside__html-doka aside__doka">
+          {% include "../postlists/html/doka.njk" %}
+        </div>
       </details>
       <details class="aside__item aside__css">
         <summary class="aside__block-title">CSS</summary>
-        <details class="aside__subitem aside__css-doka aside__doka">
-          <summary>Справочник</summary>
-          {% include "../postlists/css/doka.njk" %}
-        </details>
+
+        {% if collections.cssLong | length %}
         <details class="aside__subitem aside__css-long aside__long">
           <summary>Лонгриды</summary>
           {% include "../postlists/css/long.njk" %}
         </details>
+        {% endif %}
+        <div class="aside__subitem aside__css-doka aside__doka">
+          {% include "../postlists/css/doka.njk" %}
+        </div>
       </details>
       <details class="aside__item aside__js">
         <summary class="aside__block-title">JavaScript</summary>
-        <details class="aside__subitem aside__js-doka aside__doka">
-          <summary>Справочник</summary>
-          {% include "../postlists/js/doka.njk" %}
-        </details>
+
+        {% if collections.jsLong | length %}
         <details class="aside__subitem aside__js-long aside__long">
           <summary>Лонгриды</summary>
           {% include "../postlists/js/long.njk" %}
         </details>
-      </details>
-    </nav>
-  </section>
-  <div class="aside__footer">
-    {% include "../footer/footer.njk" %}
-  </div>
-</aside>
+        {% endif %}
+        <div class="aside__subitem aside__js-doka aside__doka">
+          {% include "../postlists/js/doka.njk" %}
+        </div>
+      </nav>
+    </section>
+    <div class="aside__footer">
+      {% include "../footer/footer.njk" %}
+    </div>
+  </aside>

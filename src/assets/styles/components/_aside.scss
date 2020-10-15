@@ -9,7 +9,7 @@
   background: $nb-grey-background;
   transition: width 0.2s ease-in;
 
-  &_hidden {
+  &._hidden {
     width: 46px;
     padding: 0;
     transition: width 0.2s ease-out;
@@ -24,13 +24,13 @@
       height: 100%;
     }
 
-    &_hidden {
+    ._hidden & {
       display: none;
     }
   }
 
   &__elements {
-    &_hidden {
+    ._hidden & {
       display: none;
     }
   }
@@ -69,10 +69,6 @@
 
     &:first-of-type {
       padding-top: 20px;
-    }
-
-    &:last-of-type {
-      padding-bottom: 20px;
     }
 
     & summary {
@@ -148,7 +144,7 @@
   &__arrow {
     height: 22px;
 
-    &_hidden {
+    ._hidden & {
       -moz-transform: scale(-1, 1);
       -webkit-transform: scale(-1, 1);
       -o-transform: scale(-1, 1);
@@ -176,5 +172,9 @@
 
   @media screen and (max-width: 769px) {
     display: none;
+  }
+
+  &__link._active {
+    color: red
   }
 }

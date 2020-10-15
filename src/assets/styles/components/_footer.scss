@@ -21,7 +21,7 @@
   &__support {
     display: block;
 
-    &_hidden {
+    ._hidden & {
       display: none;
     }
   }
