@@ -1,3 +1,8 @@
+body {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
+}
+
 h2,
 h3,
 h4,
@@ -68,6 +73,7 @@ em {
 
 code {
   color: $code;
+  font-family: "Menlo", monospace;
   padding: 0 5px;
   background: $callout-background;
 }
@@ -75,6 +81,7 @@ code {
 pre {
   margin: 1em 0;
   padding: 2em;
+  font-family: "Menlo", monospace;
   background: $callout-background;
 }
 

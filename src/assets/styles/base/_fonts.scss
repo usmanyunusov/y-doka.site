@@ -8,20 +8,14 @@
 //         url('/assets/fonts/noe-display-regular.woff') format('woff');
 // }
 
+@import url('//fonts.googleapis.com/css2?family=Inter&display=swap');
+
 @font-face {
-  font-family: 'SuisseIntl';
+  font-family: 'Menlo';
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: local('SuisseIntl'), local('SuisseIntl-Regular'),
-    url('/assets/fonts/SuisseIntl-Regular.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'SuisseIntl';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 600;
-  src: local('SuisseIntl'), local('SuisseIntl-Regular'),
-    url('/assets/fonts/SuisseIntl-Bold.otf') format('opentype');
+  src: local('Menlo'), local('Menlo-Regular'),
+  url('/assets/fonts/Menlo-Regular.woff') format('woff'),
+  url('/assets/fonts/Menlo-Regular.woff2') format('woff2');
 }
