@@ -77,6 +77,7 @@
 
   &__search-toggler {
     padding: 2px 10px;
+    border-radius: 18px;
     font-size: 14px;
     line-height: 1.67;
     letter-spacing: 0.1em;
@@ -84,6 +85,7 @@
     color: $gray-darkest;
     cursor: pointer;
     transition: all 0.2s;
+    user-select: none;
 
     &_active {
       padding: 2px 20px 2px 10px;
@@ -112,7 +114,8 @@
       height: 0;
       width: 0;
 
-      &:focus + .mainpage__search-toggler {
+      &:focus + .mainpage__search-toggler,
+      &:hover + .mainpage__search-toggler {
         background: gray;
         border-radius: 18px;
         color: $white;
@@ -120,14 +123,13 @@
         box-shadow: 4px 4px 1px darkblue;
       }
 
-      &:checked:focus + .mainpage__search-toggler {
+      &:checked:hover + .mainpage__search-toggler {
         box-shadow: 4px 4px 1px darkblue;
       }
 
       &:checked + .mainpage__search-toggler {
         padding-right: 20px;
         background: $black;
-        border-radius: 18px;
         color: $white;
         position: relative;
       }

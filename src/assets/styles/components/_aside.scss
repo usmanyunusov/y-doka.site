@@ -174,7 +174,15 @@
     display: none;
   }
 
+  &__link {
+    display: block;
+    width: 230px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
   &__link._active {
-    color: red
+    color: #0882FF;
   }
 }

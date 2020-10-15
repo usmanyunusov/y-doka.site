@@ -19,13 +19,11 @@ article: post
 
 ```html
 <video controls width="250">
-
     <source src="/media/examples/flower.webm"
             type="video/webm">
 
     <source src="/media/examples/flower.mp4"
             type="video/mp4">
-
     Ваш браузер не поддерживает встроенные видео :(
 </video>
 ```
