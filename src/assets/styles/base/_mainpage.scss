@@ -178,20 +178,22 @@
   &__man {
     width: 268px;
     height: 334px;
-    background-image: url(/assets/images/mainpage/mainpage-man.png);
+    background-image: url(/assets/images/logo-new.png);
+    background-image: url(/assets/images/logo-new.svg);
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: center;
+    background-size: contain;
     position: fixed;
     bottom: -50px;
     right: 72px;
 
-    &_sleep {
-      background-position: 49.8% 0;
-    }
-
-    &_wow {
-      background-position: 100% 0;
-    }
+    //&_sleep {
+    //  background-position: 49.8% 0;
+    //}
+    //
+    //&_wow {
+    //  background-position: 100% 0;
+    //}
   }
 }
 
