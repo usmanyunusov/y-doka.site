@@ -24,22 +24,16 @@ function asideOpener() {
 function asideClickHelper(target) {
   if (target.parentElement.classList.contains("aside__item")) {
     aside.querySelectorAll(".aside__item").forEach(el => {
-      el.removeAttribute("open")
+      if (el !== target.parentElement) {
+        el.removeAttribute("open")
+      }
       el.querySelectorAll("details").forEach(el => el.removeAttribute("open"))
-    });
-  } else {
-    target.closest(".aside__item").querySelectorAll("details").forEach(el => el.removeAttribute("open"))
+    })
   }
-}
-
-function hideEmpty() {
-  let items = aside.querySelectorAll("details ul");
-  items.forEach(item => item.children.length === 0 ? item.parentElement.style.display = "none" : item.parentElement.style.display = "block")
 }
 
 if (body.contains(aside)) {
   asideMoving()
-  hideEmpty()
   aside.querySelector(".aside__navigation").addEventListener("click", (event) => asideClickHelper(event.target));
   asideOpener()
 }
