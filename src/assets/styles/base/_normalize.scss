@@ -375,3 +375,13 @@ td,
 th {
     padding: 0;
 }
+
+
+ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+li:not(:last-child) {
+    margin-bottom: 10px;
+}

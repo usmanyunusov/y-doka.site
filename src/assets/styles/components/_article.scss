@@ -9,4 +9,21 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  &__title {
+    position: relative;
+    padding-right: 1em;
+    border-bottom: 1px solid #B7B7B7;
+    font-size: 3.75rem;
+    line-height: 1.2;
+  }
+
+  &__section {
+    position: absolute;
+    right: 0;
+    bottom: 1.6em;
+    font-size: 0.2em;
+    color: #B7B7B7;
+    text-transform: uppercase;
+  }
 }

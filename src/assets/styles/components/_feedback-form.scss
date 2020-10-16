@@ -27,7 +27,7 @@
 
   &__cell {
     transition: max-height 0.2s ease-in;
-    max-height: 10rem;
+    //max-height: 10rem;
     overflow-y: hidden;
 
     &__hidden {
@@ -63,7 +63,9 @@
       width: 0;
     }
 
-    &__input:checked + label {
+    &__input:checked + label,
+    &__input.focus-visible + label,
+    &__input:focus + label {
       background-color: $gray-light;
     }
   }
@@ -72,4 +74,30 @@
     width: 100%;
   }
 
+}
+
+.js-feedback-submit-button {
+  padding: 5px 15px;
+  border: 1px solid transparent;
+  color: white;
+  font-size: 1.125em;
+  background-color: #0882FF;
+  transition: all 0.2s;
+
+  &:hover {
+    color: #0882FF;
+    border-color: currentColor;
+    background: transparent;
+    transition: none;
+  }
+}
+
+.js-feedback-textarea {
+  padding: 15px;
+  border: 1px solid lightgray;
+}
+
+.js-feedback-textarea.focus-visible {
+  outline: none;
+  border-color: gray;
 }
