@@ -4,8 +4,8 @@ name: text-align
 section: css
 type: doka
 tags:
- - cssDoka
- - post
+  - cssDoka
+  - post
 article: post
 ---
 
@@ -78,26 +78,26 @@ CSS
 
 ```css
 div {
-	border: 1px solid black; /* Параметры рамки */
-	padding: 5px; /* Поля вокруг текста */
-	margin-bottom: 5px; /* Отступ снизу */
+  border: 1px solid black; /* Параметры рамки */
+  padding: 5px; /* Поля вокруг текста */
+  margin-bottom: 5px; /* Отступ снизу */
 }
 
 .left {
-	text-align: left;
+  text-align: left;
 }
 
 .right {
-	text-align: right;
+  text-align: right;
 }
 
 .center {
-	text-align: center;
+  text-align: center;
 }
 
 .content {
-	width: 75%; /* Ширина слоя */
-	background: #fc0; /* Цвет фона */
+  width: 75%; /* Ширина слоя */
+  background: #fc0; /* Цвет фона */
 }
 ```
 
@@ -106,15 +106,19 @@ HTML
 ```html
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8">
-  <title>text-align</title>
- </head>
- <body>
-  <div class="left"><div class="content">Выравнивание по левому краю</div></div>
-  <div class="center"><div class="content">Выравнивание по центру</div></div>
-  <div class="right"><div class="content">Выравнивание по правому краю</div></div>
- </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>text-align</title>
+  </head>
+  <body>
+    <div class="left">
+      <div class="content">Выравнивание по левому краю</div>
+    </div>
+    <div class="center"><div class="content">Выравнивание по центру</div></div>
+    <div class="right">
+      <div class="content">Выравнивание по правому краю</div>
+    </div>
+  </body>
 </html>
 ```
 
@@ -130,7 +134,7 @@ HTML
 
 🛠Свойство `text-align` можно использовать не только для выравнивания текста в строчных элементах, но и для выравнивания строчно-блочных (`inline-block`) элементов внутри родителя.
 
-*С появлением флексбоксов такое решение теряет свою популярность, но знать о нём стоит.*
+_С появлением флексбоксов такое решение теряет свою популярность, но знать о нём стоит._
 
 Простая разметка из родительского блока и трёх строчно-блочных вложенных элементов:
 
@@ -138,9 +142,9 @@ HTML
 
 ```html
 <div class="parent">
-	<div class="child">1</div>
-	<div class="child">2</div>
-	<div class="child">3</div>
+  <div class="child">1</div>
+  <div class="child">2</div>
+  <div class="child">3</div>
 </div>
 ```
 
@@ -148,20 +152,20 @@ CSS
 
 ```css
 .parent {
-	box-sizing: border-box;
-	width: 80%;
-	margin: 0 auto;
-	padding: 25px;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px;
 }
 
 .child {
-	box-sizing: border-box;
-	display: inline-block; /* Меняем отображение на строчно-блочное */
-	width: 100px;
-	height: 100px;
-	padding: 40px ;
-	text-align: center; /* Выравниваем текст внутри блоков */
-	border: 1px solid black;
+  box-sizing: border-box;
+  display: inline-block; /* Меняем отображение на строчно-блочное */
+  width: 100px;
+  height: 100px;
+  padding: 40px;
+  text-align: center; /* Выравниваем текст внутри блоков */
+  border: 1px solid black;
 }
 ```
 
@@ -195,9 +199,9 @@ CSS
 
 ```css
 .parent:after {
-	content: "";
-	display: inline-block;
-	width: 100%;
+  content: "";
+  display: inline-block;
+  width: 100%;
 }
 ```
 

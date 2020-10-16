@@ -1,35 +1,34 @@
 const initialState = [
-  'then',
-  'then',
-  'catch',
-  'then',
-  'then',
-  'catch',
-  'catch',
-  'then',
+  "then",
+  "then",
+  "catch",
+  "then",
+  "then",
+  "catch",
+  "catch",
+  "then",
 ]
 
-const container = document.getElementById('promise-chain')
-const insertZone = document.createElement('div')
-insertZone.classList.add('insert-zone')
-insertZone.textContent = ''
-let draggedElement;
+const container = document.getElementById("promise-chain")
+const insertZone = document.createElement("div")
+insertZone.classList.add("insert-zone")
+insertZone.textContent = ""
+let draggedElement
 container.ondragend = (event) => {
   event.preventDefault()
   colorElements()
-  draggedElement.style.scale = '1'
+  draggedElement.style.scale = "1"
 }
-
 
 const clearContainer = () => {
   while (container.firstChild) {
-    container.removeChild(container.firstChild);
+    container.removeChild(container.firstChild)
   }
 }
 
 const dragStartHandler = (event) => {
-  draggedElement = event.target;
-  draggedElement.style.scale = '1.2'
+  draggedElement = event.target
+  draggedElement.style.scale = "1.2"
   event.dataTransfer.setDragImage(insertZone, 0, 0)
   return false
 }
@@ -48,58 +47,64 @@ const dragOverHandler = (event) => {
 
 const onDropHandler = (event) => {
   event.preventDefault()
-  draggedElement.style.scale = '1'
+  draggedElement.style.scale = "1"
   event.target.before(draggedElement)
 }
 
 const render = (state) => {
-
   const renderBlock = (name, isDragAndDropSupported = true) => {
-    const block = document.createElement('div')
+    const block = document.createElement("div")
     block.classList.add(`block-${name}`)
     block.textContent = `.${name}(...)`
     if (isDragAndDropSupported) {
       block.draggable = true
-      block.addEventListener('dragstart', dragStartHandler)
-      block.addEventListener('dragover', dragOverHandler)
-      block.addEventListener('drop', onDropHandler)
+      block.addEventListener("dragstart", dragStartHandler)
+      block.addEventListener("dragover", dragOverHandler)
+      block.addEventListener("drop", onDropHandler)
     }
 
     container.appendChild(block)
   }
 
-  const renderThen = () => renderBlock('then')
-  const renderCatch = () => renderBlock('catch')
+  const renderThen = () => renderBlock("then")
+  const renderCatch = () => renderBlock("catch")
 
   clearContainer()
-  state.forEach(block => {
+  state.forEach((block) => {
     switch (block) {
-      case 'then':
+      case "then":
         renderThen()
         break
-      case 'catch':
+      case "catch":
         renderCatch()
         break
     }
-  });
+  })
 }
 
-const blockColors = ['rgba(255, 168, 0, .15)', 'rgba(235, 0, 255, .15)', 'rgba(0, 0, 255, .15)', 'rgba(0, 255, 0, .15)']
+const blockColors = [
+  "rgba(255, 168, 0, .15)",
+  "rgba(235, 0, 255, .15)",
+  "rgba(0, 0, 255, .15)",
+  "rgba(0, 255, 0, .15)",
+]
 
 const colorElements = () => {
   let colorPos = 0
   const nodes = container.children
-  let isLastBlockProcessed = false;
+  let isLastBlockProcessed = false
   for (let i = nodes.length - 1; i >= 0; --i) {
     const node = nodes[i]
     if (!isLastBlockProcessed) {
-      if (node.classList.contains('block-catch')) {
+      if (node.classList.contains("block-catch")) {
         isLastBlockProcessed = true
       } else {
-        node.style.backgroundColor = ''
+        node.style.backgroundColor = ""
       }
-    } else if (node.classList.contains('block-then')) {
-      const isFirstInBlock = node.nextSibling !== null && node.nextSibling.classList.contains('block-catch')
+    } else if (node.classList.contains("block-then")) {
+      const isFirstInBlock =
+        node.nextSibling !== null &&
+        node.nextSibling.classList.contains("block-catch")
       if (isFirstInBlock) {
         const color = blockColors[colorPos]
         colorPos++
@@ -109,7 +114,6 @@ const colorElements = () => {
       }
     }
   }
-
 }
 
 render(initialState)

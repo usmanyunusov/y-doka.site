@@ -4,8 +4,8 @@ name: title
 section: html
 type: doka
 tags:
- - htmlDoka
- - post
+  - htmlDoka
+  - post
 article: post
 ---
 
@@ -24,6 +24,7 @@ article: post
   <title>Заголовок твоей страницы</title>
 </head>
 ```
+
 <details>
   <summary>🧩 На самом деле смайлики и служебные символы тоже можно 😉 Но осторожно!</summary>
   <img src="/assets/images/posts/title/title.png" alt="Пример использования смайликов">

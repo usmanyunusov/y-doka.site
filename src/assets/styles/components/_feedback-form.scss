@@ -1,7 +1,8 @@
 .feedback {
   margin: 1rem 0 2rem;
 
-  &__success-message, &__error-message {
+  &__success-message,
+  &__error-message {
     display: block;
 
     &__hidden {
@@ -46,8 +47,8 @@
     &__label {
       font-size: 2rem;
       cursor: pointer;
-      margin-left: .5rem;
-      padding: 0 .5rem;
+      margin-left: 0.5rem;
+      padding: 0 0.5rem;
       border-radius: 5px;
       user-select: none;
 
@@ -73,7 +74,6 @@
   &__textarea {
     width: 100%;
   }
-
 }
 
 .js-feedback-submit-button {
@@ -81,11 +81,11 @@
   border: 1px solid transparent;
   color: white;
   font-size: 1.125em;
-  background-color: #0882FF;
+  background-color: #0882ff;
   transition: all 0.2s;
 
   &:hover {
-    color: #0882FF;
+    color: #0882ff;
     border-color: currentColor;
     background: transparent;
     transition: none;

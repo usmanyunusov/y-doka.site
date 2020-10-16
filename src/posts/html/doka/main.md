@@ -4,8 +4,8 @@ name: main
 section: html
 type: doka
 tags:
- - htmlDoka
- - post
+  - htmlDoka
+  - post
 article: post
 ---
 
@@ -47,16 +47,16 @@ article: post
 ```html
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8">
-  <title>main</title>
- </head>
- <body>
-  <h1>О команде</h1>
-  <main>
-    <p>Мы готовим бургеры с 2011 года. Это долго. </p>
-  </main>
- </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>main</title>
+  </head>
+  <body>
+    <h1>О команде</h1>
+    <main>
+      <p>Мы готовим бургеры с 2011 года. Это долго.</p>
+    </main>
+  </body>
 </html>
 ```
 

@@ -8,9 +8,9 @@
 // adapting to different screen sizes, for use in media queries.
 
 $breakpoints: (
-    md: 670px,
-    lg: 940px,
-    xl: 1260px
+  md: 670px,
+  lg: 940px,
+  xl: 1260px,
 );
 
 $container-max-width: 1200px;
@@ -19,9 +19,9 @@ $container-max-width: 1200px;
 //
 // Control the order of layers in the application
 $z-layers: (
-    'modal': 999,
-    'nav': 100,
-    'content-overlay': 30
+  "modal": 999,
+  "nav": 100,
+  "content-overlay": 30,
 );
 
 // Colors
@@ -30,7 +30,7 @@ $z-layers: (
 
 $gray-darkest: #373a3c;
 $gray-dark: #55595c;
-$gray: #CACACA;
+$gray: #cacaca;
 $gray-light: #eceeef;
 $gray-lightest: #f7f7f9;
 $white: #fff;
@@ -46,10 +46,10 @@ $code: deeppink;
 $callout-background: $not-so-white;
 
 // NewBranding
-$nb-grey-lightest: #E5E5E5;
-$nb-grey-background: #F8F8F8;
-$nb-grey-dark: #EDEDED;
-$nb-gray-darkest:#B7B7B7;
+$nb-grey-lightest: #e5e5e5;
+$nb-grey-background: #f8f8f8;
+$nb-grey-dark: #ededed;
+$nb-gray-darkest: #b7b7b7;
 
 // Color Mappings
 
@@ -62,12 +62,12 @@ $brand-color-primary-offset: darken($brand-red, 6%);
 //
 // Font, line-height, and color for body text, headings, and more.
 
-@import url('https://rsms.me/inter/inter.css');
+@import url("https://rsms.me/inter/inter.css");
 
-$font-family-sans-serif: 'SuisseIntl', sans-serif;
-$font-family-serif: 'Times New Roman', Georgia, Times, serif;
-$font-family-monospace: Menlo, Monaco, Consolas, 'Andale Mono', 'Courier New',
-    monospace;
+$font-family-sans-serif: "SuisseIntl", sans-serif;
+$font-family-serif: "Times New Roman", Georgia, Times, serif;
+$font-family-monospace: Menlo, Monaco, Consolas, "Andale Mono", "Courier New",
+  monospace;
 $font-family-base: $font-family-sans-serif;
 
 $font-size-root: 100%;
@@ -94,5 +94,3 @@ $box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);
 $box-shadow-elevated: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
 
 $border-radius: 0.25rem;
-
-

@@ -4,8 +4,8 @@ name: video
 section: html
 type: doka
 tags:
- - htmlDoka
- - post
+  - htmlDoka
+  - post
 article: post
 ---
 
@@ -19,12 +19,10 @@ article: post
 
 ```html
 <video controls width="250">
-    <source src="/media/examples/flower.webm"
-            type="video/webm">
+  <source src="/media/examples/flower.webm" type="video/webm" />
 
-    <source src="/media/examples/flower.mp4"
-            type="video/mp4">
-    Ваш браузер не поддерживает встроенные видео :(
+  <source src="/media/examples/flower.mp4" type="video/mp4" />
+  Ваш браузер не поддерживает встроенные видео :(
 </video>
 ```
 
@@ -41,18 +39,20 @@ article: post
 Некоторые браузеры могут не поддерживать какой-то формат. Поэтому в `<video>` можно добавить один и тот же файл в нескольких форматах. Это будет выглядеть так:
 
 ```html
-<source src="myVideo.mp4" type="video/mp4">
-<source src="myVideo.webm" type="video/webm">
+<source src="myVideo.mp4" type="video/mp4" />
+<source src="myVideo.webm" type="video/webm" />
 ```
 
 На случай, если браузер не поддерживает встроенные видео, можно вставить текст или картинку — они просто добавляются в `<video>...</video>`:
 
 ```html
 <video controls>
-	<source src="myVideo.mp4" type="video/mp4">
-	<source src="myVideo.webm" type="video/webm">
-	<p>Ваш браузер не поддерживает встроенные видео.
-	Попробуйте скачать его по <a href="myVideo.mp4">этой ссылке</a>.</p>
+  <source src="myVideo.mp4" type="video/mp4" />
+  <source src="myVideo.webm" type="video/webm" />
+  <p>
+    Ваш браузер не поддерживает встроенные видео. Попробуйте скачать его по
+    <a href="myVideo.mp4">этой ссылке</a>.
+  </p>
 </video>
 ```
 
@@ -69,8 +69,7 @@ article: post
 - `preload` — подсказывает браузеру, нужно ли загружать видео или информацию о нём сразу со страницей. Без этого атрибута предварительная загрузка видео будет зависеть от настроек конкретного браузера. Есть несколько значений:
 - `none` — видео не загружается предварительно;
 - `metadata` — загружается только информация о файле, например, размер, продолжительность или обложка. Используй этот параметр, чтобы не загружать видео, пока пользователь не захочет его посмотреть;
-- `auto` — видеофайл загружается со страницей, чтобы пользователь мог сразу начать смотреть его.
-  Если не указывать никакое значение `preload`, то атрибут будет работать как `auto`. Учти, что если стоит атрибут `autoplay`, то `preload` не работает.
+- `auto` — видеофайл загружается со страницей, чтобы пользователь мог сразу начать смотреть его. Если не указывать никакое значение `preload`, то атрибут будет работать как `auto`. Учти, что если стоит атрибут `autoplay`, то `preload` не работает.
 - `playsinline` — указывает браузеру, чтобы тот воспроизводил видео в рамках элемента `<video>` на странице;
 - `poster` — URL-адрес картинки, которая будет показываться, пока видео не загрузится. По сути, это обложка ролика. Если её не будет, то на месте видео пользователь увидит чёрный экран, пока не загрузится первый кадр;
 - `src` — URL-адрес видео. Его ещё можно задать через тег `<source>`;
@@ -93,15 +92,15 @@ article: post
 HTML
 
 ```html
-<video controls
-    src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
-    poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
-    width="580">
-
-Простите, но ваш браузер не поддерживает встроенные видео.
-Попробуйте скачать его <a href="https://archive.org/details/BigBuckBunny_124">по этой ссылке</a>
-и открыть его на своём устройстве.
-
+<video
+  controls
+  src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+  poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
+  width="580"
+>
+  Простите, но ваш браузер не поддерживает встроенные видео. Попробуйте скачать
+  его <a href="https://archive.org/details/BigBuckBunny_124">по этой ссылке</a>
+  и открыть его на своём устройстве.
 </video>
 ```
 
@@ -116,17 +115,23 @@ HTML
 HTML
 
 ```html
-<video width="580" controls
-  poster="https://m.media-amazon.com/images/M/MV5BODU0NmViMDEtODEyZi00MjgyLWI4ZjktNzk0NmRiYjQwZDY0XkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg" >
+<video
+  width="580"
+  controls
+  poster="https://m.media-amazon.com/images/M/MV5BODU0NmViMDEtODEyZi00MjgyLWI4ZjktNzk0NmRiYjQwZDY0XkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg"
+>
   <source
     src="https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4"
-    type="video/mp4">
+    type="video/mp4"
+  />
   <source
     src="https://archive.org/download/ElephantsDream/ed_hd.ogv"
-    type="video/ogg">
+    type="video/ogg"
+  />
   <source
     src="https://archive.org/download/ElephantsDream/ed_hd.avi"
-    type="video/avi">
+    type="video/avi"
+  />
   Ваш браузер не поддерживает встроенные видео.
 </video>
 ```
@@ -145,7 +150,7 @@ HTML
 
 ```html
 <video autoplay muted loop class="background-video">
-  <source src="http://epic.spb.ru/biostorm2.av1.mkv" type="video/mp4">
+  <source src="http://epic.spb.ru/biostorm2.av1.mkv" type="video/mp4" />
 </video>
 <div class="content">
   <h1>Heading</h1>
@@ -166,12 +171,12 @@ CSS
 
 .content {
   position: absolute;
-	top: 0;
+  top: 0;
   bottom: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;

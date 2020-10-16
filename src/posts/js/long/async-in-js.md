@@ -23,9 +23,9 @@ tags: jsLong
 Синхронный код понятно читать, потому что он выполняется ровно так, как написан:
 
 ```jsx
-console.log('A')
-console.log('B')
-console.log('C')
+console.log("A")
+console.log("B")
+console.log("C")
 
 // A
 // B
@@ -43,7 +43,7 @@ console.log('C')
 // синхронная функция задержки delay() вымышленная:
 
 function greet() {
-    console.log('Hello!')
+  console.log("Hello!")
 }
 
 delay(5000)
@@ -70,7 +70,7 @@ greet()
 
 ```jsx
 setTimeout(function greet() {
-    console.log('Hello!')
+  console.log("Hello!")
 }, 5000)
 
 // ...5 секунд молчания...
@@ -81,7 +81,7 @@ setTimeout(function greet() {
 
 ```jsx
 setTimeout(function greet() {
-    console.log('Hello!')
+  console.log("Hello!")
 }, 5000)
 
 consloe.log(`I'm being called before greet function.`)
@@ -109,11 +109,11 @@ _[Стек](https://ru.wikipedia.org/wiki/Стек)_ — это структур
 
 ```jsx
 function outer() {
-    function inner() {
-        console.log('Hello!') // (3)
-    }
+  function inner() {
+    console.log("Hello!") // (3)
+  }
 
-    inner() // (2)
+  inner() // (2)
 }
 
 outer() // (1)
@@ -152,11 +152,11 @@ outer() // (1)
 
 ```jsx
 function main() {
-    setTimeout(function greet() {
-        console.log('Hello!')
-    }, 2000)
+  setTimeout(function greet() {
+    console.log("Hello!")
+  }, 2000)
 
-    console.log('Bye!')
+  console.log("Bye!")
 }
 
 main()
@@ -211,11 +211,11 @@ main()
 // Возьмём тот же самый пример:
 
 function main() {
-    setTimeout(function greet() {
-        console.log('Hello!')
-    }, 2000)
+  setTimeout(function greet() {
+    console.log("Hello!")
+  }, 2000)
 
-    console.log('Bye!')
+  console.log("Bye!")
 }
 
 main()
@@ -284,9 +284,9 @@ _[Callback](<https://ru.wikipedia.org/wiki/Callback_(программирова�
 
 В нашем случае таким событием было срабатывание таймера через 2 секунды, а колбеком — функция `greet()`. В целом событием может быть что угодно:
 
--   ответ от сервера;
--   завершение какой-то длительной вычислительной задачи;
--   получение доступа к каким-то API устройства, на котором выполняется код.
+- ответ от сервера;
+- завершение какой-то длительной вычислительной задачи;
+- получение доступа к каким-то API устройства, на котором выполняется код.
 
 Таким образом _колбек_ — это первый способ обработать какое-либо асинхронное действие.
 
@@ -304,13 +304,13 @@ _[Callback](<https://ru.wikipedia.org/wiki/Callback_(программирова�
 
 ```jsx
 setTimeout(() => {
+  setTimeout(() => {
     setTimeout(() => {
-        setTimeout(() => {
-            setTimeout(() => {
-                console.log('Hello!')
-            }, 5000)
-        }, 5000)
+      setTimeout(() => {
+        console.log("Hello!")
+      }, 5000)
     }, 5000)
+  }, 5000)
 }, 5000)
 
 // Если одна задача запускает другую, та — третью и так далее,
@@ -321,15 +321,15 @@ setTimeout(() => {
 
 ```jsx
 function request(url, onSuccess) {
-    /*...*/
+  /*...*/
 }
 
-request('/api/users/1', function (user) {
-    request(`/api/photos/${user.id}/`, function (photo) {
-        request(`/api/crop/${photo.id}/`, function (response) {
-            console.log(response)
-        })
+request("/api/users/1", function (user) {
+  request(`/api/photos/${user.id}/`, function (photo) {
+    request(`/api/crop/${photo.id}/`, function (response) {
+      console.log(response)
     })
+  })
 })
 ```
 
@@ -352,17 +352,17 @@ _[Промис](https://learn.javascript.ru/promise)_ — это объект-о
 // но переписанная с использованием Промисов.
 
 function request(url) {
-    return new Promise(function (resolve, reject) {
-        let responseFromServer
-        /*...*/
-        resolve(responseFromServer)
-    })
+  return new Promise(function (resolve, reject) {
+    let responseFromServer
+    /*...*/
+    resolve(responseFromServer)
+  })
 }
 
-request('/api/users/1')
-    .then((user) => request(`/api/photos/${user.id}/`))
-    .then((photo) => request(`/api/crop/${photo.id}/`))
-    .then((response) => console.log(response))
+request("/api/users/1")
+  .then((user) => request(`/api/photos/${user.id}/`))
+  .then((photo) => request(`/api/crop/${photo.id}/`))
+  .then((response) => console.log(response))
 
 // Код избавился от лишней вложенности,
 // стал плоским и более тестируемым.
@@ -371,11 +371,11 @@ request('/api/users/1')
 Дополнительным плюсом стала возможность обрабатывать ошибки от цепочки промисов в одном месте — последним `catch`:
 
 ```jsx
-request('/api/users/1')
-    .then((user) => request(`/api/photos/${user.id}/`))
-    .then((photo) => request(`/api/crop/${photo.id}/`))
-    .then((response) => console.log(response))
-    .catch((error) => console.error(error))
+request("/api/users/1")
+  .then((user) => request(`/api/photos/${user.id}/`))
+  .then((photo) => request(`/api/crop/${photo.id}/`))
+  .then((response) => console.log(response))
+  .catch((error) => console.error(error))
 
 // Если что-то пошло не так, то программа не упадёт,
 // а управление мгновенно перейдёт к последней строчке с `catch`,
@@ -386,10 +386,10 @@ request('/api/users/1')
 
 Однако Промисы — это тоже не серебряная пуля. У них есть несколько недостатков:
 
--   Код не такой лаконичный, как мог быть.
--   В цепочке Промисов, как на примере (со стрелочными функциями), невозможно выставить брейкпоинт, потому что нет тела функции. Приходится раскрывать функцию.
--   Стек ошибок может содержать в себе `then.then.then.then...`.
--   Вложенные условия сильно увеличивают количество кода и ухудшают читаемость.
+- Код не такой лаконичный, как мог быть.
+- В цепочке Промисов, как на примере (со стрелочными функциями), невозможно выставить брейкпоинт, потому что нет тела функции. Приходится раскрывать функцию.
+- Стек ошибок может содержать в себе `then.then.then.then...`.
+- Вложенные условия сильно увеличивают количество кода и ухудшают читаемость.
 
 Для решения этих проблем придумали асинхронные функции.
 
@@ -406,7 +406,7 @@ async function request() {}
 const req = async () => {}
 
 class SomeClass {
-    async request() {}
+  async request() {}
 }
 ```
 
@@ -427,9 +427,9 @@ request().then(() => {})
 
 ```jsx
 async function loadPosts() {
-    const response = await fetch(`/api/posts/`)
-    const data = await response.json()
-    return data
+  const response = await fetch(`/api/posts/`)
+  const data = await response.json()
+  return data
 }
 ```
 
@@ -447,13 +447,13 @@ async function loadPosts() {
 
 ```jsx
 async function loadPosts() {
-    try {
-        const response = await fetch(`/api/posts/`)
-        const data = await response.json()
-        return data
-    } catch (e) {
-        console.log(e)
-    }
+  try {
+    const response = await fetch(`/api/posts/`)
+    const data = await response.json()
+    return data
+  } catch (e) {
+    console.log(e)
+  }
 }
 
 // При этом в отличие от .catch() Промисов
@@ -531,21 +531,21 @@ request('/api/users/1')
 
 Бывают ситуации, когда мы хотим:
 
--   либо подождать, когда выполнятся все запросы, и потом сделать что-то;
--   либо дождаться выполнения первого запроса из списка и сделать что-то сразу после этого.
+- либо подождать, когда выполнятся все запросы, и потом сделать что-то;
+- либо дождаться выполнения первого запроса из списка и сделать что-то сразу после этого.
 
 Для этого мы можем использовать [`Promise.all`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/all) и [`Promise.race`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise/race).
 
 ```jsx
 // Когда мы хотим дождаться выполнения всех запросов
 // и сделать что-то после этого:
-const request1 = fetch('/api/users')
-const request2 = fetch('/api/posts')
-const request3 = fetch('/api/comments')
+const request1 = fetch("/api/users")
+const request2 = fetch("/api/posts")
+const request3 = fetch("/api/comments")
 
 Promise.all([request1, request2, request3]).then((values) => {
-    console.log('Загрузились все данные!')
-    console.log(values)
+  console.log("Загрузились все данные!")
+  console.log(values)
 })
 
 // Загрузились все данные!
@@ -556,15 +556,15 @@ Promise.all([request1, request2, request3]).then((values) => {
 
 // Когда нам важно, чтобы выполнился хотя бы один:
 const promise1 = new Promise((resolve, reject) => {
-    setTimeout(resolve, 500, 'First')
+  setTimeout(resolve, 500, "First")
 })
 
 const promise2 = new Promise((resolve, reject) => {
-    setTimeout(resolve, 100, 'Second')
+  setTimeout(resolve, 100, "Second")
 })
 
 Promise.race([promise1, promise2]).then((value) => {
-    console.log(value)
+  console.log(value)
 })
 
 // Second
@@ -583,18 +583,18 @@ Promise.race([promise1, promise2]).then((value) => {
 Однако, мы можем использовать [`for await ... of`](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements/for-await...of), который появился в ES2018, для итерирования над асинхронными итерируемыми сущностями.
 
 ```jsx
-const urls = ['/api/users', '/api/posts', '/api/comments']
+const urls = ["/api/users", "/api/posts", "/api/comments"]
 
 // Простой генератор создаёт итерируемую сущность,
 // которую можно «перебрать» через for ... of:
 function* requestGenerator() {
-    for (const url of urls) {
-        yield url
-    }
+  for (const url of urls) {
+    yield url
+  }
 }
 
 for (const item of requestGenerator()) {
-    console.log(item)
+  console.log(item)
 }
 
 // Выведет каждый url по очереди.
@@ -604,17 +604,17 @@ for (const item of requestGenerator()) {
 // только вместо значений он выбрасывает промисы.
 // И итерировать его придётся через for await ... of:
 async function* removeDataGenerator() {
-    for (const url of urls) {
-        const response = await fetch(url)
-        const data = await response.json()
-        yield data
-    }
+  for (const url of urls) {
+    const response = await fetch(url)
+    const data = await response.json()
+    yield data
+  }
 }
 
 ;async () => {
-    for await (const item of removeDataGenerator()) {
-        console.log(item)
-    }
+  for await (const item of removeDataGenerator()) {
+    console.log(item)
+  }
 }
 
 // Выведет данные, которые получит от сервера.

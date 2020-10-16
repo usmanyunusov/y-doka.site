@@ -4,10 +4,11 @@ name: text-decoration
 section: css
 type: doka
 tags:
- - cssDoka
- - post
+  - cssDoka
+  - post
 article: post
 ---
+
 ## Кратко
 
 Свойство `text-decoration` позволяет добавить декоративные линии тексту. Текст можно подчеркнуть, перечеркнуть или добавить линию над текстом. Больше ни на что это свойство не способно.
@@ -22,10 +23,10 @@ HTML
 
 ```html
 <div class="parent">
-	<p class="none">Lorem ...</p>
-	<p class="underline">Lorem ...</p>
-	<p class="line-through">Lorem ...</p>
-	<p class="overline">Lorem, ...</p>
+  <p class="none">Lorem ...</p>
+  <p class="underline">Lorem ...</p>
+  <p class="line-through">Lorem ...</p>
+  <p class="overline">Lorem, ...</p>
 </div>
 ```
 
@@ -33,19 +34,19 @@ CSS
 
 ```css
 .none {
-	text-decoration: none; /* Значение по умолчанию, ничего не меняется */
+  text-decoration: none; /* Значение по умолчанию, ничего не меняется */
 }
 
 .underline {
-	text-decoration: underline; /* Нижнее подчёркивание */
+  text-decoration: underline; /* Нижнее подчёркивание */
 }
 
 .line-through {
-	text-decoration: line-through; /* Перечёркнутый текст */
+  text-decoration: line-through; /* Перечёркнутый текст */
 }
 
 .overline {
-	text-decoration: overline; /* Линия над текстом */
+  text-decoration: overline; /* Линия над текстом */
 }
 ```
 
@@ -61,7 +62,7 @@ CSS
 
 # Как пишется
 
-Пишем свойство  `text-decoration` и после двоеточия указываем одно из доступных значений:
+Пишем свойство `text-decoration` и после двоеточия указываем одно из доступных значений:
 
 - `underline` — подчёркнутый текст.
 - `line-through` — перечёркнутый текст.
@@ -86,7 +87,7 @@ CSS
 
 ```css
 selector {
-	text-decoration: line-through double;
+  text-decoration: line-through double;
 }
 ```
 
@@ -100,7 +101,7 @@ selector {
 
 ```css
 selector {
-	text-decoration: underline double #FF0000;
+  text-decoration: underline double #ff0000;
 }
 ```
 
@@ -122,15 +123,16 @@ CSS
 
 ```css
 p {
-	transition: text-decoration-color 0.3s;
+  transition: text-decoration-color 0.3s;
 }
 
 .blue:hover {
-	text-decoration-color: blue;
+  text-decoration-color: blue;
 }
 ```
 
 <a name="example"></a>
+
 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="solarrust" data-slug-hash="vPaddd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vPaddd">
   <span>See the Pen <a href="https://codepen.io/solarrust/pen/vPaddd">
   vPaddd</a> by Alena (<a href="https://codepen.io/solarrust">@solarrust</a>)
@@ -144,9 +146,10 @@ p {
 ## В работе
 
 ### Алёна, front-end ниндзя
-🛠 У ссылок по умолчанию задано подчёркивание. Если по дизайну оно не требуется, то нужно будет его *сбросить* — задать свойство `text-decoration: none`. Это самый частый случай применения этого свойства. Перечёркивание или надчёркивание почти не встречаются в работе.
 
-🛠  Отдельные свойства — `text-decoration-line`, `text-decoration-style` и `text-decoration-color` — редко встречаются в вёрстке, но знать о них нужно, чтобы при необходимости не переписывать свойство целиком только для изменения стиля или цвета линии.
+🛠 У ссылок по умолчанию задано подчёркивание. Если по дизайну оно не требуется, то нужно будет его _сбросить_ — задать свойство `text-decoration: none`. Это самый частый случай применения этого свойства. Перечёркивание или надчёркивание почти не встречаются в работе.
+
+🛠 Отдельные свойства — `text-decoration-line`, `text-decoration-style` и `text-decoration-color` — редко встречаются в вёрстке, но знать о них нужно, чтобы при необходимости не переписывать свойство целиком только для изменения стиля или цвета линии.
 
 ### Егор, front-end ниндзя
 
@@ -184,8 +187,8 @@ CSS
 ```css
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 header {
@@ -209,7 +212,8 @@ header {
   margin: 0;
 }
 
-.navigation__link, .navigation__link:visited {
+.navigation__link,
+.navigation__link:visited {
   display: inline-block; /* делаем элементы строчно-блочными */
   color: inherit;
   text-decoration: none; /* убираем подчеркивание */
