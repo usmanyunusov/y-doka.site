@@ -1,9 +1,9 @@
 // Focus Visible Polyfill
-import 'focus-visible'
+import "focus-visible"
 
 // Internal Modules
-import './modules/mainpage'
-import './modules/nav'
-import './modules/search'
-import './modules/aside'
-import './modules/feedback-form'
+import "./modules/mainpage"
+import "./modules/nav"
+import "./modules/search"
+import "./modules/aside"
+import "./modules/feedback-form"

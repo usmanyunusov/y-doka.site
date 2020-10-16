@@ -4,15 +4,14 @@ name: footer
 section: html
 type: doka
 tags:
- - htmlDoka
- - post
+  - htmlDoka
+  - post
 article: post
 ---
 
 ## Кратко
 
-`<footer>` создаёт нижнюю часть страницы — «подвал».
-Обычно здесь находятся выходные данные, контакты и ссылки на разделы сайта.
+`<footer>` создаёт нижнюю часть страницы — «подвал». Обычно здесь находятся выходные данные, контакты и ссылки на разделы сайта.
 
 ## Пример
 
@@ -21,8 +20,7 @@ article: post
 ```html
 <footer>
   <p>Copyright Ольга Данилюк</p>
-  <p>Почта: <a href="mailto:someone@yandex.ru">
-  someone@yandex.ru</a>.</p>
+  <p>Почта: <a href="mailto:someone@yandex.ru"> someone@yandex.ru</a>.</p>
 </footer>
 ```
 

@@ -4,8 +4,8 @@ name: audio
 section: html
 type: doka
 tags:
- - htmlDoka
- - post
+  - htmlDoka
+  - post
 article: post
 ---
 
@@ -21,14 +21,11 @@ HTML
 
 ```html
 <figure>
-    <figcaption>Привет, я Алиса</figcaption>
-    <audio
-        controls
-        src="/media/examples/hi_alice.mp3">
-            Ваш браузер не поддерживает встроенное аудио.
-            Попробуйте скачать его
-						<a href="/media/examples/hi_alice.mp3" download>по ссылке</a>.
-    </audio>
+  <figcaption>Привет, я Алиса</figcaption>
+  <audio controls src="/media/examples/hi_alice.mp3">
+    Ваш браузер не поддерживает встроенное аудио. Попробуйте скачать его
+    <a href="/media/examples/hi_alice.mp3" download>по ссылке</a>.
+  </audio>
 </figure>
 ```
 
@@ -46,10 +43,12 @@ HTML
 
 ```html
 <audio controls>
-  <source src="Audio.mp3" type="audio/mpeg">
-  <source src="Audio.ogg" type="audio/ogg">
-  <p>Ваш браузер не поддерживает встроенное аудио.
-	Попробуйте <a href="Audio.mp4" download>скачать</a> файл.</p>
+  <source src="Audio.mp3" type="audio/mpeg" />
+  <source src="Audio.ogg" type="audio/ogg" />
+  <p>
+    Ваш браузер не поддерживает встроенное аудио. Попробуйте
+    <a href="Audio.mp4" download>скачать</a> файл.
+  </p>
 </audio>
 ```
 
@@ -64,8 +63,7 @@ HTML
 - `preload` — подсказывает браузеру, нужно ли загружать аудио или информацию о нём сразу со страницей. Без этого атрибута предварительная загрузка дорожки будет зависеть от настроек конкретного браузера. Есть несколько значений:
   - `none` — аудиофайл не загружается предварительно;
   - `metadata` — загружается только информация о файле, например, размер и продолжительность. Рекомендуем использовать именно этот параметр, чтобы не загружать аудио, пока пользователь не захочет его прослушать;
-  - `auto` — аудиофайл загружается со страницей, чтобы пользователь мог сразу начать его слушать.
-    Если не указывать никакое значение `preload`, то атрибут будет работать как `auto`. Учти, что если стоит атрибут `autoplay`, то `preload` не работает.
+  - `auto` — аудиофайл загружается со страницей, чтобы пользователь мог сразу начать его слушать. Если не указывать никакое значение `preload`, то атрибут будет работать как `auto`. Учти, что если стоит атрибут `autoplay`, то `preload` не работает.
 - `src` — URL-адрес аудиофайла. Его ещё можно задать через тег `<source>`.
 
 ## Подсказки
@@ -80,26 +78,24 @@ HTML
 
 Вот самый простой пример с автоматическим проигрыванием дорожки. Если браузер не может воспроизводить встроенное аудио — появится предупреждение.
 
-Мы также добавили несколько форматов одного аудиофайла. Если браузер не поддерживает формат *.opus, он попробует воспроизвести *.ogg. Если и с ним не получится, то воспроизведёт файл в *.mp3. Атрибут `type` поможет браузеру быстрее определить формат файла:
+Мы также добавили несколько форматов одного аудиофайла. Если браузер не поддерживает формат _.opus, он попробует воспроизвести _.ogg. Если и с ним не получится, то воспроизведёт файл в \*.mp3. Атрибут `type` поможет браузеру быстрее определить формат файла:
 
 ```html
 <html>
- <head>
-  <meta charset="utf-8">
-  <title>audio</title>
- </head>
- <body>
-  <p>Эта песня заиграет автоматически</p>
-  <audio
-		controls
-		autoplay>
-    <source src="audio.opus" type="audio/ogg; codecs=opus"/>
-		<source src="audio.ogg" type="audio/ogg; codecs=vorbis"/>
-		<source src="audio.mp3" type="audio/mpeg"/>
-    Ваш браузер не поддерживает встроенные аудио.
-    Попробуйте <a href="audio/audio.mp4" download>скачать</a> файл.
-  </audio>
- </body>
+  <head>
+    <meta charset="utf-8" />
+    <title>audio</title>
+  </head>
+  <body>
+    <p>Эта песня заиграет автоматически</p>
+    <audio controls autoplay>
+      <source src="audio.opus" type="audio/ogg; codecs=opus" />
+      <source src="audio.ogg" type="audio/ogg; codecs=vorbis" />
+      <source src="audio.mp3" type="audio/mpeg" />
+      Ваш браузер не поддерживает встроенные аудио. Попробуйте
+      <a href="audio/audio.mp4" download>скачать</a> файл.
+    </audio>
+  </body>
 </html>
 ```
 

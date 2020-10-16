@@ -4,10 +4,11 @@ name: first-class__second-class
 section: css
 type: doka
 tags:
- - cssDoka
- - post
+  - cssDoka
+  - post
 article: post
 ---
+
 ## Кратко
 
 При помощи перечисления нескольких селекторов через запятую можно избежать дублирования кода.
@@ -22,9 +23,9 @@ HTML
 
 ```html
 <div class="wrapper">
-	<h1 class="main-title">Основной заголовок</h1>
-	<h2 class="title">Новости</h2>
-	<p class="text">Lorem ipsum ...</p>
+  <h1 class="main-title">Основной заголовок</h1>
+  <h2 class="title">Новости</h2>
+  <p class="text">Lorem ipsum ...</p>
 </div>
 ```
 
@@ -34,20 +35,20 @@ CSS
 /* Задаём общие стили для заголовков */
 .main-title,
 .title {
-	color: #333;
-	line-height: 1.4;
-	text-align: center;
+  color: #333;
+  line-height: 1.4;
+  text-align: center;
 }
 
 /* Создаём одинаковые декоративные подчёркивания */
 .main-title:after,
 .title:after {
-	content: "";
-	display: block;
-	width: 25px;
-	height: 3px;
-	margin: auto;
-	background-color: red;
+  content: "";
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: auto;
+  background-color: red;
 }
 ```
 
@@ -93,7 +94,7 @@ CSS
 .parrent-class .child-class,
 .another-class,
 .one-another-class {
-  ...
+  ...;
 }
 
 /* ВЕРНО */
@@ -101,7 +102,7 @@ CSS
 .parrent-class .child-class,
 .parrent-class .another-class,
 .parrent-class .one-another-class {
-  ...
+  ...;
 }
 ```
 

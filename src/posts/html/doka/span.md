@@ -4,8 +4,8 @@ name: span
 section: html
 type: doka
 tags:
- - htmlDoka
- - post
+  - htmlDoka
+  - post
 article: post
 ---
 
@@ -16,7 +16,11 @@ article: post
 ## Пример
 
 ```html
-<p>Добавьте <span class="ingredient">базилик</span>, <span class="ingredient">арахис</span> и <span class="ingredient">чеснок</span> в блендер и перемешайте.</p>
+<p>
+  Добавьте <span class="ingredient">базилик</span>,
+  <span class="ingredient">арахис</span> и
+  <span class="ingredient">чеснок</span> в блендер и перемешайте.
+</p>
 ```
 
 ## Как это понять
@@ -38,31 +42,31 @@ article: post
 ## Ещё пример
 
 ```html
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
- <head>
-  <title>Тег SPAN</title>
-  <style>
-    body {
-     font-family: Arial, sans-serif; /* Рубленый шрифт */
-    }
-    .letter {
-     color: red; /* Красный цвет символов */
-     font-size: 200%; /* Размер шрифта в процентах */
-     font-family: serif; /* Шрифт с засечками */
-     position: relative; /* Относительное позиционирование */
-     top: 5px; /* Сдвиг сверху */
-    }
-  </style>
- </head>
- <body>
-
-  <p><span class="letter">Р</span>азумные люди приспосабливаются к окружающему миру.
-  Неразумные люди приспосабливают мир к себе. Вот почему прогресс определяется
-  действиями неразумных людей.</p>
-  <p>Бернард Шоу</p>
-
- </body>
+  <head>
+    <title>Тег SPAN</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif; /* Рубленый шрифт */
+      }
+      .letter {
+        color: red; /* Красный цвет символов */
+        font-size: 200%; /* Размер шрифта в процентах */
+        font-family: serif; /* Шрифт с засечками */
+        position: relative; /* Относительное позиционирование */
+        top: 5px; /* Сдвиг сверху */
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <span class="letter">Р</span>азумные люди приспосабливаются к окружающему
+      миру. Неразумные люди приспосабливают мир к себе. Вот почему прогресс
+      определяется действиями неразумных людей.
+    </p>
+    <p>Бернард Шоу</p>
+  </body>
 </html>
 ```
 
@@ -91,11 +95,11 @@ HTML
 
 ```html
 <header class="header">
-	<h1 class="header__title">
-		We are
-		<span class="header__title-accent">the best</span>
-		company
-	</h1>
+  <h1 class="header__title">
+    We are
+    <span class="header__title-accent">the best</span>
+    company
+  </h1>
 </header>
 ```
 
@@ -103,19 +107,19 @@ CSS
 
 ```css
 .header__title {
-	max-width: 500px;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 64px;
-	color: #ffffff;
-	text-align: center;
+  max-width: 500px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 64px;
+  color: #ffffff;
+  text-align: center;
 }
 
 /* Задаём стили для текста, который нужно выделить */
 .header__title-accent {
-	display: block;
-	padding: 5px;
-	border: 1px solid #e72669;
-	color: #e72669;
+  display: block;
+  padding: 5px;
+  border: 1px solid #e72669;
+  color: #e72669;
 }
 ```
 

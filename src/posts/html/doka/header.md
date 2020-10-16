@@ -4,8 +4,8 @@ name: header
 section: html
 type: doka
 tags:
- - htmlDoka
- - post
+  - htmlDoka
+  - post
 article: post
 ---
 
@@ -19,7 +19,7 @@ article: post
 
 ```html
 <header>
-  <img src="yandex_logo.png" alt="Яндекс">
+  <img src="yandex_logo.png" alt="Яндекс" />
 </header>
 ```
 
@@ -48,25 +48,23 @@ article: post
 ```html
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8">
-  <title>header</title>
- </head>
- <body>
-	<!-- Шапка -->
-  <header>
-    <h1>Ольга Данилюк</h1>
-  </header>
-	<!-- End Шапка -->
+  <head>
+    <meta charset="utf-8" />
+    <title>header</title>
+  </head>
+  <body>
+    <!-- Шапка -->
+    <header>
+      <h1>Ольга Данилюк</h1>
+    </header>
+    <!-- End Шапка -->
 
-  <article>
-    <h2>Добро пожаловать!</h2>
-    <p>Рада приветствовать вас на своем сайте.</p>
-  </article>
-  <footer>
-    Copyright Ольга Данилюк
-  </footer>
- </body>
+    <article>
+      <h2>Добро пожаловать!</h2>
+      <p>Рада приветствовать вас на своем сайте.</p>
+    </article>
+    <footer>Copyright Ольга Данилюк</footer>
+  </body>
 </html>
 ```
 
