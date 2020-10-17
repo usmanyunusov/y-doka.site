@@ -3,34 +3,52 @@ body {
   font-weight: 400;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
+@include headers {
   margin-block-start: 1.3em;
   margin-block-end: 0.5em;
   line-height: 1.3;
   font-weight: 400;
+
+  & + p {
+    margin-block-start: 0;
+  }
+
+  &[id] {
+    a {
+      opacity: 0;
+      color: lightgray;
+      font-size: 0.7em;
+      transition: opacity 0.2s;
+    }
+
+    &:hover a,
+    &:focus a,
+    & a:hover,
+    & a:focus {
+      opacity: 0.5;
+      text-decoration: none;
+    }
+  }
 }
 
 h1 {
   font-size: 2.5rem;
-  font-weight: 400;
   text-rendering: optimizeLegibility;
-}
-
-h2 + p,
-h3 + p,
-h4 + p,
-h5 + p,
-h6 + p {
-  margin-block-start: 0;
 }
 
 h2 {
   font-size: 2.125rem;
 }
+
+h3[id],
+h4[id],
+h5[id],
+h6[id] {
+  a {
+    font-size: 0.8em;
+  }
+}
+
 
 p {
   margin-block-start: 0.5em;
