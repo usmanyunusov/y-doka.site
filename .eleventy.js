@@ -2,6 +2,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss")
 const pluginNavigation = require("@11ty/eleventy-navigation")
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation")
 const markdownIt = require("markdown-it")
+const markdownItAnchor = require("markdown-it-anchor")
 
 const filters = require("./utils/filters.js")
 const transforms = require("./utils/transforms.js")
@@ -38,15 +39,16 @@ module.exports = function (config) {
   config.addWatchTarget("./src/assets")
 
   // Markdown
-  config.setLibrary(
-    "md",
-    markdownIt({
-      html: true,
-      breaks: true,
-      linkify: true,
-      typographer: true,
-    })
-  )
+  let markdownLibrary = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true,
+  }).use(markdownItAnchor, {
+    permalink: true,
+    permalinkClass: "direct-link",
+    permalinkSymbol: "🔗",
+  })
+  config.setLibrary("md", markdownLibrary)
 
   // Layouts
   config.addLayoutAlias("base", "base.njk")

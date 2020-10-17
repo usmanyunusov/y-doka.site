@@ -32,6 +32,25 @@ h2 {
   font-size: 2.125rem;
 }
 
+h2[id],
+h3[id],
+h4[id],
+h5[id],
+h6[id] {
+  a {
+    opacity: 0;
+    color: lightgray;
+    font-size: 0.8em;
+    transition: opacity 0.2s;
+  }
+
+  &:hover a {
+    opacity: 0.5;
+    text-decoration: none;
+  }
+}
+
+
 p {
   margin-block-start: 0.5em;
   margin-block-end: 0;
