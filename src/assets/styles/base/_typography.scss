@@ -92,7 +92,7 @@ pre {
   white-space: nowrap;
   padding: 0 5px;
   background: $callout-background;
-  color: $code;
+  color: $contrast;
   font-style: normal;
 }
 
@@ -100,10 +100,10 @@ code {
   display: inline-block;
   font-family: "Menlo", monospace;
   font-size: inherit;
-  color: #76b5ff;
+  color: $contrast;
   padding: 0 5px;
   border-radius: 3px;
-  background: #f7f6f3;
+  background-color: $gray-light;
 }
 
 pre {
