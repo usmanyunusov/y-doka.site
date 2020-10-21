@@ -52,4 +52,24 @@
       width: 100%;
     }
   }
+
+  &_no-aside {
+    .container {
+      width: 100%;
+    }
+
+    .main {
+      position: relative;
+    }
+  }
+
+  .layout {
+    &__header {
+      display: none;
+    }
+
+    &__footer {
+      display: none;
+    }
+  }
 }
