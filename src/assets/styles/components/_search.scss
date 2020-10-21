@@ -28,7 +28,7 @@
     background: none;
 
     &.focus-visible {
-      border-bottom: 1px solid $brand-color-primary;
+      border-bottom: 1px solid $link-active;
       outline: none !important;
     }
   }
