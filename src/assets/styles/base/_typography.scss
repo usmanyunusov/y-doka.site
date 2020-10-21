@@ -92,7 +92,7 @@ pre {
   white-space: nowrap;
   padding: 0 5px;
   background: $callout-background;
-  color: $contrast;
+  color: $contrast-blue;
   font-style: normal;
 }
 
@@ -100,7 +100,7 @@ code {
   display: inline-block;
   font-family: "Menlo", monospace;
   font-size: inherit;
-  color: $contrast;
+  color: $contrast-blue;
   padding: 0 5px;
   border-radius: 3px;
   background-color: $gray-light;
