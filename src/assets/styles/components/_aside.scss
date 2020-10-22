@@ -46,12 +46,19 @@
     bottom: 0;
     left: 0;
     padding: 20px 23px 15px 37px;
+    background: $nb-grey-background;
 
     &_shadow {
       -webkit-box-shadow: 0px -4px 4px 0px rgba(183, 183, 183, 0.25);
       -moz-box-shadow: 0px -4px 4px 0px rgba(183, 183, 183, 0.25);
       box-shadow: 0px -4px 4px 0px rgba(183, 183, 183, 0.25);
       background: $nb-grey-background;
+    }
+
+    ._hidden & {
+      &__footer {
+        background: none;
+      }
     }
   }
 
