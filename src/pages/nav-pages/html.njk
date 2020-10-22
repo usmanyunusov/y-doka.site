@@ -1,29 +1,29 @@
 ---
-layout: no-aside
+layout: nav-page
 permalink: /posts/html/
 eleventyNavigation:
   key: HTML
 ---
 
 <div class="container">
-  <div style="display:flex;justify-content:space-between;">
-    <h2>HTML</h2>
-    <div style="max-width:30%">      
-      <h3>Справочник</h3>
-      <ul>
+  <h2 class="navpage__title">HTML</h2>
+  <div class="navpage__block">
+    <div class="navpage__column">
+      <h3 class="navpage__subtitle">Справочник</h3>
+      <ul class="navpage__list">
         {%- for htmlDoka in collections.htmlDoka -%}
         <a href="/posts/{{ htmlDoka.data.section }}/{{ htmlDoka.data.type }}/{{ htmlDoka.data.name }}">
-          <li>{{ htmlDoka.data.title }}</li>
+          <li class="navpage__list-item">{{ htmlDoka.data.title }}</li>
         </a>
         {%- endfor -%}
       </ul>
     </div>
-    <div style="max-width:30%">
-      <h3>Лонгриды</h3>
-      <ul>
+    <div class="navpage__column">
+      <h3 class="navpage__subtitle">Лонгриды</h3>
+      <ul class="navpage__list">
         {%- for htmlLong in collections.htmlLong -%}
         <a href="/posts/{{ htmlLong.data.section }}/{{ htmlLong.data.type }}/{{ htmlLong.data.name }}">
-          <li>{{ htmlLong.data.title }}</li>
+          <li class="navpage__list-item">{{ htmlLong.data.title }}</li>
         </a>
         {%- endfor -%}
       </ul>

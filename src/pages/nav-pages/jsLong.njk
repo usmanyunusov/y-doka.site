@@ -1,19 +1,19 @@
 ---
-layout: no-aside
+layout: nav-page
 permalink: /posts/js/long/
 eleventyNavigation:
   key: jsLong
 ---
 
 <div class="container">
-  <div style="display:flex;justify-content:space-between;">
-    <div style="max-width:30%">
-      <h2>JavaScript</h2>
-      <h3>Лонгриды</h3>
-      <ul>
+  <h2 class="navpage__title">JavaScript</h2>
+  <h3 class="navpage__subtitle">Лонгриды</h3>
+  <div class="navpage__block">
+    <div class="navpage__column">
+      <ul class="navpage__list">
         {%- for jsLong in collections.jsLong -%}
         <a href="/posts/{{ jsLong.data.section }}/{{ jsLong.data.type }}/{{ jsLong.data.name }}">
-          <li>{{ jsLong.data.title }}</li>
+          <li class="navpage__list-item">{{ jsLong.data.title }}</li>
         </a>
         {%- endfor -%}
       </ul>
