@@ -7,6 +7,7 @@ tags:
   - cssDoka
   - post
 article: post
+autor:
 ---
 
 ## Кратко

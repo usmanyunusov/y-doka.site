@@ -7,6 +7,7 @@ tags:
   - htmlDoka
   - post
 article: post
+autor:
 ---
 
 # Кратко

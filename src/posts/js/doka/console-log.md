@@ -4,6 +4,7 @@ name: console-log
 section: js
 type: doka
 tags: jsDoka
+autor:
 ---
 
 ## Кратко
