@@ -1,24 +1,23 @@
 .aside {
   width: 330px;
   height: 100vh;
-  padding: 37px 0 30px 0;
+  padding: 37px 30px 30px;
   position: fixed;
   top: 0;
   left: 0;
   background: $nb-grey-background;
-  transition: width 0.2s ease-in;
+  transition: all 0.2s ease-in;
 
   &._hidden {
-    width: 46px;
-    padding: 0;
-    transition: width 0.2s ease-out;
+    transform: translateX(-270px);
+    transition: all 0.2s ease-out;
   }
 
   &__logo {
     display: inline-block;
     height: 30px;
-    margin-left: 30px;
     margin-bottom: 12vh;
+    transition: transform 0.2s ease-in;
 
     @media screen and (min-width: 768px) and (max-height: 550px) {
       margin-bottom: 2vh;
@@ -29,15 +28,17 @@
     }
 
     ._hidden & {
-      display: none;
+      transform: translateX(-270px);
+      transition: transform 0.2s ease-out;
     }
   }
 
   &__elements {
-    margin: 0px 30px;
+    transition: transform 0.2s ease-in;
 
     ._hidden & {
-      display: none;
+      transform: translateX(-270px);
+      transition: transform 0.2s ease-out;
     }
   }
 
@@ -45,8 +46,10 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 100%;
     padding: 20px 23px 15px 37px;
-    background: $nb-grey-background;
+    background-color: $nb-grey-background;
+    transition: transform 0.2s ease-in;
 
     &_shadow {
       -webkit-box-shadow: 0px -4px 4px 0px rgba(183, 183, 183, 0.25);
@@ -56,9 +59,7 @@
     }
 
     ._hidden & {
-      &__footer {
-        background: none;
-      }
+      transition: transform 0.2s ease-out;
     }
   }
 
@@ -97,7 +98,7 @@
     }
 
     & ul {
-      max-height: calc(40vh - 72px);
+      max-height: calc(32vh - 72px);
       overflow-y: auto;
 
       padding-inline-start: 0px;
@@ -169,19 +170,14 @@
     cursor: pointer;
   }
 
-  &__arrow {
+  &__arrow-btn {
     height: 22px;
+    transition: transform 0.1s ease-in;
 
     ._hidden & {
-      -moz-transform: scale(-1, 1);
-      -webkit-transform: scale(-1, 1);
-      -o-transform: scale(-1, 1);
+      transform-origin: center;
       transform: scale(-1, 1);
-      margin-left: -30px;
-      /*
-        TODO: временный отрицательный маржин,
-        появляется при скрытии бокового меню, нужно придумать способ поизящнее
-      */
+      transition: transform 0.1s ease-out;
     }
   }
 
