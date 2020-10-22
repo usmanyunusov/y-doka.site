@@ -52,7 +52,7 @@ const sevenAgain = seven // 0b0111
 seven === sevenAgain // true
 ```
 
-![/assets/images/posts/ref-type-vs-value-type/___vs___02.png](/assets/images/posts/ref-type-vs-value-type/___vs___02.png)
+![/assets/images/posts/ref-type-vs-value-type/___vs___02_3.png](/assets/images/posts/ref-type-vs-value-type/___vs___02_3.png)
 
 ```jsx
 seven === eight // false
