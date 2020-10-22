@@ -4,6 +4,7 @@ name: math
 section: js
 type: doka
 tags: jsDoka
+autor:
 ---
 
 ## Кратко

@@ -4,6 +4,7 @@ name: promise
 section: js
 type: long
 tags: jsLong
+autor:
 ---
 
 <div class="callout">
