@@ -49,7 +49,7 @@ console.log(a)
 
 ## В работе
 
-### Миша, front-end ниндзя
+<h3>Миша, <span class="twitter">-</span></h3>
 
 В пространстве `console` существуют различные инструменты. Рассмотрим `console.log` и `console.dir`.
 

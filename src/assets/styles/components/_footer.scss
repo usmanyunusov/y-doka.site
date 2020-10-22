@@ -1,5 +1,4 @@
 .footer {
-  width: calc(330px - 60px);
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -19,10 +18,8 @@
   }
 
   &__support {
-    display: block;
 
     ._hidden & {
-      display: none;
     }
   }
 
