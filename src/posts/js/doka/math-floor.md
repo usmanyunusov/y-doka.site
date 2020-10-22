@@ -35,7 +35,7 @@ console.log(Math.floor(num)) // 15
 
 ## В работе
 
-### Николай, front-end ниндзя
+<h3>Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></h3>
 
 🛠 Разные виды округления нужны в разных ситуациях:
 

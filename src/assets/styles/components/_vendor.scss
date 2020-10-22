@@ -3,3 +3,17 @@
 .cp_embed_wrapper {
   margin: 1em 0 2em;
 }
+
+// Логотип твиттера
+.twitter {
+  &::after {
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(/assets/images/social/twitter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 2px;
+  }
+}

@@ -87,7 +87,7 @@ selector {
 
 ## В работе
 
-### Алёна, front-end ниндзя
+<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
 
 🛠Самый крутой лайфхак — это круглые элементы при помощи `border-radius`. Они часто нужны для всяких лейблов на странице.
 
