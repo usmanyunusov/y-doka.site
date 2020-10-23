@@ -4,6 +4,7 @@ name: math-random
 section: js
 type: doka
 tags: jsDoka
+autor:
 ---
 
 ## Кратко

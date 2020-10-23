@@ -4,6 +4,7 @@ name: alert
 section: js
 type: doka
 tags: jsDoka
+autor:
 ---
 
 ## Кратко

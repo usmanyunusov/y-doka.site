@@ -4,6 +4,7 @@ name: async-in-js
 section: js
 type: long
 tags: jsLong
+autor:
 ---
 
 ## Кратко

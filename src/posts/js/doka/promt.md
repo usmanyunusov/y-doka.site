@@ -4,6 +4,7 @@ name: promt
 section: js
 type: doka
 tags: jsDoka
+autor:
 ---
 
 ## Кратко
