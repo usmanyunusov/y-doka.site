@@ -221,7 +221,7 @@ autor: abatickaya
 
 Значение задаётся в виде целого отрицательного или положительного числа. Элементы встают по возрастающей.
 
-![/assets/images/posts/flexbox-guide/flexbox___07.png](/assets/images/posts/flexbox-guide/lexbox___07.png)
+![/assets/images/posts/flexbox-guide/flexbox___07.png](/assets/images/posts/flexbox-guide/flexbox___07.png)
 
 ### `flex-grow`
 
