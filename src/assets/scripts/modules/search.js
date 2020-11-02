@@ -84,7 +84,7 @@ searchInput.addEventListener('keydown', (event) => {
       clearSuggestionContainer()
 
       searchIndex
-        .filter(article => article.title.toLowerCase().includes(searchPhrase))
+        .filter(article => article.title.includes(searchPhrase) || article.summary.includes(searchPhrase))
         .slice(0, 5)
         .forEach(item => {
           suggestionsContainer.appendChild(buildSuggestionItem(item.title, item.url))

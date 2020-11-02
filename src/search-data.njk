@@ -12,8 +12,10 @@ permalink: search-data.json
     {% set defaultURL = item.url %}
   {% endif %}
   {
-  "title": "{{ item.data.title | safe }}",
-  "type" : "{{ item.type }}",
+  "title": "{{ item.data.title | lower | safe }}",
+  "summary" : "{{ item.summary | lower | safe }}",
+  "section" : "{{ item.section | lower }}",
+  "type" : "{{ item.type | lower }}",
   "url": "{{defaultURL}}",
   "tags" : "{{ item.data.tags | safe }}"
   }
