@@ -16,28 +16,23 @@ autor:
 
 ## Пример
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="max-grachev" data-slug-hash="ZwOmgw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="&amp;lt;div&amp;gt;">
-  <span>See the Pen <a href="https://codepen.io/max-grachev/pen/ZwOmgw">
-  &lt;div&gt;</a> by Max Grachev (<a href="https://codepen.io/max-grachev">@max-grachev</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+{% include "demos/div/index.njk" %}
 
 HTML
 
 ```html
-<div class="shadowbox">
-  <p>Привет, мы запихали текст в div, а сам контейнер покрасили в серый</p>
+<div class="container">
+  <p>Привет, мы запихали текст в &#60;div&#62;, а сам контейнер покрасили в серый.</p>
 </div>
 ```
 
 CSS
 
 ```css
-.shadowbox {
-  width: 15em;
+.container {
   padding: 8px 12px;
-  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+  background-color: #e6e6e6;
+  color: #18191c;
 }
 ```
 
