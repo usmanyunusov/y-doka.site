@@ -1,5 +1,6 @@
 .header {
   padding: $spacing-y 0;
+  position: relative;
 
   &__inner {
     display: flex;
@@ -22,7 +23,7 @@
     font-size: 2rem;
     line-height: 0px;
     font-weight: bold;
-    color: #000!important;
+    color: #000 !important;
   }
 
   &__post {

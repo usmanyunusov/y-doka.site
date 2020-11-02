@@ -4,11 +4,11 @@
 
 a:focus,
 button:focus {
-    //outline: 5px solid $brand-color-primary;
+  //outline: 5px solid $brand-color-primary;
 }
 
 a:focus {
-    //outline: 1px solid darkblue;
+  //outline: 1px solid darkblue;
 }
 
 // =================
@@ -16,11 +16,11 @@ a:focus {
 // =================
 
 .js-focus-visible :focus:not(.focus-visible) {
-    outline: none;
+  outline: none;
 }
 
 .js-focus-visible .focus-visible {
-    outline: 1px solid darkblue;
+  outline: 1px solid darkblue;
 }
 
 // =================
@@ -28,17 +28,16 @@ a:focus {
 // =================
 
 // sections excluded from the tabindex
-[tabindex='-1']:focus {
-    //outline: none !important;
+[tabindex="-1"]:focus {
+  //outline: none !important;
 }
 
 // the skip link is only visible on focus
 .sr-skip-link:focus {
-    //outline: none;
+  //outline: none;
 }
 
 // links that are both focused AND hovered
 a:focus:hover {
-    //outline: none;
+  //outline: none;
 }
-

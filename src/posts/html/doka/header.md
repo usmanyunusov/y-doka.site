@@ -4,9 +4,10 @@ name: header
 section: html
 type: doka
 tags:
- - htmlDoka
- - post
+  - htmlDoka
+  - post
 article: post
+autor:
 ---
 
 # Кратко
@@ -19,7 +20,7 @@ article: post
 
 ```html
 <header>
-  <img src="yandex_logo.png" alt="Яндекс">
+  <img src="yandex_logo.png" alt="Яндекс" />
 </header>
 ```
 
@@ -48,25 +49,23 @@ article: post
 ```html
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="utf-8">
-  <title>header</title>
- </head>
- <body>
-	<!-- Шапка -->
-  <header>
-    <h1>Ольга Данилюк</h1>
-  </header>
-	<!-- End Шапка -->
+  <head>
+    <meta charset="utf-8" />
+    <title>header</title>
+  </head>
+  <body>
+    <!-- Шапка -->
+    <header>
+      <h1>Ольга Данилюк</h1>
+    </header>
+    <!-- End Шапка -->
 
-  <article>
-    <h2>Добро пожаловать!</h2>
-    <p>Рада приветствовать вас на своем сайте.</p>
-  </article>
-  <footer>
-    Copyright Ольга Данилюк
-  </footer>
- </body>
+    <article>
+      <h2>Добро пожаловать!</h2>
+      <p>Рада приветствовать вас на своем сайте.</p>
+    </article>
+    <footer>Copyright Ольга Данилюк</footer>
+  </body>
 </html>
 ```
 
@@ -79,7 +78,7 @@ article: post
 
 ## В работе
 
-### Алёна, front-end ниндзя
+<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
 
 🛠 На главной странице сайта в `header` принято оборачивать первый экран. А вот на внутренних страницах в этот тег лучше обернуть повторяющуюся часть, в которой обычно находятся логотип и навигация по сайту.
 

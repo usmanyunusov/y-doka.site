@@ -4,10 +4,12 @@ name: list-style-position
 section: css
 type: doka
 tags:
- - cssDoka
- - post
+  - cssDoka
+  - post
 article: post
+autor:
 ---
+
 ## Кратко
 
 Свойство `list-style-position` задает положение маркера списка относительно элемента списка

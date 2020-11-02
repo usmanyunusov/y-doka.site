@@ -4,9 +4,10 @@ name: span
 section: html
 type: doka
 tags:
- - htmlDoka
- - post
+  - htmlDoka
+  - post
 article: post
+autor:
 ---
 
 ## Кратко
@@ -16,7 +17,11 @@ article: post
 ## Пример
 
 ```html
-<p>Добавьте <span class="ingredient">базилик</span>, <span class="ingredient">арахис</span> и <span class="ingredient">чеснок</span> в блендер и перемешайте.</p>
+<p>
+  Добавьте <span class="ingredient">базилик</span>,
+  <span class="ingredient">арахис</span> и
+  <span class="ingredient">чеснок</span> в блендер и перемешайте.
+</p>
 ```
 
 ## Как это понять
@@ -38,50 +43,44 @@ article: post
 ## Ещё пример
 
 ```html
-<!DOCTYPE HTML>
-<html>
- <head>
-  <title>Тег SPAN</title>
-  <style>
-    body {
-     font-family: Arial, sans-serif; /* Рубленый шрифт */
-    }
-    .letter {
-     color: red; /* Красный цвет символов */
-     font-size: 200%; /* Размер шрифта в процентах */
-     font-family: serif; /* Шрифт с засечками */
-     position: relative; /* Относительное позиционирование */
-     top: 5px; /* Сдвиг сверху */
-    }
-  </style>
- </head>
- <body>
-
-  <p><span class="letter">Р</span>азумные люди приспосабливаются к окружающему миру.
-  Неразумные люди приспосабливают мир к себе. Вот почему прогресс определяется
-  действиями неразумных людей.</p>
-  <p>Бернард Шоу</p>
-
- </body>
-</html>
+<p>
+  <span class="letter">Р</span>азумные люди приспосабливаются к окружающему
+  миру. Неразумные люди приспосабливают мир к себе. Вот почему прогресс
+  определяется действиями неразумных людей.
+</p>
+<p class="author">Бернард Шоу</p>
 ```
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="max-grachev" data-slug-hash="BMGxxq" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="span">
-  <span>See the Pen <a href="https://codepen.io/max-grachev/pen/BMGxxq">
-  span</a> by Max Grachev (<a href="https://codepen.io/max-grachev">@max-grachev</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+```css
+.letter {
+  float: left; /* Обтекание символа текстом справа */
+  margin-right: 7px; /* Отступ справа */
+  color: #ed6742; /* Цвет символа */
+  font-family: "Roboto Slab", serif; /* Шрифт с засечками */
+  font-size: 52px; /* Размер шрифта */
+  line-height: 52px; /* Высота строки */
+}
+
+.author {
+  padding: 10px 0;
+  border-top: 1px solid #ed6742; /* декоративная граница */
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 300;
+}
+```
+
+{% include "demos/span/show.njk" %}
 
 ## В работе
 
-### Владимир, front-end ниндзя
+<h3>Владимир, <span class="twitter">-</span></h3>
 
 🛠 `<span>` — крутой. Считается, что `<span>` — это когда тебе уже нечего добавить к тексту и ты уже использовал древние теги `<strong>` или `<em>`, то у тебя `<span>` — это последний бро, у которого по умолчанию нет предустановленных стилей, но ты можешь его немножко пересобрать и добавить стилей, чтобы он выглядел так, как ты хочешь.
 
 Фишка в том, что в `<span>` можно встраивать вообще всё, что угодно. Внутри `<span>` можно собирать целые блоки, списки и, по факту, он может работать не только с текстом: я такое встречал очень часто. `<span>` можно встраивать друг в друга сколько угодно раз, чего не сделаешь, например, с тегом `<p>`. Допустим, ты хочешь, чтобы текст на сайте появлялся по одной букве, то ты добавляешь каждую букву в отдельный `<span>`, делаешь задержку и отдельно уже управляешь через JavaScript или CSS. `<span>` — тег, без которого современные сайты практически не могут существовать.
 
-### Алёна, front-end ниндзя
+<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
 
 🛠 Тег `span` удобен, если нужно оформить другими стилями отдельное слово или словосочетание в тексте. Этот приём очень любят дизайнеры, чтобы акцентировать внимание на какой-то информации.
 
@@ -90,42 +89,49 @@ article: post
 HTML
 
 ```html
-<header class="header">
-	<h1 class="header__title">
-		We are
-		<span class="header__title-accent">the best</span>
-		company
-	</h1>
+<header class="demo-header">
+  <h1 class="demo-header__title">
+    We are
+    <span class="demo-header__title-accent demo-header__title-accent_color"
+      >the best</span
+    >
+    <span class="demo-header__title-accent">company</span>
+  </h1>
 </header>
 ```
 
 CSS
 
 ```css
-.header__title {
-	max-width: 500px;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 64px;
-	color: #ffffff;
-	text-align: center;
+.demo-header__title {
+  max-width: 500px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: 1px;
 }
 
 /* Задаём стили для текста, который нужно выделить */
-.header__title-accent {
-	display: block;
-	padding: 5px;
-	border: 1px solid #e72669;
-	color: #e72669;
+.demo-header__title-accent {
+  display: block; /* перенос на новую строку */
+  font-size: 55px;
+  line-height: 58px;
+  font-weight: bold;
+}
+
+/* цветовой акцент */
+.demo-header__title-accent_color {
+  color: #f498ad;
+  background-color: #ed6742;
 }
 ```
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="solarrust" data-slug-hash="arWjKL" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="arWjKL">
-  <span>See the Pen <a href="https://codepen.io/solarrust/pen/arWjKL">
-  arWjKL</a> by Alena (<a href="https://codepen.io/solarrust">@solarrust</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+{% include "demos/span/company.njk" %}
 
-### Егор, front-end ниндзя
+<h3>Егор, <a href="https://twitter.com/furtivite" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@furtivite</a></h3>
 
 🛠 `<span>` — строковый элемент, поэтому по-умолчанию, у него нет высоты. Если нужна высота, то элементу стоит задать `display: block` или `display: inline-block`, или подумать: «А не нужен ли там `<div>`?»

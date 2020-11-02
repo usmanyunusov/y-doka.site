@@ -27,7 +27,7 @@
     */
 
     &::after {
-      content: '';
+      content: "";
       display: block;
       height: 0px;
       visibility: hidden;
@@ -48,9 +48,44 @@
     max-width: $container-max-width;
     transition: all 0.2s ease-in;
 
-    @media screen and (max-width: 769px){
+    @media screen and (max-width: 769px) {
       width: 100%;
     }
   }
-}
 
+  &_no-aside {
+    .container {
+      width: 100%;
+    }
+
+    .main {
+      position: relative;
+      left: 0;
+      padding-left: 0;
+
+      .container {
+        padding: 0 20px;
+      }
+    }
+  }
+
+  .layout {
+    &__header {
+      padding-top: 37px;
+      padding-left: 30px;
+
+      .header {
+        padding: 0;
+      }
+
+      .logo {
+        display: inline-block;
+        height: 30px;
+      }
+    }
+
+    &__footer {
+      display: none;
+    }
+  }
+}

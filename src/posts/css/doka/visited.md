@@ -4,10 +4,12 @@ name: visited
 section: css
 type: doka
 tags:
- - cssDoka
- - post
+  - cssDoka
+  - post
 article: post
+autor:
 ---
+
 ## Кратко
 
 Псевдокласс `:visited` добавляется ссылкам, по которым уже переходил пользователь.
@@ -24,11 +26,11 @@ article: post
 
 ```css
 a {
-	color: green;
+  color: green;
 }
 
 a:visited {
-	color: purple;
+  color: purple;
 }
 ```
 
@@ -37,11 +39,16 @@ a:visited {
 К селектору, выбирающему ссылки на странице, добавляем двоеточие и ключевое слово `visited`.
 
 ```css
-a:visited { } /* Селектор ссылки по тегу + :visited */
-.link:visited { } /* Селектор ссылки по классу + :visited */
-li .link:visited { } /* Составной селектор ссылки, вложенной в пункт списка + :visited */
-#id:visited { } /* Селектор ссылки по тегу + :visited */
-.link:visited:before { } /* Селектор ссылки по классу + :visited + псевдоэлемент */
+a:visited {
+} /* Селектор ссылки по тегу + :visited */
+.link:visited {
+} /* Селектор ссылки по классу + :visited */
+li .link:visited {
+} /* Составной селектор ссылки, вложенной в пункт списка + :visited */
+#id:visited {
+} /* Селектор ссылки по тегу + :visited */
+.link:visited:before {
+} /* Селектор ссылки по классу + :visited + псевдоэлемент */
 ```
 
 ## Как это понять

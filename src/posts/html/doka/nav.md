@@ -4,9 +4,10 @@ name: nav
 section: html
 type: doka
 tags:
- - htmlDoka
- - post
+  - htmlDoka
+  - post
 article: post
+autor:
 ---
 
 ## Кратко
@@ -55,11 +56,11 @@ HTML
 
 ```html
 <nav class="crumbs">
-    <ol>
-        <li class="crumb"><a href="bikes">Велосипеды</a></li>
-        <li class="crumb"><a href="bikes/bmx">BMX</a></li>
-        <li class="crumb">Jump Bike 3000</li>
-    </ol>
+  <ol>
+    <li class="crumb"><a href="bikes">Велосипеды</a></li>
+    <li class="crumb"><a href="bikes/bmx">BMX</a></li>
+    <li class="crumb">Jump Bike 3000</li>
+  </ol>
 </nav>
 
 <h1>Jump Bike 3000</h1>
@@ -70,25 +71,25 @@ CSS
 
 ```css
 nav {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .crumbs ol {
-    list-style-type: none;
-    padding-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .crumb {
-    display: inline-block;
+  display: inline-block;
 }
 
 .crumb a::after {
-    display: inline-block;
-    color: #000;
-    content: '>';
-    font-size: 80%;
-    font-weight: bold;
-    padding: 0 3px;
+  display: inline-block;
+  color: #000;
+  content: ">";
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 3px;
 }
 ```
 
@@ -101,6 +102,6 @@ nav {
 
 ## В работе
 
-### Владимир, front-end ниндзя
+<h3>Владимир, <span class="twitter">-</span></h3>
 
 🛠 `<nav>` — это набор функционально важных ссылок по разделам сайта. Важно выделить `<nav>`, чтобы поисковик понял, что находится в этом блоке.

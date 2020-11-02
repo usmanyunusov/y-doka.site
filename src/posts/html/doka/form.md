@@ -4,9 +4,10 @@ name: form
 section: html
 type: doka
 tags:
- - htmlDoka
- - post
+  - htmlDoka
+  - post
 article: post
+autor:
 ---
 
 ## Кратко
@@ -19,14 +20,14 @@ article: post
 <form action="" method="get" class="form-example">
   <div class="form-example">
     <label for="name">Введите имя: </label>
-    <input type="text" name="name" id="name" required>
+    <input type="text" name="name" id="name" required />
   </div>
   <div class="form-example">
     <label for="email">Введите email: </label>
-    <input type="email" name="email" id="email" required>
+    <input type="email" name="email" id="email" required />
   </div>
   <div class="form-example">
-    <input type="submit" value="Отправить">
+    <input type="submit" value="Отправить" />
   </div>
 </form>
 ```
@@ -73,27 +74,27 @@ article: post
 <!-- Эта форма отправит значение методом GET — мы получим URL с ответом -->
 <form action="" method="get">
   <label for="GET-name">Имя первого гостя:</label>
-  <input id="GET-name" type="text" name="name">
-  <input type="submit" value="Сохранить">
+  <input id="GET-name" type="text" name="name" />
+  <input type="submit" value="Сохранить" />
 </form>
 
 <!-- Эта форма отправит данные методом POST -->
 <form action="" method="post">
   <label for="POST-name">Имя второго гостя:</label>
-  <input id="POST-name" type="text" name="name">
-  <input type="submit" value="Сохранить">
+  <input id="POST-name" type="text" name="name" />
+  <input type="submit" value="Сохранить" />
 </form>
 
 <!-- Форма с булетами в рамочке -->
 <form action="" method="post">
   <fieldset>
     <legend>Выберите прожарку</legend>
-    <input type="radio" name="rare" id="radio">
+    <input type="radio" name="rare" id="radio" />
     <label for="radio">Rare</label>
-		<input type="radio" name="medium" id="radio">
-		<label for="radio">Medium</label>
-		<input type="radio" name="welldone" id="radio">
-		<label for="radio">Well Done</label>
+    <input type="radio" name="medium" id="radio" />
+    <label for="radio">Medium</label>
+    <input type="radio" name="welldone" id="radio" />
+    <label for="radio">Well Done</label>
   </fieldset>
 </form>
 ```
@@ -108,23 +109,26 @@ article: post
 
 ```html
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-			<title>Встроим в тег FORM атрибут action</title>
-	</head>
-<body>
-	<form [action="mailto:html@yandex.ru](mailto:action=%22mailto:html@yandex.ru)" enctype="text/plain">
-		<div class="form-example">
-			<label for="name">Ваше имя</label>
-			<input type="text" name="name" id="name" required>
-		</div>
-		<div class="form-example">
-			<label for="order">Что вы хотите заказать?</label>
-			<input type="text" name="order" id="order" required>
-		</div>
-		<p><input type="submit" value="Сделать заказ"></p>
-	</form>
-</body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Встроим в тег FORM атрибут action</title>
+  </head>
+  <body>
+    <form
+      [action="mailto:html@yandex.ru](mailto:action=%22mailto:html@yandex.ru)"
+      enctype="text/plain"
+    >
+      <div class="form-example">
+        <label for="name">Ваше имя</label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div class="form-example">
+        <label for="order">Что вы хотите заказать?</label>
+        <input type="text" name="order" id="order" required />
+      </div>
+      <p><input type="submit" value="Сделать заказ" /></p>
+    </form>
+  </body>
 </html>
 ```
 
@@ -137,11 +141,12 @@ article: post
 
 ## В работе
 
-### Алёна, front-end ниндзя*
+<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>\*
+
 🛠 Формы — очень часто встречающийся элемент на сайтах. С их помощью пользователю предлагается оформить подписку, отправить запрос на цену, записаться на приём к врачу, авторизоваться на сайте и так далее.
 
 Посвяти время детальному изучению форм. В том числе тому, как их стилизовать. Это отдельная боль. Стилизовать разные поля формы крайне муторно. А чтобы сделать это кроссплатформенно, нужно изрядно набить руку.
 
-### Владимир, front-end ниндзя*
+<h3>Владимир, <span class="twitter">-</span></h3>\*
 
 🛠 Я не помню, когда последний раз отправлял форму не на ajax. Это удобнее, потому что через ajax можно отправить в фоновом режиме практически любую форму, пока клиент занимается на сайте чем-то другим. А после успешной отправки вывести ему сообщение, что данные успешно отправлены. По мне это намного удобнее, чем каждый раз его отправлять на другую страницу, используя `<form>`. Плюс есть плюшки типа анимации и обработки ошибок.

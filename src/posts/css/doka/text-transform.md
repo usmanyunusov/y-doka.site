@@ -4,10 +4,12 @@ name: text-transform
 section: css
 type: doka
 tags:
- - cssDoka
- - post
+  - cssDoka
+  - post
 article: post
+autor:
 ---
+
 ## Кратко
 
 Свойство `text-transform` позволяет трансформировать буквы в тексте. С помощью этого свойства можно сделать текст из одних заглавных или наоборот, из одних маленьких букв вне зависимости от формата исходного текста.
@@ -20,8 +22,8 @@ HTML
 
 ```html
 <div class="parent">
-	<h1 class="title">main title</h1>
-	<p class="paragraph">Lorem ipsum ...</p>
+  <h1 class="title">main title</h1>
+  <p class="paragraph">Lorem ipsum ...</p>
 </div>
 ```
 
@@ -31,11 +33,11 @@ CSS
 
 ```css
 .title {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .paragraph {
-	text-transform: capitalize;
+  text-transform: capitalize;
 }
 ```
 
@@ -78,7 +80,7 @@ CSS
 
 ```css
 .text {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 ```
 
@@ -92,32 +94,33 @@ CSS
 
 ## В работе
 
-### Алёна, front-end ниндзя
+<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
+
 🛠Довольно часто в макетах встречаются пункты меню, написанные заглавными буквами. Не нужно в разметке набирать текст заглавными. Скопируй текст из макета и примени свойство `text-transform`.
 
 HTML
 
 ```html
 <div class="element">
-	<a href="#" class="logo">
-		<img src="logo.png" alt="Company logo">
-	</a>
-	<nav class="menu">
-		<ul class="menu-list">
-			<li class="menu-list__item">
-				<a href="#" class="menu-list__link">Главная</a>
-			</li>
-			<li class="menu-list__item">
-				<a href="#" class="menu-list__link">О компании</a>
-			</li>
-			<li class="menu-list__item">
-				<a href="#" class="menu-list__link">Проекты</a>
-			</li>
-			<li class="menu-list__item">
-				<a href="#" class="menu-list__link">Контакты</a>
-			</li>
-		</ul>
-	</nav>
+  <a href="#" class="logo">
+    <img src="logo.png" alt="Company logo" />
+  </a>
+  <nav class="menu">
+    <ul class="menu-list">
+      <li class="menu-list__item">
+        <a href="#" class="menu-list__link">Главная</a>
+      </li>
+      <li class="menu-list__item">
+        <a href="#" class="menu-list__link">О компании</a>
+      </li>
+      <li class="menu-list__item">
+        <a href="#" class="menu-list__link">Проекты</a>
+      </li>
+      <li class="menu-list__item">
+        <a href="#" class="menu-list__link">Контакты</a>
+      </li>
+    </ul>
+  </nav>
 </div>
 ```
 

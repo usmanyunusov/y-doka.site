@@ -1,9 +1,9 @@
 const DEBOUNCE_DELAY = 300
 const MIN_CHARACTERS = 1
-const HIDDEN_CLS = 'search__suggestions__hidden'
+const HIDDEN_CLS = "search__suggestions__hidden"
 
-const searchInput = document.getElementById('search')
-const suggestionsContainer = document.getElementById('search-suggestions')
+const searchInput = document.getElementById("search")
+const suggestionsContainer = document.getElementById("search-suggestions")
 
 let isFetchingSearchIndex = false
 let promise
@@ -12,11 +12,11 @@ let timer
 let currentFocus = -1
 
 const buildSuggestionItem = (caption, url) => {
-  let item;
-  if (typeof url !== 'string') {
-    item = document.createElement('div')
+  let item
+  if (typeof url !== "string") {
+    item = document.createElement("div")
   } else {
-    item = document.createElement('a')
+    item = document.createElement("a")
     item.href = url
     item.setAttribute("role", "option")
   }
@@ -29,7 +29,7 @@ const buildSuggestionItem = (caption, url) => {
 
 const clearSuggestionContainer = () => {
   while (suggestionsContainer.firstChild) {
-    suggestionsContainer.removeChild(suggestionsContainer.firstChild);
+    suggestionsContainer.removeChild(suggestionsContainer.firstChild)
   }
 }
 
@@ -41,26 +41,27 @@ const showSuggestionContainer = () => {
   suggestionsContainer.classList.remove(HIDDEN_CLS)
 }
 
-
-searchInput.addEventListener('keydown', (event) => {
-  if (event.code === 'Tab') {
-    return;
+searchInput.addEventListener("keydown", (event) => {
+  if (event.code === "Tab") {
+    return
   }
 
   if (searchIndex === undefined && !isFetchingSearchIndex) {
     isFetchingSearchIndex = true
-    promise = fetch('/search-data.json')
-      .then(response => {
+    promise = fetch("/search-data.json")
+      .then((response) => {
         if (!response.ok) {
-          throw new Error(`Response has unexpected status ${response.status}: ${response.statusText}`)
+          throw new Error(
+            `Response has unexpected status ${response.status}: ${response.statusText}`
+          )
         }
         return response.json()
       })
-      .then(data => {
+      .then((data) => {
         searchIndex = data
       })
-      .catch(err => {
-        console.error(err);
+      .catch((err) => {
+        console.error(err)
         searchInput.disabled = true
       })
       .finally(() => {
@@ -73,10 +74,15 @@ searchInput.addEventListener('keydown', (event) => {
   }
 
   timer = setTimeout(async () => {
-    const searchPhrase = event.target.value.toLowerCase().trim().replace(/\s+/ig, ' ')
+    const searchPhrase = event.target.value
+      .toLowerCase()
+      .trim()
+      .replace(/\s+/gi, " ")
     if (searchPhrase && searchPhrase.length >= MIN_CHARACTERS) {
       if (isFetchingSearchIndex) {
-        suggestionsContainer.appendChild(buildSuggestionItem('ищем изо всех сил...'))
+        suggestionsContainer.appendChild(
+          buildSuggestionItem("ищем изо всех сил...")
+        )
         showSuggestionContainer()
         await promise
       }
@@ -84,65 +90,71 @@ searchInput.addEventListener('keydown', (event) => {
       clearSuggestionContainer()
 
       searchIndex
-        .filter(article => article.title.includes(searchPhrase) || article.summary.includes(searchPhrase))
+        .filter(
+          (article) =>
+            article.title.includes(searchPhrase) ||
+            article.summary.includes(searchPhrase)
+        )
         .slice(0, 5)
-        .forEach(item => {
-          suggestionsContainer.appendChild(buildSuggestionItem(item.title, item.url))
+        .forEach((item) => {
+          suggestionsContainer.appendChild(
+            buildSuggestionItem(item.title, item.url)
+          )
         })
 
       if (suggestionsContainer.children.length === 0) {
-        suggestionsContainer.appendChild(buildSuggestionItem('Ничего не нашлось'))
+        suggestionsContainer.appendChild(
+          buildSuggestionItem("Ничего не нашлось")
+        )
       }
 
-      showSuggestionContainer();
-      let x = document.getElementById("search-suggestions");
-      if (x) x = x.getElementsByTagName("a");
+      showSuggestionContainer()
+      let x = document.getElementById("search-suggestions")
+      if (x) x = x.getElementsByTagName("a")
 
       if (event.key === "ArrowDown") {
-        currentFocus++;
-        addActive(x);
+        currentFocus++
+        addActive(x)
       } else if (event.key === "ArrowUp") {
-        currentFocus--;
-        addActive(x);
+        currentFocus--
+        addActive(x)
       } else if (event.key === "Enter" || event.keyCode === 13) {
-        event.preventDefault();
+        event.preventDefault()
 
         if (currentFocus > -1) {
-          if (x) x[currentFocus].click();
+          if (x) x[currentFocus].click()
         }
       }
 
       function addActive(x) {
-        if (!x) return false;
-        removeActive(x);
-        if (currentFocus >= x.length) currentFocus = 0;
-        if (currentFocus < 0) currentFocus = (x.length - 1);
-        x[currentFocus].classList.add("autocomplete-active");
+        if (!x) return false
+        removeActive(x)
+        if (currentFocus >= x.length) currentFocus = 0
+        if (currentFocus < 0) currentFocus = x.length - 1
+        x[currentFocus].classList.add("autocomplete-active")
       }
 
       function removeActive(x) {
         for (let i = 0; i < x.length; i++) {
-          x[i].classList.remove("autocomplete-active");
+          x[i].classList.remove("autocomplete-active")
         }
       }
     } else {
       hideSuggestionContainer()
     }
   }, DEBOUNCE_DELAY)
-});
+})
 
-window.addEventListener('click', (event) => {
-  if(event.target && event.target.className.indexOf('search') === 0) {
-     return
+window.addEventListener("click", (event) => {
+  if (event.target && event.target.className.indexOf("search") === 0) {
+    return
   }
 
   hideSuggestionContainer()
 })
 
-searchInput.addEventListener('focus', () => {
-  if (suggestionsContainer.innerText !== '') {
+searchInput.addEventListener("focus", () => {
+  if (suggestionsContainer.innerText !== "") {
     showSuggestionContainer()
   }
 })
-
-

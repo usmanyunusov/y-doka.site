@@ -4,10 +4,12 @@ name: letter-spacing
 section: css
 type: doka
 tags:
- - cssDoka
- - post
+  - cssDoka
+  - post
 article: post
+autor:
 ---
+
 ## Кратко
 
 `letter-spacing` задаёт межбуквенное расстояние — интервал между символами в тексте.
@@ -21,7 +23,7 @@ letter-spacing: normal;
 /* Расстояние, заданное вручную с помощью значений длины */
 letter-spacing: 0.3em;
 letter-spacing: 3px;
-letter-spacing: .3px;
+letter-spacing: 0.3px;
 
 /* Значение, относительно другого элемента */
 letter-spacing: inherit;
@@ -53,16 +55,28 @@ letter-spacing: unset;
 <p class="normal">Стандартное расстояние normal</p>
 <p class="em-wide">Чуть шире, относительно стандартного. Задаём 0.4em</p>
 <p class="em-wider">Ещё шире, относительно стандартного: 1em</p>
-<p class="em-tight">Немного сжимаем с помощью отрицательного значения -0.05em;</p>
+<p class="em-tight">
+  Немного сжимаем с помощью отрицательного значения -0.05em;
+</p>
 <p class="px-wide">Добавляем по 6px между символами</p>
 ```
 
 ```css
-.normal   { letter-spacing: normal; }
-.em-wide  { letter-spacing: 0.4em; }
-.em-wider { letter-spacing: 1em; }
-.em-tight { letter-spacing: -0.05em; }
-.px-wide  { letter-spacing: 6px; }
+.normal {
+  letter-spacing: normal;
+}
+.em-wide {
+  letter-spacing: 0.4em;
+}
+.em-wider {
+  letter-spacing: 1em;
+}
+.em-tight {
+  letter-spacing: -0.05em;
+}
+.px-wide {
+  letter-spacing: 6px;
+}
 ```
 
 <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="max-grachev" data-slug-hash="BEaZmG" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="letter-spacing">
@@ -79,7 +93,8 @@ letter-spacing: unset;
 
 ## В работе
 
-### Алёна, front-end ниндзя
+<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
+
 🛠 При вёрстке макета, нарисованного в Фотошоп, у вас могут возникнуть проблемы с `letter-spacing`. Причина в том, что в ФШ используется другая логика для расчёта межбуквенного расстояния.
 
 ![/assets/images/posts/letter-spacing/letter-spacing.png](/assets/images/posts/letter-spacing/letter-spacing.png)
@@ -119,7 +134,7 @@ x / 1000 = y
 
 Где `x` — значение межбуквенного расстояния из ФШ.
 
-### Владимир, front-end ниндзя
+<h3>Владимир, <span class="twitter">-</span></h3>
 
 🛠 Свойство `letter-spacing` хорошо бы прописать для всех элементов, потому что браузеры могут делать разные расстояния между знаками: тогда текст начинает плыть. Особенно Safari, этим грешит.
 

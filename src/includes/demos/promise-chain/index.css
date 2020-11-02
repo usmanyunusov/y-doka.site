@@ -6,8 +6,9 @@
   padding-left: 2rem;
 }
 
-#promise-chain > div, #promise-chain-demo-fetch {
-  transition: all .3s;
+#promise-chain > div,
+#promise-chain-demo-fetch {
+  transition: all 0.3s;
   height: 2rem;
   width: 7rem;
   font-family: monospace;
@@ -19,9 +20,9 @@
 }
 
 .block-catch {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 .block-then {
-  color: #CE7C00;
+  color: #ce7c00;
 }

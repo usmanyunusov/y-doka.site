@@ -4,10 +4,12 @@ name: first-class__second-class
 section: css
 type: doka
 tags:
- - cssDoka
- - post
+  - cssDoka
+  - post
 article: post
+autor:
 ---
+
 ## Кратко
 
 При помощи перечисления нескольких селекторов через запятую можно избежать дублирования кода.
@@ -22,9 +24,9 @@ HTML
 
 ```html
 <div class="wrapper">
-	<h1 class="main-title">Основной заголовок</h1>
-	<h2 class="title">Новости</h2>
-	<p class="text">Lorem ipsum ...</p>
+  <h1 class="main-title">Основной заголовок</h1>
+  <h2 class="title">Новости</h2>
+  <p class="text">Lorem ipsum ...</p>
 </div>
 ```
 
@@ -34,20 +36,20 @@ CSS
 /* Задаём общие стили для заголовков */
 .main-title,
 .title {
-	color: #333;
-	line-height: 1.4;
-	text-align: center;
+  color: #333;
+  line-height: 1.4;
+  text-align: center;
 }
 
 /* Создаём одинаковые декоративные подчёркивания */
 .main-title:after,
 .title:after {
-	content: "";
-	display: block;
-	width: 25px;
-	height: 3px;
-	margin: auto;
-	background-color: red;
+  content: "";
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: auto;
+  background-color: red;
 }
 ```
 
@@ -78,7 +80,7 @@ CSS
 
 ## В работе
 
-### Алёна, front-end ниндзя
+<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
 
 🛠Начинающие разработчики часто допускают ошибку при перечислении селекторов: по их логике первая часть составного селектора не требует повторения и её можно указать один раз в начале, а затем перечислить через запятую несколько условно вторых частей составного селектора.
 
@@ -93,7 +95,7 @@ CSS
 .parrent-class .child-class,
 .another-class,
 .one-another-class {
-  ...
+  ...;
 }
 
 /* ВЕРНО */
@@ -101,7 +103,7 @@ CSS
 .parrent-class .child-class,
 .parrent-class .another-class,
 .parrent-class .one-another-class {
-  ...
+  ...;
 }
 ```
 

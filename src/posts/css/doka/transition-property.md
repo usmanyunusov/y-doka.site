@@ -4,10 +4,12 @@ name: transition-property
 section: css
 type: doka
 tags:
- - cssDoka
- - post
+  - cssDoka
+  - post
 article: post
+autor:
 ---
+
 ## Кратко
 
 Если нам нужно анимировать переход нескольких свойств элемента (например, цвета и размера шрифта), то удобно перечислить их в свойстве `transition-property`
@@ -17,7 +19,7 @@ article: post
 ```css
 .box {
   transition-property: color, font-size;
-	transition-duration: .3s, .5s;
+  transition-duration: 0.3s, 0.5s;
 }
 ```
 
@@ -44,12 +46,12 @@ transition-property: all;
 
 ```css
 .box {
-	transition: color .2s, transform .3s, padding-left .5s, padding-right .5s;
+  transition: color 0.2s, transform 0.3s, padding-left 0.5s, padding-right 0.5s;
 }
 
 .box {
-	transition-property: color, transform, padding-left, padding-right;
-	transition-duration: .2s, .3s, .5s, .5s;
+  transition-property: color, transform, padding-left, padding-right;
+  transition-duration: 0.2s, 0.3s, 0.5s, 0.5s;
 }
 ```
 
