@@ -21,15 +21,15 @@ autor:
 HTML
 
 ```html
-<div class="container">
-  <p>Привет, мы запихали текст в &#60;div&#62;, а сам контейнер покрасили в серый.</p>
+<div class="demo-container">
+  <p>Привет, мы запихали текст в <div>, а сам контейнер покрасили в серый.</p>
 </div>
 ```
 
 CSS
 
 ```css
-.container {
+.demo-container {
   padding: 8px 12px;
   background-color: #e6e6e6;
   color: #18191c;
