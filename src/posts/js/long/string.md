@@ -2,8 +2,8 @@
 title: Строка
 name: string
 section: js
-type: long
-tags: jsLong
+type: doka
+tags: jsDoka
 autor:
 ---
 

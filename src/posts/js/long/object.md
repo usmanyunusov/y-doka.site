@@ -2,8 +2,8 @@
 title: Объект
 name: object
 section: js
-type: long
-tags: jsLong
+type: doka
+tags: jsDoka
 autor:
 ---
 
@@ -31,7 +31,7 @@ keyN: valueN,
 };
 ```
 
-Второй способ. Подробнее о нём и объектно-ориентированном программировании в JavaScript можно будет [почитать тут](https://www.notion.so/tbworkspace/f72dc884efc245d8ae16a8889a089e91#94f36bd270a64ee9aa9645db125e904d):
+Второй способ. Подробнее о нём и объектно-ориентированном программировании в JavaScript можно будет [почитать тут]():
 
 ```jsx
 let o = new Object({ key1: "value1", keyN: "valueN" })
