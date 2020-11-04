@@ -6,9 +6,9 @@ type: doka
 tags:
   - htmlDoka
   - post
-
-autor:
+autor: vladimir
 co-autors:
+  - ABatickaya
 designers:
 contributors:
 summary:
@@ -139,3 +139,5 @@ CSS
 <h3>Егор, <a href="https://twitter.com/furtivite" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@furtivite</a></h3>
 
 🛠 `<span>` — строковый элемент, поэтому по-умолчанию, у него нет высоты. Если нужна высота, то элементу стоит задать `display: block` или `display: inline-block`, или подумать: «А не нужен ли там `<div>`?»
+
+{% include "autors/vladimir/autor.njk" %}

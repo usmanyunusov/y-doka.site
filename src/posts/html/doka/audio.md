@@ -6,8 +6,7 @@ type: doka
 tags:
   - htmlDoka
   - post
-
-autor:
+autor: vladimir
 co-autors:
 designers:
 contributors:
@@ -124,3 +123,5 @@ HTML
 [https://github.com/andrewngu/sound-redux](https://github.com/andrewngu/sound-redux)
 
 [https://forms.yandex.ru/u/5f020ba34d73a2405828a128/?iframe=1](https://forms.yandex.ru/u/5f020ba34d73a2405828a128/?iframe=1)
+
+{% include "autors/vladimir/autor.njk" %}

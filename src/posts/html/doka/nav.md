@@ -6,9 +6,9 @@ type: doka
 tags:
   - htmlDoka
   - post
-
-autor:
+autor: vladimir
 co-autors:
+  - grachev
 designers:
 contributors:
 summary:
@@ -109,3 +109,5 @@ nav {
 {% include "autors/vladimir/in-work.njk" %}
 
 🛠 `<nav>` — это набор функционально важных ссылок по разделам сайта. Важно выделить `<nav>`, чтобы поисковик понял, что находится в этом блоке.
+
+{% include "autors/vladimir/autor.njk" %}
