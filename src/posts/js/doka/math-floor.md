@@ -4,7 +4,7 @@ name: math-floor
 section: js
 type: doka
 tags: jsDoka
-autor:
+autor: N_Lopin
 ---
 
 ## Кратко
