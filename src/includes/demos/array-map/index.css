@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.demo-body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.demo-body {
+  margin: 0;
+  padding: 5%;
+  background-color: #18191c;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.demo-body pre {
+  font-family: "Roboto Mono";
+      white-space: pre;
+  background-color: #18191c;
+  color: #ffffff;
+}
+
+.demo-body h2 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+
+.demo-body h2:first-child {
+  margin-top: 0;
+}
+
+.demo-body .header-container {
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+.demo-body .header-container pre,
+.demo-body .does-container pre {
+  padding: 15px 0;
+  border-bottom: 1px solid #5e6064;
+}
+
+.demo-body .does-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.does-container + .does-container {
+  margin-top: 20px;
+}
+
+.does-container pre {
+  margin-left: 15px;
+  flex-grow: 1;
+}
+
+.demo-body .button {
+  min-width: 200px;
+  border: 1px solid;
+  padding: 10px;
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+.demo-body .button:hover {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background-color: #18191c;
+  cursor: pointer;
+}
+
+.demo-body .button:focus {
+  outline: 1px solid #ffffff;
+}
+
+.demo-body .green {
+  background-color: #49a16c;
+  border-color: #49a16c;
+}
+
+.demo-body .green:hover {
+  border-color: #49a16c;
+}
+
+.demo-body .blue {
+  background-color: #1a5ad7;
+  border-color: #1a5ad7;
+}
+
+.demo-body .blue:hover {
+  border-color: #0882ff;
+}
+
+.demo-body .items {
+  display: flex;
+  min-height: 42px;
+}
+
+.demo-body .item {
+  width: 60px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 38px;
+}
+
+.demo-body .item + .item {
+  margin-left: 10px;
+}
+
+.demo-body .active {
+  border-color: #ffd829;
+  background-color: #ffd829;
+  color: #ffffff;
+}
+
+.demo-body .execute {
+  min-height: 53px;
+  padding: 15px 0;
+  border-bottom: 1px solid #5e6064;
+}
