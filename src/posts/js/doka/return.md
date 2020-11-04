@@ -4,7 +4,7 @@ name: return
 section: js
 type: doka
 tags: jsDoka
-autor:
+autor: vindi-r
 ---
 
 ## Кратко
