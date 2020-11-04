@@ -1,6 +1,6 @@
 let guestList = [];
 let guestNameInput = document.getElementById('newGuest');
-let guestListElement = document.querySelector('ul');
+let guestListElement = document.querySelector('.demo-body ul');
 let emptyList = document.getElementById('empty-list');
 let police = document.getElementById('police');
 
