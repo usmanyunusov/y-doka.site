@@ -3,8 +3,14 @@ title: Array.map
 name: array-map
 section: js
 type: doka
-tags: jsDoka
+tags:
+  - post
+  - jsDoka
 autor: windrushfarer
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко

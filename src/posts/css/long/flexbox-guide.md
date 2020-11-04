@@ -8,6 +8,10 @@ tags:
   - post
 article: post
 autor: abatickaya
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Что это?

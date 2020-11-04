@@ -8,6 +8,10 @@ tags:
   - post
 article: post
 autor:
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко

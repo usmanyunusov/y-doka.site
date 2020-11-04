@@ -3,8 +3,14 @@ title: Element.scroll/scrollTo
 name: element-scroll-scrollto
 section: js
 type: doka
-tags: jsDoka
+tags:
+  - post
+  - jsDoka
 autor: vindi-r
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко

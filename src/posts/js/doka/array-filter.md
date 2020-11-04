@@ -3,8 +3,14 @@ title: Array.filter
 name: array-filter
 section: js
 type: doka
-tags: jsDoka
+tags:
+  - post
+  - jsDoka
 autor: windrushfarer
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко

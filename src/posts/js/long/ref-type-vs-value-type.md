@@ -5,6 +5,10 @@ section: js
 type: long
 tags: jsLong
 autor: windrushfarer
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко

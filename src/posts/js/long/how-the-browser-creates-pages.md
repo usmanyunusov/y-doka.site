@@ -5,6 +5,10 @@ section: js
 type: long
 tags: jsLong
 autor: bespoyasov
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко

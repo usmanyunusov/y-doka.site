@@ -3,8 +3,14 @@ title: var/let
 name: var-let
 section: js
 type: doka
-tags: jsDoka
+tags:
+  - post
+  - jsDoka
 autor: vindi-r
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко
