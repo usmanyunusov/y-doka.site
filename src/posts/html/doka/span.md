@@ -43,7 +43,10 @@ autor:
 ## Ещё пример
 
 ```html
-<p><span class="letter">Р</span>азумные люди приспосабливаются к окружающему миру. Неразумные люди приспосабливают мир к себе. Вот почему прогресс определяется действиями неразумных людей.</p>
+<p>
+  <span class="letter">Р</span>азумные люди приспосабливаются к окружающему миру.
+  Неразумные люди приспосабливают мир к себе. Вот почему прогресс определяется действиями неразумных людей.
+</p>
 <p class="author">Бернард Шоу</p>
 ```
 
@@ -86,7 +89,9 @@ HTML
 
 ```html
 <header class="demo-header">
-	<h1 class="demo-header__title">We are <span class="demo-header__title-accent demo-header__title-accent_color">the best</span> <span class="demo-header__title-accent">company</span></h1>
+	<h1 class="demo-header__title">We are
+    <span class="demo-header__title-accent demo-header__title-accent_color">the best</span>
+    <span class="demo-header__title-accent">company</span></h1>
 </header>
 ```
 
