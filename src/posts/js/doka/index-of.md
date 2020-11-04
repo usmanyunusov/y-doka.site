@@ -4,7 +4,6 @@ name: index-of
 section: js
 type: doka
 tags:
-  - post
   - jsDoka
 autor: N_Lopin
 co-autors:

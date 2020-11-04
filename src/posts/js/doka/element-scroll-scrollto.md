@@ -4,7 +4,6 @@ name: element-scroll-scrollto
 section: js
 type: doka
 tags:
-  - post
   - jsDoka
 autor: vindi-r
 co-autors:

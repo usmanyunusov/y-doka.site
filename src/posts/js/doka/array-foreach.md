@@ -4,7 +4,6 @@ name: array-foreach
 section: js
 type: doka
 tags:
-  - post
   - jsDoka
 autor: windrushfarer
 co-autors:

@@ -6,7 +6,7 @@ type: doka
 tags:
   - htmlDoka
   - post
-article: post
+
 autor:
 co-autors:
 designers:

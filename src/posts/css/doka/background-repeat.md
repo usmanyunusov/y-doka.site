@@ -6,7 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
-article: post
+
 autor:
 co-autors:
 designers:

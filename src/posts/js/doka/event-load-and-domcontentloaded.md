@@ -4,7 +4,6 @@ name: event-load-and-domcontentloaded
 section: js
 type: doka
 tags:
-  - post
   - jsDoka
 autor: N_Lopin
 co-autors:

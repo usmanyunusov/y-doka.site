@@ -6,7 +6,7 @@ type: long
 tags:
   - cssLong
   - post
-article: post
+
 autor: abatickaya
 co-autors:
 designers:
