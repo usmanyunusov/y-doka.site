@@ -6,8 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
-
-autor:
+autor: ezhkov_d
 co-autors:
 designers:
 contributors:

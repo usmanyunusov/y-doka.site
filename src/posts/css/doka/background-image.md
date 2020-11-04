@@ -6,7 +6,6 @@ type: doka
 tags:
   - cssDoka
   - post
-
 autor:
 co-autors:
 designers:
@@ -115,7 +114,7 @@ background-image: url("../../media/examples/star.png"),
 
 ## В работе
 
-<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
+{% include "autors/ABatickaya/in-work.njk" %}
 
 🛠 Если задаешь фоновую картинку для блока с текстом, то обязательно задавай фоновый цвет.
 
@@ -154,7 +153,7 @@ background-image: radial-gradient(#e66465, #9198e5);
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-<h3>Владимир, <span class="twitter">-</span></h3>
+{% include "autors/vladimir/in-work.njk" %}
 
 🛠`backgroung-image` хорош тем, что при правильном сочетании с `background-size` может встроить фоновую картинку как угодно. Получается порой более гибко, чем обычный `img`, но не стоит увлекаться этим тегом: поисковик тебе за это спасибо не скажет.
 

@@ -101,7 +101,7 @@ HTML — создаёт структуру веб-страницы, CSS-сти�
 
 ## В работе
 
-<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
+{% include "autors/ABatickaya/in-work.njk" %}
 
 🛠 Почему нужно писать `script` в конце разметки, перед `</body>`?
 
