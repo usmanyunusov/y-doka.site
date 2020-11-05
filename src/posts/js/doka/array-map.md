@@ -3,8 +3,13 @@ title: Array.map
 name: array-map
 section: js
 type: doka
-tags: jsDoka
+tags:
+  - jsDoka
 autor: windrushfarer
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко
@@ -31,12 +36,7 @@ const objects = nums.map(function (num) {
 
 Интерактивный пример
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="js,result" data-user="y-doka" data-slug-hash="JjKGajY" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Map">
-  <span>See the Pen <a href="https://codepen.io/y-doka/pen/JjKGajY">
-  Map</a> by doka (<a href="https://codepen.io/y-doka">@y-doka</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+{% include "demos/array-map/index.njk" %}
 
 ## Как пишется
 

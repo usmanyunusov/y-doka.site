@@ -5,9 +5,12 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
-article: post
-autor:
+autor: ABatickaya
+co-autors:
+designers:
+contributors:
+summary:
+  - text-transform
 ---
 
 ## Кратко
@@ -94,7 +97,7 @@ CSS
 
 ## В работе
 
-<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
+{% include "autors/ABatickaya/in-work.njk" %}
 
 🛠Довольно часто в макетах встречаются пункты меню, написанные заглавными буквами. Не нужно в разметке набирать текст заглавными. Скопируй текст из макета и примени свойство `text-transform`.
 
@@ -144,3 +147,5 @@ CSS
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 Теперь если даже в меню добавится ещё пара пунктов, то они также будут отображаться заглавными буквами.
+
+{% include "autors/ABatickaya/autor.njk" %}

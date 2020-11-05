@@ -5,9 +5,12 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
-article: post
-autor:
+autor: ABatickaya
+co-autors:
+designers:
+contributors:
+summary:
+  - visibility
 ---
 
 ## Кратко
@@ -50,7 +53,7 @@ autor:
 
 Ещё есть устаревшее значение `collapce`, которое нужно только при работе с таблицами. Современными браузерами оно не поддерживается и обрабатывается как `hidden`.
 
-Так же можно применять в качестве значения стандартные ключевые слов: `inherit`, `initial` и `unset`.
+Так же можно применять в качестве значения стандартные ключевые слова: `inherit`, `initial` и `unset`.
 
 ## Подсказки
 
@@ -90,3 +93,5 @@ HTML
   <div class="block">Я простой текст. Наводишь кнопку и я показываюсь</div>
 </div>
 ```
+
+{% include "autors/ABatickaya/autor.njk" %}

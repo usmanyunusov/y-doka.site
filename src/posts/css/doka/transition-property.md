@@ -5,9 +5,13 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
-article: post
-autor:
+autor: ezhkov_d
+co-autors:
+designers:
+contributors:
+summary:
+  - transition
+  - transition-property
 ---
 
 ## Кратко
@@ -66,3 +70,5 @@ transition-property: all;
 ## В работе
 
 В реальных проектах не так часто приходится плавно изменять более двух свойств одновременно, поэтому свойство `transition-property` используется довольно редко. В основном переходы стилизуются с использованием комплексного свойства [transition](/posts/css/doka/transition/)
+
+{% include "autors/ezhkov_d/autor.njk" %}

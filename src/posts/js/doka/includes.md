@@ -3,8 +3,13 @@ title: includes
 name: includes
 section: js
 type: doka
-tags: jsDoka
+tags:
+  - jsDoka
 autor: N_Lopin
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко
@@ -52,12 +57,7 @@ console.log(text.includes("Панда")) // false
 
 🛠Используй метод, когда нужно убедиться в том, что объект находится в массиве. Например, чтобы не добавить одно и то же значение дважды.
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="y-doka" data-slug-hash="VwjwNzg" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Использование includes, чтобы избежать дублирования">
-  <span>See the Pen <a href="https://codepen.io/y-doka/pen/VwjwNzg">
-  Использование includes, чтобы избежать дублирования</a> by doka (<a href="https://codepen.io/y-doka">@y-doka</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+{% include "demos/includes/index.njk" %}
 
 🛠Будь внимателен, когда передаешь в `includes` объекты. Помни, что если два объекта выглядят одинаково, это не обязательно один объект.
 

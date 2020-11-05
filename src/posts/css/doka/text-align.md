@@ -5,9 +5,12 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
-article: post
-autor:
+autor: ABatickaya
+co-autors:
+designers:
+contributors:
+summary:
+  - text-align
 ---
 
 ## Кратко
@@ -131,7 +134,7 @@ HTML
 
 ## В работе
 
-<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
+{% include "autors/ABatickaya/in-work.njk" %}
 
 🛠Свойство `text-align` можно использовать не только для выравнивания текста в строчных элементах, но и для выравнивания строчно-блочных (`inline-block`) элементов внутри родителя.
 
@@ -212,3 +215,5 @@ CSS
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+{% include "autors/ABatickaya/autor.njk" %}

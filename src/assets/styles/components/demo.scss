@@ -1,0 +1,16 @@
+.demo-body {
+  position: relative;
+}
+
+.demo-body:after {
+  content: "Результат";
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  opacity: 0.5;
+  color: white;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 0.625em;
+  text-transform: uppercase;
+  user-select: none;
+}

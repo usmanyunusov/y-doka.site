@@ -5,9 +5,13 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
 article: post
-autor:
+autor: grachev
+co-autors:
+designers:
+contributors:
+summary:
+  - font-style
 ---
 
 ## Кратко
@@ -83,3 +87,5 @@ HTML
 🛠 Не стоит писать большие части текста курсивом — это сильно усложняет чтение.
 
 🛠 Браузер Internet Explorer до версии 7.0 включительно не поддерживает значение `inherit`.
+
+{% include "autors/grachev/autor.njk" %}
