@@ -5,13 +5,13 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
 autor: ABatickaya
 co-autors:
   - furtivite
 designers:
 contributors:
 summary:
+  - padding
 ---
 
 ## Кратко

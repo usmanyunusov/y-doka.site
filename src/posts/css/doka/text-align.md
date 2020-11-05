@@ -5,13 +5,12 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
-
-autor:
+autor: ABatickaya
 co-autors:
 designers:
 contributors:
 summary:
+  - text-align
 ---
 
 ## Кратко
@@ -216,3 +215,5 @@ CSS
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+{% include "autors/ABatickaya/autor.njk" %}

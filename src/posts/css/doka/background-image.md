@@ -5,12 +5,12 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
 autor:
 co-autors:
 designers:
 contributors:
 summary:
+  - background-image
 ---
 
 ## Кратко

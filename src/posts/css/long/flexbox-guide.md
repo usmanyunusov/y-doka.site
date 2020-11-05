@@ -5,13 +5,32 @@ section: css
 type: long
 tags:
   - cssLong
-  - post
-
 autor: ABatickaya
 co-autors:
 designers:
 contributors:
 summary:
+  - флексбокс
+  - flexbox
+  - flex-box
+  - флекс-контейнер
+  - флекс-элемент
+  - основная ось
+  - дополнительная ось
+  - display: flex
+  - justify-content
+  - align-items
+  - justify-self
+  - align-self
+  - order
+  - flex-basis
+  - flex-direction
+  - flex-wrap
+  - flex-shrink
+  - flex-grow
+  - flex
+  - flex-flow
+  - align-content
 ---
 
 ## Что это?

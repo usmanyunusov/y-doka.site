@@ -5,12 +5,14 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
 autor: ezhkov_d
 co-autors:
 designers:
 contributors:
 summary:
+  - ::after
+  - :after
+  - псевдоэлемент
 ---
 
 ## Кратко

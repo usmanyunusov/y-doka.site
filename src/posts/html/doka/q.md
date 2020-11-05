@@ -5,12 +5,16 @@ section: html
 type: doka
 tags:
   - htmlDoka
-  - post
 autor: ABatickaya
 co-autors:
 designers:
 contributors:
 summary:
+  - тэг
+  - тег
+  - q
+  - <q>
+  - цитата
 ---
 
 ## Кратко

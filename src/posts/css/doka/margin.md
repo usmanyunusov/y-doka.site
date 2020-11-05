@@ -5,13 +5,14 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
-
 autor:
 co-autors:
+  - vladimir
+  - ABatickaya
 designers:
 contributors:
 summary:
+  - margin
 ---
 
 ## Кратко

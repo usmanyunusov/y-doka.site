@@ -5,12 +5,12 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
 autor: ezhkov_d
 co-autors:
 designers:
 contributors:
 summary:
+  - list-style-position
 ---
 
 ## Кратко

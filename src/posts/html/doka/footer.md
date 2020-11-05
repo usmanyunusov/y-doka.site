@@ -5,12 +5,16 @@ section: html
 type: doka
 tags:
   - htmlDoka
-  - post
 autor: vladimir
 co-autors:
 designers:
 contributors:
 summary:
+  - тэг
+  - тег
+  - <footer>
+  - footer
+  - футер
 ---
 
 ## Кратко

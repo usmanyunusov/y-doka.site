@@ -5,12 +5,22 @@ section: html
 type: doka
 tags:
   - htmlDoka
-  - post
 autor: vladimir
 co-autors:
 designers:
 contributors:
 summary:
+  - audio
+  - аудио
+  - controls
+  - source
+  - loop
+  - muted
+  - preload
+  - autoplay
+  - тэг
+  - тег
+  - аудио
 ---
 
 ## Кратко

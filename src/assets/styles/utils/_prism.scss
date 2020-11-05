@@ -297,13 +297,15 @@ div.code-toolbar {
 
 pre.language-html,
 pre.language-css,
-pre.language-js {
+pre.language-js,
+pre.language-jsx {
   position: relative;
 }
 
 pre.language-html:before,
 pre.language-css:before,
-pre.language-js:before {
+pre.language-js:before,
+pre.language-jsx:before {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -319,8 +321,9 @@ pre.language-html:before {
 pre.language-css:before {
   content: "CSS";
 }
-pre.language-js:before {
-  content: "JS";
+pre.language-js:before,
+pre.language-jsx:before {
+  content: "JavaScript";
 }
 
 //pre {

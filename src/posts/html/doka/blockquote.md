@@ -5,12 +5,18 @@ section: html
 type: doka
 tags:
   - htmlDoka
-  - post
 autor: ABatickaya
 co-autors:
 designers:
 contributors:
 summary:
+  - <blockquote>
+  - blockquote
+  - cite
+  - <cite>
+  - тэг
+  - тег
+  - цитата
 ---
 
 ## Кратко

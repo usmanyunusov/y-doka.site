@@ -5,13 +5,16 @@ section: html
 type: doka
 tags:
   - htmlDoka
-  - post
 autor: grachev
 co-autors:
   - vladimir
 designers:
 contributors:
 summary:
+  - тэг
+  - тег
+  - <title>
+  - title
 ---
 
 ## Кратко

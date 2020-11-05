@@ -5,13 +5,17 @@ section: html
 type: doka
 tags:
   - htmlDoka
-  - post
 autor: vladimir
 co-autors:
   - ABatickaya
 designers:
 contributors:
 summary:
+  - тэг
+  - тег
+  - хэдер
+  - header
+  - <header>
 ---
 
 # Кратко

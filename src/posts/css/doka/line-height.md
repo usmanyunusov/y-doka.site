@@ -5,13 +5,12 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
-
-autor:
+autor: grachev
 co-autors:
 designers:
 contributors:
 summary:
+  - line-height
 ---
 
 ## Кратко
@@ -190,3 +189,5 @@ CSS
 ```
 
 Если вырезать `height: 25px;` в этом куске стиля, будет так себе. Иконка уплывет и встанет не по центру вертикали.
+
+{% include "autors/grachev/autor.njk" %}

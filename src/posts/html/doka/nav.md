@@ -5,13 +5,17 @@ section: html
 type: doka
 tags:
   - htmlDoka
-  - post
 autor: vladimir
 co-autors:
   - grachev
 designers:
 contributors:
 summary:
+  - тэг
+  - тег
+  - nav
+  - <nav>
+  - навигация
 ---
 
 ## Кратко

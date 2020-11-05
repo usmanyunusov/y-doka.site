@@ -5,12 +5,14 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
 autor: ABatickaya
 co-autors:
 designers:
 contributors:
 summary:
+  - :active
+  - LVHA
+  - псевдокласс
 ---
 
 ## Кратко

@@ -5,7 +5,6 @@ section: html
 type: doka
 tags:
   - htmlDoka
-  - post
 autor: grachev
 co-autors:
   - ABatickaya
@@ -13,6 +12,11 @@ co-autors:
 designers:
 contributors:
 summary:
+  - тэг
+  - тег
+  - meta
+  - мета
+  - <meta>
 ---
 
 ## Кратко

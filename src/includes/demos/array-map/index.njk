@@ -1,0 +1,41 @@
+<style>
+  {% include './index.css' %}
+</style>
+
+<div class="demo-body">
+  <div class="demo-container">
+    <div class="header-container">
+      <h2>Наш код</h2>
+      <pre>
+  const products = [1, 2, 3, 4, 5, 6, 7, 8]
+
+  function transformToSquare(num) {
+    return num * num
+  }
+
+  function transformToCube(num) {
+    return num * num * num
+  }
+  </pre>
+    </div>
+    <div class="does-container">
+      <button id="square" class="button blue start">Давай квадраты</button>
+      <pre>products.map(transformToSquares)</pre>
+    </div>
+    <div class="does-container">
+      <button id="cubes" class="button green start">А теперь кубы</button>
+      <pre>products.map(transformToCubes)</pre>
+    </div>
+    <h2>С каким элементом работаем</h2>
+    <div class="items" id="container"></div>
+    <h2>Что выполняется</h2>
+    <pre class="execute" id="execute"></pre>
+    <h2>Итоговый массив</h2>
+    <div class="items" id="result"></div>
+  </div>
+</div>
+
+<script>
+  {% include './index.js' %}
+</script>
+

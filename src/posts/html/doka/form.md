@@ -5,13 +5,19 @@ section: html
 type: doka
 tags:
   - htmlDoka
-  - post
 autor: vladimir
 co-autors:
   - ABatickaya
 designers:
 contributors:
 summary:
+  - form
+  - <form>
+  - тэг
+  - тег
+  - action
+  - method
+  - форма
 ---
 
 ## Кратко

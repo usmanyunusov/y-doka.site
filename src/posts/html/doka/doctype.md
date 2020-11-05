@@ -5,7 +5,6 @@ section: html
 type: doka
 tags:
   - htmlDoka
-  - post
 autor: grachev
 co-autors:
   - vladimir
@@ -13,6 +12,12 @@ co-autors:
 designers:
 contributors:
 summary:
+  - doctype
+  - тэг
+  - тег
+  - <!doctype>
+  - <doctype>
+  - доктайп
 ---
 
 ## Кратко

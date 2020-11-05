@@ -5,13 +5,12 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
-
 autor:
 co-autors:
 designers:
 contributors:
 summary:
+  - font-family
 ---
 
 ## Кратко
