@@ -6,8 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
-
-autor:
+autor: ezhkov_d
 co-autors:
 designers:
 contributors:
@@ -92,3 +91,5 @@ transition-duration: unset;
   transition-duration: 0.3s;
 }
 ```
+
+{% include "autors/ezhkov_d/autor.njk" %}

@@ -6,8 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
-
-autor:
+autor: ezhkov_d
 co-autors:
 designers:
 contributors:
@@ -187,3 +186,5 @@ content: unset;
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+{% include "autors/ezhkov_d/autor.njk" %}
