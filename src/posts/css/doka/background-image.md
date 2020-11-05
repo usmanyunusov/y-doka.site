@@ -5,7 +5,7 @@ section: css
 type: doka
 tags:
   - cssDoka
-autor:
+autor: grachev
 co-autors:
 designers:
 contributors:
@@ -166,3 +166,5 @@ background-image: radial-gradient(#e66465, #9198e5);
 Так происходит потому, что картинка `img` — это контент, под который будут подстраиваться элементы вокруг и блок-родитель, а фоновое изображение у `div` — это простой декоративный элемент.
 
 Это важно помнить, когда вам нужно будет работать с адаптивностью.
+
+{% include "autors/grachev/autor.njk" %}

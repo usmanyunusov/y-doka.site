@@ -5,8 +5,9 @@ section: css
 type: doka
 tags:
   - cssDoka
-autor:
+autor: grachev
 co-autors:
+  - vladimir
 designers:
 contributors:
 summary:
@@ -120,3 +121,5 @@ color: unset;
 Или `div * {display: block}` означает, что все дочки `<div>` будут блочные.
 
 Если у тебя чёрный подвал белого сайта, и текст становится в подвале белым, то можно указать `.footer {color: #fff}` и для всех остальных сделать `color: inherit`, чтобы у всех элементов в подвале был белый по умолчанию.
+
+{% include "autors/grachev/autor.njk" %}

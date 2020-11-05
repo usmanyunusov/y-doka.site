@@ -5,8 +5,10 @@ section: css
 type: doka
 tags:
   - cssDoka
-autor:
+autor: grachev
 co-autors:
+  - vladimir
+  - ABatickaya
 designers:
 contributors:
 summary:
@@ -144,3 +146,5 @@ x / 1000 = y
 То есть делаем прямо так:
 
 `letter-spacing: .3pt` или любое нужное значение. Вообще мне нравится делать шрифт чуть шире, чем по умолчанию, как-то свободнее выглядит сайт в итоге, хотя это, конечно, на усмотрение дизайнера.
+
+{% include "autors/grachev/autor.njk" %}

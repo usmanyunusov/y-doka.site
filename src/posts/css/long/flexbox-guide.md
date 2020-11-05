@@ -7,6 +7,7 @@ tags:
   - cssLong
 autor: ABatickaya
 co-autors:
+  - furtivite
 designers:
 contributors:
 summary:
@@ -407,6 +408,4 @@ flex: unset;
 
 Дело в том, что контент меняет свое расположение только CSS-свойствами, а значит в теле сайта элементы окажутся в том порядке, в котором вы их написали в HTML-файле. Позаботьтесь о людях, которые пользуются "скринридерами", и не пользуйтесь исправлением положения элементов на странице CSS-свойствами без крайней необходимости.
 
----
-
-<p>Автор: Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></p>
+{% include "autors/ABatickaya/autor.njk" %}
