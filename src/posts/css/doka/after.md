@@ -6,6 +6,9 @@ type: doka
 tags:
   - cssDoka
   - post
+  - ::after
+  - :after
+  - псевдоэлемент
 article: post
 autor:
 ---

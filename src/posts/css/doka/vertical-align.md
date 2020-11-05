@@ -6,6 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
+  - vertical-align
 article: post
 autor:
 ---

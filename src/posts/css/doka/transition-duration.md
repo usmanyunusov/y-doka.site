@@ -6,6 +6,8 @@ type: doka
 tags:
   - cssDoka
   - post
+  - transition-duration
+  - transition
 article: post
 autor:
 ---

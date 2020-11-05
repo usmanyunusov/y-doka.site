@@ -6,6 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
+  - background-size
 article: post
 autor:
 ---

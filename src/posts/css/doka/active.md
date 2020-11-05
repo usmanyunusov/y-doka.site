@@ -6,6 +6,9 @@ type: doka
 tags:
   - cssDoka
   - post
+  - :active
+  - LVHA
+  - псевдокласс
 article: post
 autor:
 ---

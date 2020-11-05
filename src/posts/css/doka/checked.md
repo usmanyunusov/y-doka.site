@@ -6,6 +6,8 @@ type: doka
 tags:
   - cssDoka
   - post
+  - псевдокласс
+  - :checked
 article: post
 autor:
 ---

@@ -6,6 +6,8 @@ type: doka
 tags:
   - cssDoka
   - post
+  - селектор
+  - составной селектор
 article: post
 autor:
 ---

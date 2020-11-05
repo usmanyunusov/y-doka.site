@@ -6,6 +6,9 @@ type: doka
 tags:
   - cssDoka
   - post
+  - box-sizing
+  - content-box
+  - border-box
 article: post
 autor:
 ---

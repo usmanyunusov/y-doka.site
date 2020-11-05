@@ -6,6 +6,8 @@ type: doka
 tags:
   - cssDoka
   - post
+  - opacity
+  - прозрачность
 article: post
 autor:
 ---

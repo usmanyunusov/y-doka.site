@@ -6,6 +6,11 @@ type: doka
 tags:
   - htmlDoka
   - post
+  - ссылка
+  - <a>
+  - a
+  - тэг
+  - тег
 article: post
 autor:
 ---

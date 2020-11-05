@@ -6,6 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
+  - padding
 article: post
 autor:
 ---

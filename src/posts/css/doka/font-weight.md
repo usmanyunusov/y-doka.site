@@ -6,6 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
+  - font-weight
 article: post
 autor:
 ---

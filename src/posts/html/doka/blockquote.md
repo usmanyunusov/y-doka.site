@@ -6,6 +6,13 @@ type: doka
 tags:
   - htmlDoka
   - post
+  - <blockquote>
+  - blockquote
+  - cite
+  - <cite>
+  - тэг
+  - тег
+  - цитата
 article: post
 autor:
 ---

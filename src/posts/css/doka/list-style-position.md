@@ -6,6 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
+  - list-style-position
 article: post
 autor:
 ---

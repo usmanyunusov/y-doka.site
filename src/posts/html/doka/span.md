@@ -6,6 +6,11 @@ type: doka
 tags:
   - htmlDoka
   - post
+  - тэг
+  - тег
+  - <span>
+  - span
+  - спан
 article: post
 autor:
 ---
@@ -44,8 +49,9 @@ autor:
 
 ```html
 <p>
-  <span class="letter">Р</span>азумные люди приспосабливаются к окружающему миру.
-  Неразумные люди приспосабливают мир к себе. Вот почему прогресс определяется действиями неразумных людей.
+  <span class="letter">Р</span>азумные люди приспосабливаются к окружающему
+  миру. Неразумные люди приспосабливают мир к себе. Вот почему прогресс
+  определяется действиями неразумных людей.
 </p>
 <p class="author">Бернард Шоу</p>
 ```
@@ -89,9 +95,13 @@ HTML
 
 ```html
 <header class="demo-header">
-	<h1 class="demo-header__title">We are
-    <span class="demo-header__title-accent demo-header__title-accent_color">the best</span>
-    <span class="demo-header__title-accent">company</span></h1>
+  <h1 class="demo-header__title">
+    We are
+    <span class="demo-header__title-accent demo-header__title-accent_color"
+      >the best</span
+    >
+    <span class="demo-header__title-accent">company</span>
+  </h1>
 </header>
 ```
 
@@ -99,29 +109,29 @@ CSS
 
 ```css
 .demo-header__title {
-	max-width: 500px;
-	color: #fff;
-	font-family: "Roboto", sans-serif;
-	font-size: 25px;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: normal;
-	line-height: 30px;
-	letter-spacing: 1px;
+  max-width: 500px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: 1px;
 }
 
 /* Задаём стили для текста, который нужно выделить */
 .demo-header__title-accent {
-	display: block; /* перенос на новую строку */
-	font-size: 55px;
-	line-height: 58px;
-	font-weight: bold;
+  display: block; /* перенос на новую строку */
+  font-size: 55px;
+  line-height: 58px;
+  font-weight: bold;
 }
 
 /* цветовой акцент */
 .demo-header__title-accent_color {
-	color: #f498ad;
-	background-color: #ed6742;
+  color: #f498ad;
+  background-color: #ed6742;
 }
 ```
 

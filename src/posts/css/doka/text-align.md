@@ -6,6 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
+  - text-align
 article: post
 autor:
 ---

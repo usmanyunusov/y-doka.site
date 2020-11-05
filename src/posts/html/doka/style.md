@@ -6,6 +6,12 @@ type: doka
 tags:
   - htmlDoka
   - post
+  - тэг
+  - тег
+  - style
+  - <style>
+  - стайл
+  - стили в HTML
 article: post
 autor:
 ---

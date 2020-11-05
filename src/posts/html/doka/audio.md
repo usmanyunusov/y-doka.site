@@ -6,6 +6,17 @@ type: doka
 tags:
   - htmlDoka
   - post
+  - audio
+  - аудио
+  - controls
+  - source
+  - loop
+  - muted
+  - preload
+  - autoplay
+  - тэг
+  - тег
+  - аудио
 article: post
 autor:
 ---

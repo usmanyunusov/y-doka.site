@@ -6,6 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
+  - border-radius
 article: post
 autor:
 ---

@@ -6,6 +6,27 @@ type: long
 tags:
   - cssLong
   - post
+  - флексбокс
+  - flexbox
+  - flex-box
+  - флекс-контейнер
+  - флекс-элемент
+  - основная ось
+  - дополнительная ось
+  - display: flex
+  - justify-content
+  - align-items
+  - justify-self
+  - align-self
+  - order
+  - flex-basis
+  - flex-direction
+  - flex-wrap
+  - flex-shrink
+  - flex-grow
+  - flex
+  - flex-flow
+  - align-content
 article: post
 autor: abatickaya
 ---

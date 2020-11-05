@@ -6,6 +6,13 @@ type: doka
 tags:
   - htmlDoka
   - post
+  - form
+  - <form>
+  - тэг
+  - тег
+  - action
+  - method
+  - форма
 article: post
 autor:
 ---
