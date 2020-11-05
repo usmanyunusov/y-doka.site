@@ -3,8 +3,13 @@ title: function() { }
 name: function
 section: js
 type: doka
-tags: jsDoka
+tags:
+  - jsDoka
 autor: vindi-r
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко

@@ -3,8 +3,13 @@ title: for(iterator; condition; action) {}
 name: for
 section: js
 type: doka
-tags: jsDoka
+tags:
+  - jsDoka
 autor: vindi-r
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко

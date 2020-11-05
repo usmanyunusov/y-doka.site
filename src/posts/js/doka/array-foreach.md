@@ -3,8 +3,13 @@ title: Array.forEach
 name: array-foreach
 section: js
 type: doka
-tags: jsDoka
+tags:
+  - jsDoka
 autor: windrushfarer
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко

@@ -5,10 +5,12 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
+autor: ABatickaya
+co-autors:
+designers:
+contributors:
+summary:
   - visibility
-article: post
-autor:
 ---
 
 ## Кратко
@@ -91,3 +93,5 @@ HTML
   <div class="block">Я простой текст. Наводишь кнопку и я показываюсь</div>
 </div>
 ```
+
+{% include "autors/ABatickaya/autor.njk" %}

@@ -5,14 +5,17 @@ section: html
 type: doka
 tags:
   - htmlDoka
-  - post
+autor: grachev
+co-autors:
+  - ABatickaya
+designers:
+contributors:
+summary:
   - ссылка
   - <a>
   - a
   - тэг
   - тег
-article: post
-autor:
 ---
 
 ## Кратко
@@ -109,7 +112,7 @@ autor:
 
 ## В работе
 
-<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
+{% include "autors/ABatickaya/in-work.njk" %}
 
 🛠 На одностраничных сайтах часто создают навигацию по странице в виде меню. Для прокрутки страницы к нужному месту используют так называемые якорные ссылки.
 
@@ -155,3 +158,5 @@ HTML
   <a href="#">Заголовок, он же ссылка</a>
 </h2>
 ```
+
+{% include "autors/grachev/autor.njk" %}

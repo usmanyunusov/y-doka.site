@@ -3,8 +3,13 @@ title: includes
 name: includes
 section: js
 type: doka
-tags: jsDoka
+tags:
+  - jsDoka
 autor: N_Lopin
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко

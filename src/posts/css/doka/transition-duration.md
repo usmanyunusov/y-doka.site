@@ -5,11 +5,13 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
+autor: ezhkov_d
+co-autors:
+designers:
+contributors:
+summary:
   - transition-duration
   - transition
-article: post
-autor:
 ---
 
 ## Кратко
@@ -90,3 +92,5 @@ transition-duration: unset;
   transition-duration: 0.3s;
 }
 ```
+
+{% include "autors/ezhkov_d/autor.njk" %}

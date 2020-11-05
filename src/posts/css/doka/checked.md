@@ -5,11 +5,13 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
+autor: ABatickaya
+co-autors:
+designers:
+contributors:
+summary:
   - псевдокласс
   - :checked
-article: post
-autor:
 ---
 
 ## Кратко
@@ -80,3 +82,5 @@ input[type="checkbox"]:checked ~ .input-text {
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+{% include "autors/ABatickaya/autor.njk" %}

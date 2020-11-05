@@ -5,12 +5,14 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
+autor: ABatickaya
+co-autors:
+designers:
+contributors:
+summary:
   - box-sizing
   - content-box
   - border-box
-article: post
-autor:
 ---
 
 ## Кратко
@@ -104,7 +106,7 @@ CSS
 
 ## В работе
 
-<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
+{% include "autors/ABatickaya/in-work.njk" %}
 
 🛠Из-за стандартного механизма расчёта размера элемента многие начинающие разработчики получают не те размеры элемента, которые ожидали. При этом есть два решения:
 
@@ -120,3 +122,5 @@ CSS
 ```
 
 Теперь все размеры элементов будут равны тем значениям, что заданы в свойствах `width` / `height`. Так победим 🙌🏻
+
+{% include "autors/ABatickaya/autor.njk" %}

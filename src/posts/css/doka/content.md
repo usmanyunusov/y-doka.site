@@ -5,11 +5,13 @@ section: css
 type: doka
 tags:
   - cssDoka
-  - post
+autor: ezhkov_d
+co-autors:
+designers:
+contributors:
+summary:
   - content
   - псевдоэлемент
-article: post
-autor:
 ---
 
 ## Кратко
@@ -185,3 +187,5 @@ content: unset;
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+{% include "autors/ezhkov_d/autor.njk" %}
