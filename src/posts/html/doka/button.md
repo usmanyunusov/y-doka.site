@@ -1,10 +1,6 @@
 ---
 title: <button>
 name: button
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: grachev
 co-autors:
   - ABatickaya

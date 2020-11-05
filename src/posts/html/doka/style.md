@@ -1,10 +1,6 @@
 ---
 title: <style>
 name: style
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: grachev
 co-autors:
   - ABatickaya

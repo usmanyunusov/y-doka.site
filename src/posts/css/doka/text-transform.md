@@ -1,10 +1,6 @@
 ---
 title: text-transform
 name: text-transform
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
 designers:

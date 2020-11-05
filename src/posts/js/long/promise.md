@@ -1,9 +1,6 @@
 ---
 title: Promise
 name: promise
-section: js
-type: long
-tags: jsLong
 autor:
 co-autors:
 designers:

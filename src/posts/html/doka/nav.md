@@ -1,10 +1,6 @@
 ---
 title: <nav>
 name: nav
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: vladimir
 co-autors:
   - grachev

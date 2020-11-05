@@ -1,10 +1,6 @@
 ---
 title: <section>
 name: section
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: vladimir
 co-autors:
   - ABatickaya

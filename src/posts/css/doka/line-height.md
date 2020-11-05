@@ -1,10 +1,6 @@
 ---
 title: line-height
 name: line-height
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: grachev
 co-autors:
 designers:

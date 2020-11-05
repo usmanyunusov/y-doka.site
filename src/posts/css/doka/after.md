@@ -1,10 +1,6 @@
 ---
 title: ::after
 name: after
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ezhkov_d
 co-autors:
 designers:

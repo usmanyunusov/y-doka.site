@@ -1,10 +1,6 @@
 ---
 title: font-style
 name: font-style
-section: css
-type: doka
-tags:
-  - cssDoka
 article: post
 autor: grachev
 co-autors:

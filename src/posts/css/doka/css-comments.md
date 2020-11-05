@@ -1,10 +1,6 @@
 ---
 title: Комментарий в CSS
 name: css-comments
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
   - furtivite

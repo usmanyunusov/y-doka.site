@@ -1,10 +1,6 @@
 ---
 title: vertical-align
 name: vertical-align
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
 designers:

@@ -1,10 +1,6 @@
 ---
 title: Array.filter
 name: array-filter
-section: js
-type: doka
-tags:
-  - jsDoka
 autor: windrushfarer
 co-autors:
 designers:

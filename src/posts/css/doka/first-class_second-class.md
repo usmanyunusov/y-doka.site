@@ -1,10 +1,6 @@
 ---
 title: .first-class .second-class
 name: first-class_second-class
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
 designers:

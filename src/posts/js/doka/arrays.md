@@ -1,10 +1,6 @@
 ---
 title: Массивы
 name: arrays
-section: js
-type: doka
-tags:
-  - jsDoka
 autor: N_Lopin
 co-autors:
 designers:

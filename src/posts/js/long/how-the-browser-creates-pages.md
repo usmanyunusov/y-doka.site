@@ -1,9 +1,6 @@
 ---
 title: Как браузер рисует страницы
 name: how-the-browser-creates-pages
-section: js
-type: long
-tags: jsLong
 autor: bespoyasov
 co-autors:
 designers:

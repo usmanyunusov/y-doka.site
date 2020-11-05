@@ -1,10 +1,6 @@
 ---
 title: function() { }
 name: function
-section: js
-type: doka
-tags:
-  - jsDoka
 autor: vindi-r
 co-autors:
 designers:

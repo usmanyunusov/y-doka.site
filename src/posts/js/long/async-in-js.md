@@ -1,9 +1,6 @@
 ---
 title: Асинхронность в JS
 name: async-in-js
-section: js
-type: long
-tags: jsLong
 autor:
 co-autors:
 designers:

@@ -1,10 +1,6 @@
 ---
 title: transition-property
 name: transition-property
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ezhkov_d
 co-autors:
 designers:

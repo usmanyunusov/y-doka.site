@@ -1,10 +1,6 @@
 ---
 title: transition-duration
 name: transition-duration
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ezhkov_d
 co-autors:
 designers:

@@ -1,10 +1,6 @@
 ---
 title: <span>
 name: span
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: vladimir
 co-autors:
   - ABatickaya

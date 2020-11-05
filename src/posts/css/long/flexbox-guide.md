@@ -1,10 +1,6 @@
 ---
 title: Гайд по flexbox
 name: flexbox-guide
-section: css
-type: long
-tags:
-  - cssLong
 autor: ABatickaya
 co-autors:
   - furtivite

@@ -1,10 +1,6 @@
 ---
 title: <title>
 name: title
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: grachev
 co-autors:
   - vladimir

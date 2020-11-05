@@ -1,10 +1,6 @@
 ---
 title: font-family
 name: font-family
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: grachev
 co-autors:
   - vladimir
