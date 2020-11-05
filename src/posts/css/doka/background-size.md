@@ -6,8 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
-
-autor:
+autor: ABatickaya
 co-autors:
 designers:
 contributors:
@@ -138,3 +137,5 @@ CSS
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 Попробуй поменять размеры фоновой картинки и посмотреть, как будет меняться фоновый паттерн.
+
+{% include "autors/ABatickaya/autor.njk" %}

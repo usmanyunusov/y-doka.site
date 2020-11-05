@@ -6,8 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
-
-autor:
+autor: ABatickaya
 co-autors:
 designers:
 contributors:
@@ -148,3 +147,5 @@ CSS
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 Теперь если даже в меню добавится ещё пара пунктов, то они также будут отображаться заглавными буквами.
+
+{% include "autors/ABatickaya/autor.njk" %}

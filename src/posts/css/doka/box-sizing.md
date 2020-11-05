@@ -6,8 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
-
-autor:
+autor: ABatickaya
 co-autors:
 designers:
 contributors:
@@ -121,3 +120,5 @@ CSS
 ```
 
 Теперь все размеры элементов будут равны тем значениям, что заданы в свойствах `width` / `height`. Так победим 🙌🏻
+
+{% include "autors/ABatickaya/autor.njk" %}

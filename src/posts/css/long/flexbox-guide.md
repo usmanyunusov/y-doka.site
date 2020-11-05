@@ -372,7 +372,7 @@ flex: unset;
 
 Получаем выровненный по центру вложенный блок.
 
-<h3>Егор, <a href="https://twitter.com/furtivite" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@furtivite</a></h3>
+{% include "autors/furtivite/in-work.njk" %}
 
 Цель крутого front-end'ера решать задачи бизнеса, а не писать много кода. центрирование блока внутри родителя можно сократить до двух строк:
 
@@ -383,7 +383,7 @@ flex: unset;
 
 ## В работе
 
-<h3>Егор, <a href="https://twitter.com/furtivite" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@furtivite</a></h3>
+{% include "autors/furtivite/in-work.njk" %}
 
 Во время работы стоит быть особенно внимательным со свойствами, которые меняют внешнее расположение элементов внутри flex-контейнера: например `flex-direction: row-reverse` или `column-reverse`, а так же свойством `order`.
 

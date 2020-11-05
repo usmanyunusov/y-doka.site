@@ -6,8 +6,7 @@ type: doka
 tags:
   - cssDoka
   - post
-
-autor:
+autor: ABatickaya
 co-autors:
 designers:
 contributors:
@@ -94,3 +93,5 @@ HTML
   <div class="block">Я простой текст. Наводишь кнопку и я показываюсь</div>
 </div>
 ```
+
+{% include "autors/ABatickaya/autor.njk" %}

@@ -6,9 +6,9 @@ type: doka
 tags:
   - cssDoka
   - post
-
-autor:
+autor: ABatickaya
 co-autors:
+  - furtivite
 designers:
 contributors:
 summary:
@@ -156,7 +156,7 @@ p {
 
 🛠 Отдельные свойства — `text-decoration-line`, `text-decoration-style` и `text-decoration-color` — редко встречаются в вёрстке, но знать о них нужно, чтобы при необходимости не переписывать свойство целиком только для изменения стиля или цвета линии.
 
-<h3>Егор, <a href="https://twitter.com/furtivite" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@furtivite</a></h3>
+{% include "autors/furtivite/in-work.njk" %}
 
 Иногда вам может потребоваться управлять расстоянием между текстом и линией ниже. Обычно это делается, через свойство `line-height`. Чем больше высота строки, тем ниже будет полоса подчеркивания.
 
@@ -238,3 +238,5 @@ header {
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+{% include "autors/ABatickaya/autor.njk" %}

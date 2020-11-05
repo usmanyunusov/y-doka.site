@@ -230,3 +230,5 @@ CSS
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 Для `.header` можно задать любую картинку фоном и поверх неё всегда будет фиолетовый оверлэй 💁‍♀️
+
+{% include "autors/ABatickaya/autor.njk" %}

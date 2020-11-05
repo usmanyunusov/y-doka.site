@@ -159,7 +159,7 @@ background-image: radial-gradient(#e66465, #9198e5);
 
 Имеет смысл ставить картинку как бэкграунд только тогда, когда `img` использовать невозможно.
 
-<h3>Егор, <a href="https://twitter.com/furtivite" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@furtivite</a></h3>
+{% include "autors/furtivite/in-work.njk" %}
 
 Стоит понимать разницу между `div` с фоновой картинкой и, собственно, картинкой `img`. У картинки можно указывать только один параметр размера: высоту или ширину, и браузер сам рассчитает второй. У блока с фоном надо указывать оба параметра.
 
