@@ -1,10 +1,6 @@
 ---
 title: promt()
 name: promt
-section: js
-type: doka
-tags:
-  - jsDoka
 autor: vindi-r
 co-autors:
 designers:

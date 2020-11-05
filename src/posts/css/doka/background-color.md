@@ -1,10 +1,6 @@
 ---
 title: background-color
 name: background-color
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
 designers:

@@ -1,10 +1,6 @@
 ---
 title: color
 name: color
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: grachev
 co-autors:
   - vladimir

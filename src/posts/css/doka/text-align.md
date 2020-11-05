@@ -1,10 +1,6 @@
 ---
 title: text-align
 name: text-align
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
 designers:

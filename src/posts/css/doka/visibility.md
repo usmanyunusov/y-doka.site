@@ -1,10 +1,6 @@
 ---
 title: visibility
 name: visibility
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
 designers:

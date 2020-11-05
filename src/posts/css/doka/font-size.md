@@ -1,10 +1,6 @@
 ---
 title: font-size
 name: font-size
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: grachev
 co-autors:
   - vladimir

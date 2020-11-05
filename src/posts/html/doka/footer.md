@@ -1,10 +1,6 @@
 ---
 title: <footer>
 name: footer
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: vladimir
 co-autors:
 designers:

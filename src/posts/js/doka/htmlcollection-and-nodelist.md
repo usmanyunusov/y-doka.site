@@ -1,10 +1,6 @@
 ---
 title: HTMLCollection и NodeList
 name: htmlcollection-and-nodelist
-section: js
-type: doka
-tags:
-  - jsDoka
 autor: N_Lopin
 co-autors:
 designers:

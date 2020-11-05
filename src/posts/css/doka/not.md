@@ -1,10 +1,6 @@
 ---
 title: :not
 name: not
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
 designers:

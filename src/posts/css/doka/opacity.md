@@ -1,10 +1,6 @@
 ---
 title: opacity
 name: opacity
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
 designers:

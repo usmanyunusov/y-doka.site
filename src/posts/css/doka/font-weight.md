@@ -1,10 +1,6 @@
 ---
 title: font-weight
 name: font-weight
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: grachev
 co-autors:
   - ABatickaya

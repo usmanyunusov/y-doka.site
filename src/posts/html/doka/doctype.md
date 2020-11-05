@@ -1,10 +1,6 @@
 ---
 title: <!DOCTYPE>
 name: doctype
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: grachev
 co-autors:
   - vladimir

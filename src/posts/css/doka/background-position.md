@@ -1,10 +1,6 @@
 ---
 title: background-position
 name: background-position
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
 designers:

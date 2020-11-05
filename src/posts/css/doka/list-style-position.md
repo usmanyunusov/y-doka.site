@@ -1,10 +1,6 @@
 ---
 title: list-style-position
 name: list-style-position
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ezhkov_d
 co-autors:
 designers:

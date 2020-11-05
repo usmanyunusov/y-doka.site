@@ -1,10 +1,6 @@
 ---
 title: quotes
 name: quotes
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
 designers:

@@ -1,10 +1,6 @@
 ---
 title: <p>
 name: p
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: vladimir
 co-autors:
   - ABatickaya

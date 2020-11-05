@@ -1,10 +1,6 @@
 ---
 title: <script>
 name: script
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: grachev
 co-autors:
   - ABatickaya

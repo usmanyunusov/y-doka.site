@@ -1,10 +1,6 @@
 ---
 title: var/let
 name: var-let
-section: js
-type: doka
-tags:
-  - jsDoka
 autor: vindi-r
 co-autors:
 designers:

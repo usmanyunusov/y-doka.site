@@ -1,10 +1,6 @@
 ---
 title: <form>
 name: form
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: vladimir
 co-autors:
   - ABatickaya

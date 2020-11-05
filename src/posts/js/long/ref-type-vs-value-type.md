@@ -1,9 +1,6 @@
 ---
 title: Хранение по ссылке vs. по значению
 name: ref-type-vs-value-type
-section: js
-type: long
-tags: jsLong
 autor: windrushfarer
 co-autors:
 designers:

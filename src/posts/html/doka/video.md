@@ -1,10 +1,6 @@
 ---
 title: <video>
 name: video
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: vladimir
 co-autors:
   - grachev

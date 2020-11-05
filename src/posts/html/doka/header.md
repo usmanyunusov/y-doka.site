@@ -1,10 +1,6 @@
 ---
 title: <header>
 name: header
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: vladimir
 co-autors:
   - ABatickaya
