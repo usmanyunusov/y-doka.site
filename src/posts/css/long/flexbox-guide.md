@@ -17,7 +17,6 @@ summary:
   - флекс-элемент
   - основная ось
   - дополнительная ось
-  - display: flex
   - justify-content
   - align-items
   - justify-self

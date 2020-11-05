@@ -12,6 +12,7 @@ contributors:
 summary:
   - content
   - псевдоэлемент
+---
 
 ## Кратко
 
