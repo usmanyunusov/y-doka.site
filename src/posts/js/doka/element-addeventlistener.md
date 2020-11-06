@@ -62,7 +62,7 @@ elem.addEventListener("click", function (e) {
 
 ## В работе
 
-<h3>Миша, <span class="twitter">-</span></h3>
+{% include "autors/vindi-r/in-work.njk" %}
 
 🛠Базовая обработка событий клавиатуры:
 
@@ -80,3 +80,5 @@ elem.addEventListener("click", function (e) {
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+{% include "autors/vindi-r/autor.njk" %}
