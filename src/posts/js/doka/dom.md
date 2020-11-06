@@ -95,7 +95,7 @@ _У любого узла есть один родительский узел и
 
 ## В работе
 
-<h3>Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></h3>
+{% include "autors/n_lopin/in-work.njk" %}
 
 🛠Напрямую с DOM работают редко. Обычно работают на [уровне элементов](/posts/js/doka/element/).
 
@@ -108,6 +108,4 @@ let lastLi = ulElement.querySelector("li:last-child") // среди потомк
 lastLi.style.color = "red" // поменяли цвет шрифта
 ```
 
----
-
-<p>Автор: Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></p>
+{% include "autors/n_lopin/autor.njk" %}

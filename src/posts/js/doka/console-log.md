@@ -51,7 +51,7 @@ console.log(a)
 
 ## В работе
 
-<h3>Миша, <span class="twitter">-</span></h3>
+{% include "autors/vindi-r/in-work.njk" %}
 
 В пространстве `console` существуют различные инструменты. Рассмотрим `console.log` и `console.dir`.
 
@@ -82,3 +82,5 @@ console.dir(a)
 [https://developers.google.com/web/tools/chrome-devtools/console/console-write](https://developers.google.com/web/tools/chrome-devtools/console/console-write)
 
 [https://developer.mozilla.org/en-US/docs/Web/API/Console](https://developer.mozilla.org/en-US/docs/Web/API/Console)
+
+{% include "autors/vindi-r/autor.njk" %}

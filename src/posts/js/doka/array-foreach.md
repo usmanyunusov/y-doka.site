@@ -152,4 +152,4 @@ nums.forEach((num, index, arr) => {
 
 ---
 
-<p>Автор: Егор, <a href="https://twitter.com/Windrushfarer" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@Windrushfarer</a></p>
+{% include "autors/windrushfarer/autor.njk" %}

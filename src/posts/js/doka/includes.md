@@ -49,7 +49,7 @@ console.log(text.includes("Панда")) // false
 
 ## В работе
 
-<h3>Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></h3>
+{% include "autors/n_lopin/in-work.njk" %}
 
 🛠Используй метод, когда нужно убедиться в том, что объект находится в массиве. Например, чтобы не добавить одно и то же значение дважды.
 
@@ -69,6 +69,4 @@ console.log(phoneContacts.includes({ name: "Мама", lastName: "" }))
 // хотя он выглядит так же как и тот, что в массиве
 ```
 
----
-
-<p>Автор: Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></p>
+{% include "autors/n_lopin/autor.njk" %}

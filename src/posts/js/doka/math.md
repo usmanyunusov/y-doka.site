@@ -32,7 +32,7 @@ console.log(Math.abs(-118)) // 118
 
 ## В работе
 
-<h3>Миша, <span class="twitter">-</span></h3>
+{% include "autors/vindi-r/in-work.njk" %}
 
 🛠Используй `Math.random` для [генерации случайных чисел](/posts/js/doka/math-random) в некритичных с точки зрения криптографии местах: выборе случайного элемента из массива и подобных задачах.
 
@@ -56,3 +56,5 @@ console.log(Math.abs(-118)) // 118
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+{% include "autors/vindi-r/autor.njk" %}

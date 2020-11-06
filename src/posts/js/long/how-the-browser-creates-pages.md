@@ -320,7 +320,7 @@ window.requestAnimationFrame(animate)
 */
 ```
 
-№# В работе
+## В работе
 
 Для динамики всегда используйте `transform` и `opacity`, избегайте изменения остальных свойств (типа `left`, `top`, `margin`, `background` и т. д.).
 
@@ -332,4 +332,4 @@ window.requestAnimationFrame(animate)
 
 ---
 
-<p>Автор: Саша, <a href="https://twitter.com/bespoyasov" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@bespoyasov</a></p>
+{% include "autors/bespoyasov/autor.njk" %}

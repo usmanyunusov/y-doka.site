@@ -269,6 +269,4 @@ delete puppy.color
 
 🛠 Популярные в веб-разработке библиотеки `React` и `Redux` сильно завязаны на иммутабельности данных и практически построены на этом.
 
----
-
-<p>Автор: Егор, <a href="https://twitter.com/Windrushfarer" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@Windrushfarer</a></p>
+{% include "autors/windrushfarer/autor.njk" %}

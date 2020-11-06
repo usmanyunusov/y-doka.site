@@ -35,7 +35,7 @@ summary:
 
 ## В работе
 
-<h3>Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></h3>
+{% include "autors/n_lopin/in-work.njk" %}
 
 🛠 Используй индексы для получения отдельных элементов коллекции:
 
@@ -75,6 +75,4 @@ console.log(array.pop())
 
 Такое преобразование обычно не требуется. Подумай, точно ли оно подходит под твою задачу.
 
----
-
-<p>Автор: Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></p>
+{% include "autors/n_lopin/autor.njk" %}
