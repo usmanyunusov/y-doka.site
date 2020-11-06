@@ -52,7 +52,7 @@ console.log(haystack.indexOf("ё")) // напечатает -1
 
 ## В работе
 
-<h3>Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></h3>
+{% include "autors/n_lopin/in-work.njk" %}
 
 ### 🛠 Найти индексы всех подходящих элементов
 
@@ -94,6 +94,4 @@ if (guestList.indexOf(guest) >= 0) {
 
 Дело в том, что JavaScript интерпретирует ненулевые числа как истину (`true`) и будет запускать первую ветку `if`. А на первом госте indexOf вернет `0`, что считается ложным (`false`), и наш скрипт не пустит человека потусить.
 
----
-
-<p>Автор: Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></p>
+{% include "autors/n_lopin/autor.njk" %}

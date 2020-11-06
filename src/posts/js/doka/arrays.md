@@ -144,7 +144,7 @@ console.log(episodesPerSeasons.includes(6)) // напечатает true
 
 ## В работе
 
-<h3>Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></h3>
+{% include "autors/n_lopin/in-work.njk" %}
 
 ### 🛠Копирование массива
 
@@ -194,6 +194,4 @@ let [name, breed] = catProfile
 console.log(name) // напечатает Maru
 ```
 
----
-
-<p>Автор: Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></p>
+{% include "autors/n_lopin/autor.njk" %}

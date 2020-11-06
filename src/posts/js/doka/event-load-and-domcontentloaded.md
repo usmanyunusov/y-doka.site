@@ -56,7 +56,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
 ## В работе
 
-<h3>Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></h3>
+{% include "autors/n_lopin/in-work.njk" %}
 
 🛠 Чаще всего используется `DOMContentLoaded`
 
@@ -66,6 +66,4 @@ window.addEventListener("DOMContentLoaded", function () {
 
 🛠 Событие `load` используется, когда код работает со стилями и другими параметрами отображения. Такой код нужен редко, поэтому и событие используется нечасто.
 
----
-
-<p>Автор: Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></p>
+{% include "autors/n_lopin/autor.njk" %}

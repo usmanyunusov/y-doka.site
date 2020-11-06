@@ -106,7 +106,7 @@ divElement.innerHTML = "<p>I was added from JavaScript</p>" // после вып
 
 ## В работе
 
-<h3>Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></h3>
+{% include "autors/n_lopin/in-work.njk" %}
 
 🛠Если нужно добавить текст в элемент, то всегда используй свойство `textContent`. Другие свойства обрабатывают HTML, это может привести к дырам в безопасности.
 
@@ -138,6 +138,4 @@ let element = document.querySelector("#some-element") // <-- удаляемый 
 element.parentNode.removeChild(element)
 ```
 
----
-
-<p>Автор: Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></p>
+{% include "autors/n_lopin/autor.njk" %}
