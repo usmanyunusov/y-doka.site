@@ -1,10 +1,6 @@
 ---
 title: Math.floor()
 name: math-floor
-section: js
-type: doka
-tags:
-  - jsDoka
 autor: N_Lopin
 co-autors:
 designers:

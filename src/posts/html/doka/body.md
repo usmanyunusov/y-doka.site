@@ -1,10 +1,6 @@
 ---
 title: <body>
 name: body
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: grachev
 co-autors:
   - vladimir

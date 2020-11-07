@@ -1,10 +1,6 @@
 ---
 title: background-size
 name: background-size
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
 designers:

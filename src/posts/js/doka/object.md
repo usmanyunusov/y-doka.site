@@ -1,10 +1,6 @@
 ---
 title: Объект
 name: object
-section: js
-type: doka
-tags:
-  - jsDoka
 autor: vindi-r
 co-autors:
 designers:

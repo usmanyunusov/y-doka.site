@@ -1,10 +1,6 @@
 ---
 title: Array.forEach
 name: array-foreach
-section: js
-type: doka
-tags:
-  - jsDoka
 autor: windrushfarer
 co-autors:
 designers:

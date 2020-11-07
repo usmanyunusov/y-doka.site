@@ -1,10 +1,6 @@
 ---
 title: <blockquote>
 name: blockquote
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: ABatickaya
 co-autors:
 designers:

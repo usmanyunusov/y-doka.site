@@ -1,10 +1,6 @@
 ---
 title: letter-spacing
 name: letter-spacing
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: grachev
 co-autors:
   - vladimir

@@ -1,10 +1,6 @@
 ---
 title: padding
 name: padding
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
   - furtivite

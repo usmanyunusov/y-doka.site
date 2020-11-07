@@ -1,10 +1,6 @@
 ---
 title: box-sizing
 name: box-sizing
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
 designers:

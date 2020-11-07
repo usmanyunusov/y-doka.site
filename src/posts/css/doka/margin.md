@@ -1,10 +1,6 @@
 ---
 title: margin
 name: margin
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: grachev
 co-autors:
   - vladimir

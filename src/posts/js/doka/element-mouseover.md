@@ -1,10 +1,6 @@
 ---
 title: Element.mouseover
 name: element-mouseover
-section: js
-type: doka
-tags:
-  - jsDoka
 autor: N_Lopin
 co-autors:
 designers:

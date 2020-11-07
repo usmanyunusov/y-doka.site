@@ -1,10 +1,6 @@
 ---
 title: for(iterator; condition; action) {}
 name: for
-section: js
-type: doka
-tags:
-  - jsDoka
 autor: vindi-r
 co-autors:
 designers:

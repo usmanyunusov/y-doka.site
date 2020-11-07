@@ -1,10 +1,6 @@
 ---
 title: <audio>
 name: audio
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: vladimir
 co-autors:
 designers:

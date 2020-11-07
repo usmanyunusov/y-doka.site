@@ -1,10 +1,6 @@
 ---
 title: text-decoration
 name: text-decoration
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: ABatickaya
 co-autors:
   - furtivite

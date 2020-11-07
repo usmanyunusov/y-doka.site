@@ -1,10 +1,6 @@
 ---
 title: <hidden>
 name: hidden
-section: html
-type: doka
-tags:
-  - htmlDoka
 autor: ABatickaya
 co-autors:
 designers:

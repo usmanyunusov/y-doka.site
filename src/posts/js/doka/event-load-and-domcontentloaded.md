@@ -1,10 +1,6 @@
 ---
 title: Событие load и DOMContentLoaded
 name: event-load-and-domcontentloaded
-section: js
-type: doka
-tags:
-  - jsDoka
 autor: N_Lopin
 co-autors:
 designers:

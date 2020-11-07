@@ -1,10 +1,6 @@
 ---
 title: background-image
 name: background-image
-section: css
-type: doka
-tags:
-  - cssDoka
 autor: grachev
 co-autors:
 designers:
