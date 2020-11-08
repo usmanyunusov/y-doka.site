@@ -30,6 +30,10 @@
   &__table {
     & table {
       width: 100%;
+
+      & th, & td {
+        padding: 0 .5em;
+      }
     }
 
     &_all-half {
