@@ -26,4 +26,40 @@
     color: #b7b7b7;
     text-transform: uppercase;
   }
+
+  &__table {
+    & table {
+      width: 100%;
+    }
+
+    &_all-half {
+      & table {
+        & th, & td {
+          width: 50%;
+        }
+      }
+    }
+
+    &_all-third {
+      & table {
+        & th, & td {
+          width: 33%;
+        }
+      }
+    }
+
+    &_all-quarter {
+      & table {
+        & th, & td {
+          width: 25%;
+        }
+      }
+    }
+  }
+
+  & details {
+    & summary {
+      cursor: pointer;
+    }
+  }
 }
