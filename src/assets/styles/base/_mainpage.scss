@@ -115,9 +115,10 @@
 
       &:focus-visible + .mainpage__search-toggler,
       &:hover + .mainpage__search-toggler {
-        background: $black;
+        background: transparent;
+        border: $black 1px solid;
         border-radius: 18px;
-        color: $white;
+        color: $gray-darkest;
         position: relative;
       }
 

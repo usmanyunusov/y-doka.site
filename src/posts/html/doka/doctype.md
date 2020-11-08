@@ -47,78 +47,36 @@ summary:
 - <em>Язык</em> — язык, на котором написан текст для описания объекта. Содержит две буквы, пишется в верхнем регистре. Для документа HTML/XHTML указывается английский язык (EN).
 - <em>URL</em> — адрес документа с DTD.
 
-## Типы 🤖
+<details class="article__table article__table_all-half">
+  <summary>Типы 🤖</summary>
 
-<table class="table">
-    <tr>
-        <th colspan="2">
-            HTML 4.01
-        </th>
-    </tr>
-    <tr>
-        <td class="table__item table__item_half"><code>
-            &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
-        </code><td>
-        <td class="table__item table__item_half">Строгий синтаксис HTML</td>
-    <tr>
-    <tr>
-        <td class="table__item table__item_half"><code>
-            &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;
-        </code><td>
-        <td class="table__item table__item_half">Переходный синтаксис HTML</td>
-    <tr>
-    <tr>
-        <td class="table__item table__item_half"><code>
-            &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"&gt;
-        </code><td>
-        <td class="table__item table__item_half">В HTML-документе применяются фреймы</td>
-    <tr>
-    <tr>
-        <th colspan="2">
-            HTML 5
-        </th>
-    </tr>
-    <tr>
-        <td class="table__item table__item_half"><code>
-            &lt;!DOCTYPE html&gt;
-        </code><td>
-        <td class="table__item table__item_half">Для всех документов</td>
-    <tr>
-    <tr>
-        <th colspan="2">
-            XHTML 1.0
-        </th>
-    </tr>
-    <tr>
-        <td class="table__item table__item_half"><code>
-            &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
-        </code><td>
-        <td class="table__item table__item_half">Строгий синтаксис XHTML</td>
-    <tr>
-    <tr>
-        <td class="table__item table__item_half"><code>
-            &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
-        </code><td>
-        <td class="table__item table__item_half">Переходный синтаксис XHTML</td>
-    <tr>
-    <tr>
-        <td class="table__item table__item_half"><code>
-            &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd"&gt;
-        </code><td>
-        <td class="table__item table__item_half">Документ написан на XHTML и содержит фреймы</td>
-    <tr>
-    <tr>
-        <th colspan="2">
-            XHTML 1.1
-        </th>
-    </tr>
-    <tr>
-        <td class="table__item table__item_half"><code>
-            &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"&gt;
-        </code><td>
-        <td class="table__item table__item_half">Разработчики XHTML 1.1 предполагают, что он постепенно вытеснит HTML. Никакого деления на виды это определение не имеет, синтаксис один и подчиняется четким правилам.</td>
-    <tr>
-</table>
+| HTML 4.01 |  |
+| --- | --- |
+| `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">` | Строгий синтаксис HTML |
+| `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">` | Переходный синтаксис HTML |
+| `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">` | В HTML-документе применяются фреймы |
+
+  <br />
+
+| HTML 5            |                     |
+| ----------------- | ------------------- |
+| `<!DOCTYPE html>` | Для всех документов |
+
+  <br />
+
+| XHTML 1.0 |  |
+| --- | --- |
+| `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">` | Строгий синтаксис XHTML |
+| `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">` | Переходный синтаксис XHTML |
+| `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">` | Документ написан на XHTML и содержит фреймы |
+
+  <br />
+
+| XHTML 1.1 |  |
+| --- | --- |
+| `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">` | Разработчики XHTML 1.1 предполагают, что он постепенно вытеснит HTML. Никакого деления на виды это определение не имеет, синтаксис один и подчиняется четким правилам. |
+
+</details>
 
 ## В работе
 
