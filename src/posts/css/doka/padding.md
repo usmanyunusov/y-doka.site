@@ -144,30 +144,16 @@ CSS
 
 🛠Попробуй менять размеры окна браузера и понаблюдать за поведением обоих блоков. Первый будет всегда сохранять пропорции 16:9, а вот второй всегда будет высотой 500 пикселей.
 
-<details>
+<details class="article__table article__table_all-half">
 	<summary>Таблица значений <code>padding-bottom</code> для разных стандартных соотношений сторон:</summary>
-	<table class="table">
-    <tr>
-      <td class="table__item table__item_half">Соотношение сторон</td>
-      <td class="table__item table__item_half">padding-bottom</td>
-    </tr>
-    <tr>
-      <td class="table__item table__item_half">16:9</td>
-      <td class="table__item table__item_half">56.25%</td>
-    </tr>
-    <tr>
-      <td class="table__item table__item_half">4:3</td>
-      <td class="table__item table__item_half">75%</td>
-    </tr>
-    <tr>
-      <td class="table__item table__item_half">3:2</td>
-      <td class="table__item table__item_half">66.66%</td>
-    </tr>
-    <tr>
-      <td class="table__item table__item_half">8:5</td>
-      <td class="table__item table__item_half">62.5%</td>
-    </tr>
-  </table>
+
+| Соотношение сторон | padding-bottom |
+| ------------------ | -------------- |
+| 16:9               | 56.25%         |
+| 4:3                | 75%            |
+| 3:2                | 66.66%         |
+| 8:5                | 62.5%          |
+
 </details>
 
 {% include "autors/furtivite/in-work.njk" %}

@@ -330,6 +330,4 @@ window.requestAnimationFrame(animate)
 
 Это сделает тяжёлую анимацию менее рваной.
 
----
-
 {% include "autors/bespoyasov/autor.njk" %}
