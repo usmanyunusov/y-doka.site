@@ -5,7 +5,7 @@ autor: vladimir
 co-autors:
   - ABatickaya
 designers:
-contributors:
+contributors: skorobaeus
 summary:
   - тэг
   - тег
@@ -96,10 +96,10 @@ HTML
 <header class="demo-header">
   <h1 class="demo-header__title">
     We are
-    <span class="demo-header__title-accent demo-header__title-accent_color"
-      >the best</span
-    >
-    <span class="demo-header__title-accent">company</span>
+    <span class="demo-header__title-accent demo-header__title-accent_color">
+      the best
+    </span>
+    <span class="demo-header__title-accent"> company </span>
   </h1>
 </header>
 ```
@@ -107,6 +107,16 @@ HTML
 CSS
 
 ```css
+.demo-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 480px;
+  background: #18191c url("background.png") no-repeat center / cover;
+  z-index: 0;
+  color: #ffffff;
+}
+
 .demo-header__title {
   max-width: 500px;
   color: #fff;
@@ -119,7 +129,7 @@ CSS
   letter-spacing: 1px;
 }
 
-/* Задаём стили для текста, который нужно выделить */
+/* задаём стили для текста, который нужно выделить */
 .demo-header__title-accent {
   display: block; /* перенос на новую строку */
   font-size: 55px;

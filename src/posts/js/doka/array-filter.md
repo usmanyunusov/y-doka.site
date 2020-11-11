@@ -4,7 +4,7 @@ name: array-filter
 autor: windrushfarer
 co-autors:
 designers:
-contributors:
+contributors: skorobaeus
 summary:
 ---
 

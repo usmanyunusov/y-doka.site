@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .article {
   width: 90%;
   max-width: 900px;
@@ -59,6 +61,24 @@
           width: 25%;
         }
       }
+    }
+  }
+  
+  &__code {
+    border: 1px solid #18191C;
+    position: relative;
+    
+    &:after {
+      content: "Результат";
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      opacity: 0.5;
+      color: white;
+      font-family: "Inter", Arial, sans-serif;
+      font-size: 0.625em;
+      text-transform: uppercase;
+      user-select: none;
     }
   }
 
