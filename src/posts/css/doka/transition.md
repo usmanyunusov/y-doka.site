@@ -1,13 +1,12 @@
 ---
 title: transition
 name: transition
-section: css
-type: doka
-tags:
-  - cssDoka
-  - post
-article: post
-autor:
+autor: ezhkov_d
+co-autors:
+designers:
+contributors:
+summary:
+  - transition
 ---
 
 ## Кратко
@@ -183,3 +182,5 @@ transition: all 0.5s ease-out;
 Если использовать только `opacity`, то элемент станет невидимым, но будет доступен для взаимодействия с мышкой и клавиатурой.
 
 Если использовать только `visibility`, то скрытие/появление не будет плавным.
+
+{% include "autors/ezhkov_d/autor.njk" %}

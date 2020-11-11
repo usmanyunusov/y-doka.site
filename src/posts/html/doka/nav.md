@@ -1,13 +1,17 @@
 ---
 title: <nav>
 name: nav
-section: html
-type: doka
-tags:
-  - htmlDoka
-  - post
-article: post
-autor:
+autor: vladimir
+co-autors:
+  - grachev
+designers:
+contributors:
+summary:
+  - тэг
+  - тег
+  - nav
+  - <nav>
+  - навигация
 ---
 
 ## Кратко
@@ -102,6 +106,8 @@ nav {
 
 ## В работе
 
-<h3>Владимир, <span class="twitter">-</span></h3>
+{% include "autors/vladimir/in-work.njk" %}
 
 🛠 `<nav>` — это набор функционально важных ссылок по разделам сайта. Важно выделить `<nav>`, чтобы поисковик понял, что находится в этом блоке.
+
+{% include "autors/vladimir/autor.njk" %}

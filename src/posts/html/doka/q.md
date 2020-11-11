@@ -1,13 +1,16 @@
 ---
 title: <q>
 name: q
-section: html
-type: doka
-tags:
-  - htmlDoka
-  - post
-article: post
-autor:
+autor: ABatickaya
+co-autors:
+designers:
+contributors:
+summary:
+  - тэг
+  - тег
+  - q
+  - <q>
+  - цитата
 ---
 
 ## Кратко
@@ -71,3 +74,5 @@ autor:
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 Обратите внимание, что кавычки в этом примере отличаются от стандартных, они соответствуют тем кавычкам, которые ставятся в латинизированном японском тексте.
+
+{% include "autors/ABatickaya/autor.njk" %}

@@ -1,10 +1,11 @@
 ---
 title: Promise
 name: promise
-section: js
-type: long
-tags: jsLong
 autor:
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 <div class="callout">
@@ -121,7 +122,7 @@ promisifiedGetData()
 
 **`then`**
 
-Детальное описание работы `then` описано в статье [Promise. Метод `then`](https://www.notion.so/Promise-then-3009076eb0614149adf971a0297cbb8c)
+Детальное описание работы `then` описано в статье [Promise. Метод `then`]()
 
 Метод `then` используют, чтобы выполнить код после успешного выполнения асинхронной операции.
 
@@ -142,7 +143,7 @@ fetch(`https://swapi.dev/api/films/${id}/`).then(function (movies) {
 
 **`catch`**
 
-Детальное описание работы `catch` описано в статье [Promise. Метод catch](https://www.notion.so/Promise-catch-f2b5abec3ee049369945ffc6f10da62f)
+Детальное описание работы `catch` описано в статье [Promise. Метод catch]()
 
 Метод `catch` используют, чтобы выполнить код в случае ошибки при выполнении асинхронной операции.
 
@@ -163,7 +164,7 @@ fetch(`https://swapi.dev/api/films/${id}/`).catch(function (error) {
 
 **finally**
 
-Детальное описание работы `finally` описано в [Promise. Метод finally](https://www.notion.so/Promise-finally-d4e6ff9723f04c9389368ebb82d59f99)
+Детальное описание работы `finally` описано в [Promise. Метод finally]()
 
 Метод `finally` используют, чтобы выполнить код при завершении асинхронной операции. Он будет выполнен вне зависимости от того, была ли операция успешной или завершилась ошибкой.
 

@@ -1,13 +1,12 @@
 ---
 title: background-repeat
 name: background-repeat
-section: css
-type: doka
-tags:
-  - cssDoka
-  - post
-article: post
-autor:
+autor: ABatickaya
+co-autors:
+designers:
+contributors:
+summary:
+  - background-repeat
 ---
 
 ## Кратко
@@ -88,7 +87,7 @@ CSS
 
 ## В работе
 
-<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
+{% include "autors/ABatickaya/in-work.njk" %}
 
 `background-repeat` — свойство простое. Написано повторять — повторяем фон. Написано не повторять — не повторяем.
 
@@ -124,3 +123,5 @@ CSS
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+{% include "autors/ABatickaya/autor.njk" %}

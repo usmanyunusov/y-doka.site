@@ -1,13 +1,12 @@
 ---
 title: background-size
 name: background-size
-section: css
-type: doka
-tags:
-  - cssDoka
-  - post
-article: post
-autor:
+autor: ABatickaya
+co-autors:
+designers:
+contributors:
+summary:
+  - background-size
 ---
 
 ## Кратко
@@ -101,7 +100,7 @@ CSS
 
 ## В работе
 
-<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
+{% include "autors/ABatickaya/in-work.njk" %}
 
 🛠Если для задания фона используется шорткат `background`, то значение для `background-size` указывается последним, после слэша `/`. Пример: `background: url('example.jpg') no-repeat center / **cover**`
 
@@ -134,3 +133,5 @@ CSS
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 Попробуй поменять размеры фоновой картинки и посмотреть, как будет меняться фоновый паттерн.
+
+{% include "autors/ABatickaya/autor.njk" %}

@@ -1,13 +1,22 @@
 ---
 title: <audio>
 name: audio
-section: html
-type: doka
-tags:
-  - htmlDoka
-  - post
-article: post
-autor:
+autor: vladimir
+co-autors:
+designers:
+contributors:
+summary:
+  - audio
+  - аудио
+  - controls
+  - source
+  - loop
+  - muted
+  - preload
+  - autoplay
+  - тэг
+  - тег
+  - аудио
 ---
 
 ## Кратко
@@ -109,7 +118,7 @@ HTML
 
 ## В работе
 
-<h3>Владимир, <span class="twitter">-</span></h3>
+{% include "autors/vladimir/in-work.njk" %}
 
 🛠 Я не очень люблю этот тэг в чистом виде, потому что каждый браузер воспринимает аудио по своему. Поэтому лучше юзать какой-нибудь плеер, но это уже не без помощи JavaScript. Примеры можно найти здесь:
 
@@ -120,3 +129,5 @@ HTML
 [https://github.com/andrewngu/sound-redux](https://github.com/andrewngu/sound-redux)
 
 [https://forms.yandex.ru/u/5f020ba34d73a2405828a128/?iframe=1](https://forms.yandex.ru/u/5f020ba34d73a2405828a128/?iframe=1)
+
+{% include "autors/vladimir/autor.njk" %}

@@ -1,13 +1,12 @@
 ---
 title: background-color
 name: background-color
-section: css
-type: doka
-tags:
-  - cssDoka
-  - post
-article: post
-autor:
+autor: ABatickaya
+co-autors:
+designers:
+contributors:
+summary:
+  - background-color
 ---
 
 ## Кратко
@@ -102,7 +101,7 @@ selector {
 
 ## В работе
 
-<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
+{% include "autors/ABatickaya/in-work.njk" %}
 
 🛠Если нужна красивая кнопка (`button`), то не забудь \*сбросить\* фон: укажи для `background-color: transparent`. Или тот цвет фона, который нужен по дизайну. По умолчанию у всех кнопок серый фон с приветом из девяностых.
 
@@ -227,3 +226,5 @@ CSS
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 Для `.header` можно задать любую картинку фоном и поверх неё всегда будет фиолетовый оверлэй 💁‍♀️
+
+{% include "autors/ABatickaya/autor.njk" %}

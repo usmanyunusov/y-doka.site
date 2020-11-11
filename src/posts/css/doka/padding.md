@@ -1,13 +1,13 @@
 ---
 title: padding
 name: padding
-section: css
-type: doka
-tags:
-  - cssDoka
-  - post
-article: post
-autor:
+autor: ABatickaya
+co-autors:
+  - furtivite
+designers:
+contributors:
+summary:
+  - padding
 ---
 
 ## Кратко
@@ -104,7 +104,7 @@ CSS
 
 ## В работе
 
-<h3>Алёна, <a href="https://twitter.com/ABatickaya" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@ABatickaya</a></h3>
+{% include "autors/ABatickaya/in-work.njk" %}
 
 🛠Самая прикольная фишка, которую можно реализовать при помощи `padding` — адаптивные картинки, которые при изменении ширины экрана изменяют свой размер, но не деформируются.
 
@@ -144,32 +144,20 @@ CSS
 
 🛠Попробуй менять размеры окна браузера и понаблюдать за поведением обоих блоков. Первый будет всегда сохранять пропорции 16:9, а вот второй всегда будет высотой 500 пикселей.
 
-<details>
+<details class="article__table article__table_all-half">
 	<summary>Таблица значений <code>padding-bottom</code> для разных стандартных соотношений сторон:</summary>
-	<table class="table">
-    <tr>
-      <td class="table__item table__item_half">Соотношение сторон</td>
-      <td class="table__item table__item_half">padding-bottom</td>
-    </tr>
-    <tr>
-      <td class="table__item table__item_half">16:9</td>
-      <td class="table__item table__item_half">56.25%</td>
-    </tr>
-    <tr>
-      <td class="table__item table__item_half">4:3</td>
-      <td class="table__item table__item_half">75%</td>
-    </tr>
-    <tr>
-      <td class="table__item table__item_half">3:2</td>
-      <td class="table__item table__item_half">66.66%</td>
-    </tr>
-    <tr>
-      <td class="table__item table__item_half">8:5</td>
-      <td class="table__item table__item_half">62.5%</td>
-    </tr>
-  </table>
+
+| Соотношение сторон | padding-bottom |
+| ------------------ | -------------- |
+| 16:9               | 56.25%         |
+| 4:3                | 75%            |
+| 3:2                | 66.66%         |
+| 8:5                | 62.5%          |
+
 </details>
 
-### Егор, frontend-ниндзя
+{% include "autors/furtivite/in-work.njk" %}
 
 🛠 Чтобы понять `padding` представьте лист бумаги с напечатанным на принтере текстом. Видите эти отступы по краям листа? Они внутри и это тот самый `padding`! `padding` стоит использовать, чтобы указать отступы от краёв блока и навсегда отказаться от `margin-top`. Правильно задав границы, вы сможете упорядочить все прочие отступы у элементов внутри вашего блока.
+
+{% include "autors/ABatickaya/autor.njk" %}

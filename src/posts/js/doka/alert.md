@@ -1,10 +1,11 @@
 ---
 title: alert()
 name: alert
-section: js
-type: doka
-tags: jsDoka
-autor:
+autor: vindi-r
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко
@@ -66,7 +67,7 @@ alert({ text: "Some message" }) // [object Object]
 
 ## В работе
 
-<h3>Миша, <span class="twitter">-</span></h3>
+{% include "autors/vindi-r/in-work.njk" %}
 
 🛠Ниже представлен пример использования alert() с самостоятельно созданным диалоговым окном:
 
@@ -76,3 +77,5 @@ alert({ text: "Some message" }) // [object Object]
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+{% include "autors/vindi-r/autor.njk" %}

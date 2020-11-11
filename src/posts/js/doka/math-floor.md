@@ -1,10 +1,11 @@
 ---
 title: Math.floor()
 name: math-floor
-section: js
-type: doka
-tags: jsDoka
-autor:
+autor: N_Lopin
+co-autors:
+designers:
+contributors:
+summary:
 ---
 
 ## Кратко
@@ -36,7 +37,7 @@ console.log(Math.floor(num)) // 15
 
 ## В работе
 
-<h3>Николай, <a href="https://twitter.com/N_Lopin" target="_blank" rel="nofollow noopener noreferrer" class="twitter">@N_Lopin</a></h3>
+{% include "autors/n_lopin/in-work.njk" %}
 
 🛠 Разные виды округления нужны в разных ситуациях:
 
