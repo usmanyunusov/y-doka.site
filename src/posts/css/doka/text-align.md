@@ -4,7 +4,7 @@ name: text-align
 autor: ABatickaya
 co-autors:
 designers:
-contributors:
+contributors: skorobaeus
 summary:
   - text-align
 ---
