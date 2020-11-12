@@ -56,6 +56,8 @@ a::before {
 
 ## В работе
 
+{% include "autors/ezhkov_d/in-work.njk" %}
+
 🛠 Псевдоэлемент `::before` очень часто используют для стилизации нестандартных маркеров списка:
 
 <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="ezhkov" data-slug-hash="bGpgxBQ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Псевдоэлемент ::before">
