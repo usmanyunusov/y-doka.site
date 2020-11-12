@@ -6,7 +6,7 @@ co-autors:
 designers:
 contributors:
 summary:
-  - псевддокласс
+  - псевдокласс
 ---
 
 ## Кратко
