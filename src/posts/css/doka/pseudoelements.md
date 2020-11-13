@@ -4,7 +4,7 @@ name: pseudoelements
 autor: ABatickaya
 co-autors:
 designers:
-contributors:
+contributors: furtivite
 summary:
   - псевдоэлемент
   - селекторы
@@ -199,7 +199,7 @@ summary:
 С помощью псевдоэлемента `::selection` можно управлять стилем текста, который пользователь выделяет при помощи мыши.
 
 <div style="text-align: center">
-    <img src="/assets/images/posts/pseudoelements/::selection.png">
+    <img src="/assets/images/posts/pseudoelements/selection.png">
 </div>
 
 Текст на сайте [Smashing Magazine](https://www.smashingmagazine.com/) выделяется красным цветом. Использование псевдоэлемента `::selection` позволяет выдержать стиль оформления во всём, вплоть до такой мелочи, как выделение текста.
@@ -233,7 +233,7 @@ summary:
 ```
 
 <div style="text-align: center">
-    <img src="/assets/images/posts/pseudoelements/::placeholder.png">
+    <img src="/assets/images/posts/pseudoelements/placeholder.png">
 </div>
 
 По-умолчанию цвет текста подсказки серый. Но иногда по дизайну требуется другой цвет.
