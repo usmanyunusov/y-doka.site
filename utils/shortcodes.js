@@ -1,4 +1,5 @@
 const outdent = require("outdent")
+const path = require("path")
 
 module.exports = {
   icon: function (name) {
@@ -9,7 +10,7 @@ module.exports = {
   demo: function (demoName, title = "", height = 400) {
     return outdent`
       <iframe
-        src="/demos/${demoName}"
+        src="${path.join("/demos", demoName)}"
         title="${title}"
         height="${height}"
         onload="this.style.height = this.contentWindow.document.body.scrollHeight + 'px'"
