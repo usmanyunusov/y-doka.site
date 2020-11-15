@@ -93,7 +93,7 @@ searchInput.addEventListener("keydown", (event) => {
         .filter(
           (article) =>
             article.title.includes(searchPhrase) ||
-            (article.summary || []).join(" ").includes(searchPhrase)
+            article.summary.includes(searchPhrase)
         )
         .slice(0, 5)
         .forEach((item) => {

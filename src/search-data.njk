@@ -13,8 +13,7 @@ permalink: search-data.json
   {% endif %}
   {
   "title": "{{ item.data.title | lower | safe }}",
-  "summary" : "{{ item.summary | lower | safe }}",
-  "section" : "{{ item.section | lower }}",
+  "summary" : "{{ item.data.summary | default( [], true) | join(" ") | safe }}",
   "type" : "{{ item.type | lower }}",
   "url": "{{defaultURL}}",
   "tags" : "{{ item.data.tags | safe }}"
