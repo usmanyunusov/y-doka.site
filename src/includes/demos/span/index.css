@@ -1,19 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
-.demo-body {
+.article__code {
   padding: 5%;
   background-color: #18191c;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
 
-.demo-body p {
+.article__code_1 {
+  padding: 0;
+}
+
+.article__code p {
   font-size: 18px;
   line-height: 27px;
 }
 
-.demo-body .author {
+.article__code .author {
   padding: 10px 0;
   border-top: 1px solid #ed6742;
   font-style: italic;
@@ -21,7 +24,7 @@
   font-weight: 300;
 }
 
-.demo-body .letter {
+.article__code .letter {
   float: left;
   margin-right: 7px;
   color: #ed6742;
@@ -30,11 +33,10 @@
   line-height: 52px;
 }
 
-.demo-header {
+.article__code .demo-header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   min-height: 480px;
   background: #18191c
     url("https://y-doka.site/assets/images/posts/span/background.png") no-repeat
@@ -43,7 +45,7 @@
   color: #ffffff;
 }
 
-.demo-header__title {
+.article__code .demo-header__title {
   max-width: 500px;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -55,14 +57,14 @@
   letter-spacing: 1px;
 }
 
-.demo-header__title-accent {
+.article__code .demo-header__title-accent {
   display: block;
   font-size: 55px;
   line-height: 58px;
   font-weight: bold;
 }
 
-.demo-header__title-accent_color {
+.article__code .demo-header__title-accent_color {
   color: #f498ad;
   background-color: #ed6742;
 }

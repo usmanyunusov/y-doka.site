@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-.demo-body * {
+.article__code * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.demo-body {
+.article__code {
   margin: 0;
   padding: 5%;
   background-color: #18191c;
@@ -15,36 +14,36 @@
   font-family: "Roboto", sans-serif;
 }
 
-.demo-body pre {
+.article__code pre {
   font-family: "Roboto Mono";
-      white-space: pre;
+  white-space: pre-wrap;
   background-color: #18191c;
   color: #ffffff;
 }
 
-.demo-body h2 {
+.article__code h2 {
   font-size: 22px;
   font-weight: 500;
-  margin-top: 45px;
+  margin-top: 35px;
   margin-bottom: 10px;
 }
 
-.demo-body h2:first-child {
+.article__code h2:first-child {
   margin-top: 0;
 }
 
-.demo-body .header-container {
+.article__code .header-container {
   margin-top: 10px;
   margin-bottom: 45px;
 }
 
-.demo-body .header-container pre,
-.demo-body .does-container pre {
+.article__code .header-container pre,
+.article__code .does-container pre {
   padding: 15px 0;
   border-bottom: 1px solid #5e6064;
 }
 
-.demo-body .does-container {
+.article__code .does-container {
   display: flex;
   align-items: flex-end;
 }
@@ -58,7 +57,7 @@
   flex-grow: 1;
 }
 
-.demo-body .button {
+.article__code .button {
   min-width: 200px;
   border: 1px solid;
   padding: 10px;
@@ -66,65 +65,64 @@
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
 
-.demo-body .button:hover {
+.article__code .button:hover {
   border: 1px solid #ffffff;
   color: #ffffff;
   background-color: #18191c;
   cursor: pointer;
 }
 
-.demo-body .button:focus {
+.article__code .button:focus {
   outline: 1px solid #ffffff;
 }
 
-.demo-body .green {
+.article__code .green {
   background-color: #49a16c;
   border-color: #49a16c;
 }
 
-.demo-body .green:hover {
+.article__code .green:hover {
   border-color: #49a16c;
 }
 
-.demo-body .blue {
+.article__code .blue {
   background-color: #1a5ad7;
   border-color: #1a5ad7;
 }
 
-.demo-body .blue:hover {
+.article__code .blue:hover {
   border-color: #0882ff;
 }
 
-.demo-body .items {
+.article__code .items {
   display: flex;
   min-height: 42px;
 }
 
-.demo-body .item {
-  width: 60px;
-  height: 40px;
+.article__code .item {
+  width: 50px;
+  height: 32px;
   border: 1px solid #ffffff;
   color: #ffffff;
-  font-size: 1.5rem;
   text-align: center;
-  line-height: 38px;
+  line-height: 30px;
 }
 
-.demo-body .item + .item {
+.article__code .item + .item {
   margin-left: 10px;
 }
 
-.demo-body .active {
+.article__code .active {
   border-color: #ffd829;
   background-color: #ffd829;
   color: #ffffff;
 }
 
-.demo-body .execute {
-  min-height: 53px;
+.article__code .execute {
+  min-height: 57px;
   padding: 15px 0;
   border-bottom: 1px solid #5e6064;
 }

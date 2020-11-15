@@ -76,6 +76,7 @@
 
   &__search-toggler {
     padding: 2px 10px;
+    border: transparent 1px solid;
     border-radius: 18px;
     font-size: 14px;
     line-height: 1.67;
@@ -116,7 +117,7 @@
       &:focus-visible + .mainpage__search-toggler,
       &:hover + .mainpage__search-toggler {
         background: transparent;
-        border: $black 1px solid;
+        border-color: $black;
         border-radius: 18px;
         color: $gray-darkest;
         position: relative;

@@ -1,13 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
-.demo-body {
+.article__code {
   padding: 5%;
   background-color: #18191c;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
 
-.demo-container {
+.article__code .demo-container {
   padding: 8px 12px;
   background-color: #e6e6e6;
   color: #18191c;
