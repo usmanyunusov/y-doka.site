@@ -21,7 +21,7 @@ summary:
 
 ## Пример
 
-{% demo "/div/index.njk" %}
+{% demo "/div/" %}
 
 HTML
 

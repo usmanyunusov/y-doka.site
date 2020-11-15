@@ -74,7 +74,7 @@ summary:
 }
 ```
 
-{% demo "/span/show.njk" %}
+{% demo "/span/show" %}
 
 ## В работе
 
