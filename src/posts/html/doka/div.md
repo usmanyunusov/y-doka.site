@@ -21,7 +21,7 @@ summary:
 
 ## Пример
 
-{% include "demos/div/index.njk" %}
+{% demo "/div/index.njk" %}
 
 HTML
 

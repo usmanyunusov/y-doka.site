@@ -20,7 +20,7 @@
   "author": "Doka.Team",
   "license": "MIT + CC BY-NC-SA 4.0",
   "dependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@babel/core": "^7.9.0",
     "@babel/plugin-transform-runtime": "^7.10.5",
@@ -37,6 +37,7 @@
     "markdown-it": "^10.0.0",
     "memfs": "^3.1.2",
     "node-sass": "^4.13.1",
+    "outdent": "^0.7.1",
     "sass": "^1.26.12",
     "svg-sprite": "^1.5.0",
     "webpack": "^4.42.1"

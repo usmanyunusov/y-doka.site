@@ -232,7 +232,7 @@ fetch(`https://swapi.dev/api/films/${id}/`)
 
 **Обработка ошибок в цепочках методов**
 
-{% include "demos/promise-chain/index.njk" %}
+{% demo "/promise-chain/index.njk" %}
 
 Цепочки `then` при обработке промисов могут быть очень большими. В примере выше цепочка состоит из 4 `then` и одного `catch`. Как в этом случае отработает `catch`?
 
