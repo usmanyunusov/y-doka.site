@@ -6,7 +6,7 @@ co-autors:
   - ABatickaya
   - vladimir
 designers:
-contributors:
+contributors: skorobaeus
 summary:
   - div
   - <div>
