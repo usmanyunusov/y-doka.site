@@ -161,9 +161,7 @@ selector {
 
 **Пример макета:**
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/width/width.png">
-</div>
+![/assets/images/posts/width/width.png](/assets/images/posts/width/width.png)
 
 **Как не надо делать:**
 

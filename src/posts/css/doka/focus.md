@@ -17,9 +17,7 @@ summary:
 
 Элементы формы могут получить фокус и при клике мышкой на него. Например, если кликнуть по кнопке или в поле ввода текста, то им будет добавлен псевдокласс `:focus`.
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/focus/focus-gif.gif">
-</div>
+![/assets/images/posts/focus/focus-gif.gif](/assets/images/posts/focus/focus-gif.gif)
 
 ## Пример
 

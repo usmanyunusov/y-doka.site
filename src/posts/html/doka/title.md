@@ -31,7 +31,9 @@ summary:
 
 <details>
   <summary>🧩 На самом деле смайлики и служебные символы тоже можно 😉 Но осторожно!</summary>
-  <img src="/assets/images/posts/title/title.png" alt="Пример использования смайликов">
+
+![/assets/images/posts/title/title.png](/assets/images/posts/title/title.png)
+
 </details>
 
 ## Подсказки

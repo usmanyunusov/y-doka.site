@@ -64,31 +64,25 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 - **грид-элемент**: дочерний элемент, прямой потомок грид-контейнера. Подчиняется правилам раскладки гридов.
 - **грид-линия**: разделительная линия, формирующая структуру грида. Может быть как вертикальной (_грид-линия колонки_), так и горизонтальной (_грид-линия ряда_). Располагается по обе стороны от колонки / ряда. Используется для привязки грид-элементов.
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_01.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_01.png](/assets/images/posts/grid-guide/grid_01.png)
+
 Синяя линия — грид-линия колонки
 
 - **грид-ячейка**: пространство между двумя соседними грид-линиями колонок и рядов. Одна единица грид-сетки.
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_02.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_02.png](/assets/images/posts/grid-guide/grid_02.png)
+
 Грид-ячейка между 1 и 2 грид-линиями ряда и 2 и 3 грид-линиями колонки
 
 - **грид-полоса**: пространство между двумя соседними грид-линиями. Может быть проще думать о грид-полосе как о ряде или колонке.
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_03.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_03.png](/assets/images/posts/grid-guide/grid_03.png)
 
 Горизонтальная грид-полоса между 1 и 2 грид-линиями ряда
 
 - **грид-область**: область, ограниченная четырьмя грид-линиями. Может состоять из любого количества ячеек как по горизонтали, так и по вертикали.
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_04.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_04.png](/assets/images/posts/grid-guide/grid_04.png)
 
 Грид-область между 1 и 3 грид-линиями ряда и 1 и 2 грид-линиями колонки.
 
@@ -126,9 +120,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_05.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_05.png](/assets/images/posts/grid-guide/grid_05.png)
 
 Можно явно именовать грид-линии, используя для этого квадратные скобки
 
@@ -140,9 +132,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_06_v02.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_06_v02.png](/assets/images/posts/grid-guide/grid_06_v02.png)
 
 Каждая линия может иметь больше одного имени. Это чем-то похоже на классы в HTML. Одному элементу вы можете задать больше одного класса. Тут аналогичная ситуация. Например, такой код будет совершенно валиден, у второй и третьей грид-линий колонки по два имени:
 
@@ -211,9 +201,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_07_v02.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_07_v02.png](/assets/images/posts/grid-guide/grid_07_v02.png)
 
 В этом примере создаётся две явные колонки размером 50 и 150 пикселей соответственно. Элементы начиная с третьего в эти две строки не помещаются и для них создаются автоматические ряды. При помощи свойства `grid-auto-rows` мы указываем, что автоматические ряды должны иметь размер 15 пикселей.
 
@@ -238,9 +226,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_08.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_08.png](/assets/images/posts/grid-guide/grid_08.png)
 
 Как видите, автоматически создаются колонки размером 15, 25 и затем 5 пикселей. И так до тех пор, пока элементы не закончатся.
 
@@ -286,9 +272,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_08.5.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_08.5.png](/assets/images/posts/grid-guide/grid_08.5.png)
 
 Как видите, третий элемент не поместился в последнюю ячейку первого ряда и был перенесён на следующую строку. Следующий за ним четвёртый элемент встал в ближайшую доступную ячейку во втором ряду.
 
@@ -302,9 +286,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_09.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_09.png](/assets/images/posts/grid-guide/grid_09.png)
 
 Теперь четвёртый элемент встал в ряд, но занял при этом пустую ячейку в первом ряду. Браузер старается закрыть все _дырки_ в сетке, переставляя подходящие элементы на свободные места.
 
@@ -323,9 +305,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_10.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_10.png](/assets/images/posts/grid-guide/grid_10.png)
 
 Видим аналогичную картину: 3 элемент не поместился в последнюю ячейку первой колонки и встал во вторую колонку. Следующий за ним 4 элемент встал ниже во второй колонке.
 
@@ -338,9 +318,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_11.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_11.png](/assets/images/posts/grid-guide/grid_11.png)
 
 В результате 4 элемент занял пустую ячейку в первой колонке.
 
@@ -399,9 +377,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 
 Получится такая раскладка:
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_13.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_13.png](/assets/images/posts/grid-guide/grid_13.png)
 
 Имена областей должны разделяться пробелами. Это важно особенно в том случае, если вы хотите расположить рядом две пустых ячейки рядом. Разделите точки пробелами, иначе браузер подумает что это одна пустая ячейка.
 
@@ -463,9 +439,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_14.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_14.png](/assets/images/posts/grid-guide/grid_14.png)
 
 В инспекторе отступы заштриховываются, так их можно отличить от грид-элементов. В данном примере между рядами отступ по 50 пикселей, а между колонками — 10 пикселей.
 
@@ -515,9 +489,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_15.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_15.png](/assets/images/posts/grid-guide/grid_15.png)
 
 - `end` – выравнивает элемент по конечной (правой) линии
 
@@ -529,9 +501,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_16.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_16.png](/assets/images/posts/grid-guide/grid_16.png)
 
 - `center` – выравнивает элемент по центру грид-ячейки
 
@@ -543,9 +513,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_17.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_17.png](/assets/images/posts/grid-guide/grid_17.png)
 
 - `stretch` – растягивает элемент на всю ширину грид-ячейки
 
@@ -557,9 +525,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_18.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_18.png](/assets/images/posts/grid-guide/grid_18.png)
 
 Можно управлять выравниванием отдельных грид-элементов при помощи свойства `justify-self`.
 
@@ -588,9 +554,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_19.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_19.png](/assets/images/posts/grid-guide/grid_19.png)
 
 - `end` – выравнивает элемент по конечной (нижней) линии
 
@@ -602,9 +566,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_20.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_20.png](/assets/images/posts/grid-guide/grid_20.png)
 
 - `center` – выравнивает элемент по центру грид-ячейки
 
@@ -616,9 +578,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_21.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_21.png](/assets/images/posts/grid-guide/grid_21.png)
 
 - `stretch` – растягивает элемент на всю высоту грид-ячейки
 
@@ -630,9 +590,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_22.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_22.png](/assets/images/posts/grid-guide/grid_22.png)
 
 Поддерживается всеми современными браузерами. [Проверить поддержку свойства](https://caniuse.com/mdn-css_properties_align-items_grid_context)
 
@@ -755,9 +713,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_23.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_23.png](/assets/images/posts/grid-guide/grid_23.png)
 
 Элемент разместился по горизонтали от второй грид-линии до линии с названием `[five]`, а по вертикали от линии с именем `[row1-start]` до линии с номером 3.
 
@@ -776,9 +732,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_23.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_23.png](/assets/images/posts/grid-guide/grid_23.png)
 
 Элемент расположился по вертикали от 2 грид-линии и растянулся на две ячейки, а по горизонтали от первой линии и растянулся до линии с названием `[col4-start]`.
 
@@ -803,9 +757,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_25.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_25.png](/assets/images/posts/grid-guide/grid_25.png)
 
 Элемент начинается с третьей линии по горизонтали и растягивается на 2 клетки. По вертикали элемент начинается от линии с именем `[third-line]` и заканчивается у четвёртой линии.
 
@@ -852,9 +804,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_26.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_26.png](/assets/images/posts/grid-guide/grid_26.png)
 
 Поддерживается всеми современными браузерами. [Проверить поддержку свойства](https://caniuse.com/mdn-css_properties_justify-self_grid_context)
 
@@ -872,9 +822,7 @@ CSS Grid Layout ([спецификация](https://www.w3.org/TR/css-grid-1/)) 
 }
 ```
 
-<div style="text-align: center">
-    <img src="/assets/images/posts/grid-guide/grid_27.png" style="width: 100%">
-</div>
+![/assets/images/posts/grid-guide/grid_27.png](/assets/images/posts/grid-guide/grid_27.png)
 
 Поддерживается всеми современными браузерами. [Проверить поддержку свойства](https://caniuse.com/mdn-css_properties_align-self_grid_context)
 
