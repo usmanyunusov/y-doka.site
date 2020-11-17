@@ -186,7 +186,7 @@
     color: $gray;
   }
 
-  &__support {
+  &__footer-links {
     font-size: 12px;
     line-height: 15px;
     position: absolute;
@@ -194,8 +194,10 @@
     left: 30px;
   }
 
-  &__support-link {
-    font-weight: bold;
+  &__footer-link {
+    &_bold {
+      font-weight: bold;
+    }
   }
 
   &__mascot {
