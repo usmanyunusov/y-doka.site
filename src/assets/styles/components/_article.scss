@@ -12,6 +12,11 @@
     margin-right: auto;
   }
 
+  & iframe {
+    border: 0;
+    width: 100%;
+  }
+
   &__title {
     position: relative;
     padding-right: 1em;
@@ -63,11 +68,11 @@
       }
     }
   }
-  
+
   &__code {
     border: 1px solid #18191C;
     position: relative;
-    
+
     &:after {
       content: "Результат";
       position: absolute;
