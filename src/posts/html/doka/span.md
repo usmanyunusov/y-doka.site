@@ -74,7 +74,7 @@ summary:
 }
 ```
 
-{% include "demos/span/show.njk" %}
+{% demo "/span/show" %}
 
 ## В работе
 
@@ -144,7 +144,7 @@ CSS
 }
 ```
 
-{% include "demos/span/company.njk" %}
+{% demo 'span/company', 'span demo' %}
 
 {% include "autors/furtivite/in-work.njk" %}
 

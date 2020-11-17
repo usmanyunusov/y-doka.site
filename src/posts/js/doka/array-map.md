@@ -32,7 +32,7 @@ const objects = nums.map(function (num) {
 
 Интерактивный пример
 
-{% include "demos/array-map/index.njk" %}
+{% demo "/array-map/" %}
 
 ## Как пишется
 
