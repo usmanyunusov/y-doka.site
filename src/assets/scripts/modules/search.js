@@ -1,6 +1,8 @@
 const DEBOUNCE_DELAY = 300
 const MIN_CHARACTERS = 1
 const HIDDEN_CLS = "search__suggestions__hidden"
+const SEARCH_FORM_ID = "js-search-form"
+const SEARCH_CATEGORY_FIELD = "search_category[]"
 
 const searchInput = document.getElementById("search")
 const suggestionsContainer = document.getElementById("search-suggestions")
@@ -89,12 +91,25 @@ searchInput.addEventListener("keydown", (event) => {
 
       clearSuggestionContainer()
 
+      const form = document.getElementById(SEARCH_FORM_ID)
+      const searchCategory = form
+        ? new FormData(form).getAll(SEARCH_CATEGORY_FIELD)
+        : []
+
       searchIndex
-        .filter(
-          (article) =>
+        .filter((article) => {
+          if (
+            searchCategory.length &&
+            searchCategory.every((category) => !article.tags.includes(category))
+          ) {
+            return false
+          }
+
+          return (
             article.title.includes(searchPhrase) ||
             article.summary.includes(searchPhrase)
-        )
+          )
+        })
         .slice(0, 5)
         .forEach((item) => {
           suggestionsContainer.appendChild(
