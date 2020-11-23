@@ -23,6 +23,20 @@
     border-bottom: 1px solid #b7b7b7;
     font-size: 3.75rem;
     line-height: 1.2;
+
+    &-edit {
+      font-size: 0.5em;
+      color: #1A5AD7;
+      transition: font-size .5s;
+
+      &:hover {
+
+        font-size: 0.75em;
+
+        color: #064236;
+        text-decoration: none;
+      }
+    }
   }
 
   &__section {
