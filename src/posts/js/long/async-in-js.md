@@ -1,11 +1,18 @@
 ---
 title: Асинхронность в JS
 name: async-in-js
-autor:
+autor: bespoyasov
 co-autors:
 designers:
 contributors:
 summary:
+  - async
+  - await
+  - callback
+  - колбэк колбэк
+  - promise промис
+  - then
+  - catch
 ---
 
 ## Кратко
