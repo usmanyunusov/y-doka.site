@@ -50,10 +50,14 @@ if (isRegistered === true && orders > 1) {
 
 Обычно для того, чтобы понять, как работают логические операторы, рисуют таблицу истинности. В ячейках — итоговое значение операции при соответствующих операндах:
 
+<div class="article__table article__table_all-third">
+
 | `&&`    |  `true` | `false` |
 | ------- | ------: | ------: |
 | `true`  |  `true` | `false` |
 | `false` | `false` | `false` |
+
+</div>
 
 ### ИЛИ, `||`
 
@@ -74,10 +78,14 @@ if (hasTicket || isInvited) { ... }
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
+<div class="article__table article__table_all-third">
+
 | `       |        |       ` | `true` | `false` |
 | ------- | -----: | ------: | ------ | ------- |
 | `true`  | `true` |  `true` |
 | `false` | `true` | `false` |
+
+</div>
 
 ### НЕ `!`
 
