@@ -613,11 +613,11 @@ async function* removeDataGenerator() {
   }
 }
 
-;async () => {
+;(async () => {
   for await (const item of removeDataGenerator()) {
     console.log(item)
   }
-}
+})()
 
 // Выведет данные, которые получит от сервера.
 // Порядок не гарантируется, потому что неизвестно,
