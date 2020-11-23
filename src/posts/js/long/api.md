@@ -9,6 +9,9 @@ summary:
   - апи
   - запросы
   - get post put delete options head
+  - rest
+  - soap
+  - rpc
 ---
 
 ## Кратко
