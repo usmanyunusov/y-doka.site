@@ -19,7 +19,7 @@
 
   &__title {
     display: flex;
-    align-items: baseline;
+    align-items: center;
 
     position: relative;
     padding-top: 60px;
@@ -33,15 +33,12 @@
     }
 
     &-edit {
+      margin-left: 15px;
       font-size: 0.5em;
-      color: #1A5AD7;
-      transition: font-size .5s;
+      color: #AFC9DA;
 
       &:hover {
-
-        font-size: 0.75em;
-
-        color: #064236;
+        color: #1A5AD7;
         text-decoration: none;
       }
     }
