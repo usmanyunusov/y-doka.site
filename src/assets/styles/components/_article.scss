@@ -18,11 +18,39 @@
   }
 
   &__title {
+    display: flex;
+    align-items: center;
+
     position: relative;
+    padding-top: 60px;
     padding-right: 1em;
     border-bottom: 1px solid #b7b7b7;
     font-size: 3.75rem;
     line-height: 1.2;
+
+    @media screen and (max-width: 425px){
+      font-size: 2.75rem;
+    }
+
+    &-edit {
+      margin-left: 15px;
+      font-size: 0.5em;
+      color: #AFC9DA;
+
+      &:hover {
+        color: #1A5AD7;
+        text-decoration: none;
+      }
+    }
+
+    & h1 {
+      display: block;
+      line-height: inherit;
+      font-size: inherit;
+      font-weight: inherit;
+      margin-block-start: 0;
+      margin-block-end: 0;
+    }
   }
 
   &__section {
