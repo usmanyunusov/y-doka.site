@@ -6,6 +6,12 @@ co-autors:
 designers:
 contributors:
 summary:
+  - итерация
+  - обход
+  - пробежать
+  - cycle
+  - iteration
+  - фор
 ---
 
 ## Кратко
