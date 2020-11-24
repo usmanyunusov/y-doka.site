@@ -6,7 +6,7 @@
 
 Доку [можно посмотреть тут](https://y-doka.site/). Да, наш маскот — это енотособака.
 
-![Главная страница](https://github.com/furtivite/y-doka.site/blob/contributing-and-readme/src/assets/images/github/mainpage.png?raw=true)
+![Главная страница](https://raw.githubusercontent.com/Y-Doka/y-doka.site/master/src/assets/images/github/mainpage.png)
 
 ## Как контрибьютить
 
@@ -18,7 +18,7 @@
 - Загляните в [раздел Issues](https://github.com/Y-Doka/y-doka.site/issues) нашего репозитория, чтобы ознакомиться со списком актуальных задач. Там есть, как задачи для новичков, так и реальные фичи для сайта, которые мы можем делать сообща.
 - Если вы уже читаете Доку, ставьте лайки и дизы — оставляйте подробные комментарии через форму обратной связи после каждой статьи. Команда авторов будет регулярно их просматривать и брать в работу.
 
-  ![Форма обратной связи](https://github.com/furtivite/y-doka.site/blob/contributing-and-readme/src/assets/images/github/feedback.png?raw=true)
+  ![Форма обратной связи](https://raw.githubusercontent.com/Y-Doka/y-doka.site/master/src/assets/images/github/feedback.png)
 
 - Пишите статьи и предлагайте новые темы. Ждем ваших идей и обещаем познакомить вас с командой Доки. Мы всегда открыты новым авторам.
 
