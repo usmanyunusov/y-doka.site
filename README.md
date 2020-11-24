@@ -10,7 +10,7 @@
 
 ## Как контрибьютить
 
-[Contributing.md](https://github.com/furtivite/y-doka.site/blob/contributing-and-readme/Contributing.md)
+[Contributing.md](https://github.com/Y-Doka/y-doka.site/blob/master/Contributing.md)
 
 В доке выше мы расписали всё очень подробно, но побережем ваше время, поэтому вот короткая выжимка:
 
