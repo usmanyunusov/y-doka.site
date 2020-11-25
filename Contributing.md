@@ -1,7 +1,5 @@
 # Contributing.md
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9300eb3b-475b-41b4-9013-6ce1984c6733/deploy-status)](https://app.netlify.com/sites/y-doka/deploys)
-
 [![Issues](https://img.shields.io/github/issues/Y-Doka/y-doka.site)](https://github.com/Y-Doka/y-doka.site/issues)
 
 ## Чем вы можете помочь
