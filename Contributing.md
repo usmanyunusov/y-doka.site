@@ -118,8 +118,8 @@ eleventyNavigation: <!-- внутренняя навигация 11ty -->
 ---
 title: Гайд по flexbox <!-- название статьи, <h1> страницы -->
 name: flexbox-guide <!-- название файла без расширения для работы URL -->
-autor: ABatickaya <!-- ник автора основного текста для работы коллекций-->
-co-autors:
+author: ABatickaya <!-- ник автора основного текста для работы коллекций-->
+co-authors:
   - furtivite <!-- ники всех соавторов (дописали "В работе"? Вам сюда)-->
 designers: <!-- ники всех дизайнеров -->
 contributors: <!-- ники всех прочих разработчиков -->
@@ -140,14 +140,14 @@ summary: <!-- теги для работы поиска --> - флексбокс
 ```markdown
 <!-- подпись автора в раздел «В работе» -->
 
-{% include "autors/furtivite/in-work.njk" %}
+{% include "authors/furtivite/in-work.njk" %}
 
 <!-- подпись автора в конец статьи -->
 
-{% include "autors/ABatickaya/autor.njk" %}
+{% include "authors/ABatickaya/author.njk" %}
 ```
 
-Подписи можно найти в папке `/includes/autors/`
+Подписи можно найти в папке `/includes/authors/`
 
 ### Интерактивные примеры кода
 

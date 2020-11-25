@@ -1,8 +1,8 @@
 ---
 title: <q>
 name: q
-autor: ABatickaya
-co-autors:
+author: ABatickaya
+co-authors:
 designers:
 contributors:
 summary:
@@ -75,4 +75,4 @@ summary:
 
 Обратите внимание, что кавычки в этом примере отличаются от стандартных, они соответствуют тем кавычкам, которые ставятся в латинизированном японском тексте.
 
-{% include "autors/ABatickaya/autor.njk" %}
+{% include "authors/ABatickaya/author.njk" %}

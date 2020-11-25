@@ -1,8 +1,8 @@
 ---
 title: <a>
 name: a
-autor: grachev
-co-autors:
+author: grachev
+co-authors:
   - ABatickaya
 designers:
 contributors:
@@ -108,7 +108,7 @@ summary:
 
 ## В работе
 
-{% include "autors/ABatickaya/in-work.njk" %}
+{% include "authors/ABatickaya/in-work.njk" %}
 
 🛠 На одностраничных сайтах часто создают навигацию по странице в виде меню. Для прокрутки страницы к нужному месту используют так называемые якорные ссылки.
 
@@ -155,4 +155,4 @@ HTML
 </h2>
 ```
 
-{% include "autors/grachev/autor.njk" %}
+{% include "authors/grachev/author.njk" %}

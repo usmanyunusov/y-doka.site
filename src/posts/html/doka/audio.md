@@ -1,8 +1,8 @@
 ---
 title: <audio>
 name: audio
-autor: vladimir
-co-autors:
+author: vladimir
+co-authors:
 designers:
 contributors:
 summary:
@@ -118,7 +118,7 @@ HTML
 
 ## В работе
 
-{% include "autors/vladimir/in-work.njk" %}
+{% include "authors/vladimir/in-work.njk" %}
 
 🛠 Я не очень люблю этот тэг в чистом виде, потому что каждый браузер воспринимает аудио по своему. Поэтому лучше юзать какой-нибудь плеер, но это уже не без помощи JavaScript. Примеры можно найти здесь:
 
@@ -130,4 +130,4 @@ HTML
 
 [https://forms.yandex.ru/u/5f020ba34d73a2405828a128/?iframe=1](https://forms.yandex.ru/u/5f020ba34d73a2405828a128/?iframe=1)
 
-{% include "autors/vladimir/autor.njk" %}
+{% include "authors/vladimir/author.njk" %}

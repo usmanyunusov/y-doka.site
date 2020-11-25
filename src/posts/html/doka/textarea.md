@@ -1,8 +1,8 @@
 ---
 title: <textarea>
 name: textarea
-autor: ezhkov_d
-co-autors:
+author: ezhkov_d
+co-authors:
 designers:
 contributors:
 summary:
@@ -158,4 +158,4 @@ summary:
 
 💡По умолчанию поле ввода `<textarea>` может изменять свой размер, если потянуть за нижний правый угол. Это поведение можно изменить, управляя CSS-свойством resize.
 
-{% include "autors/ezhkov_d/autor.njk" %}
+{% include "authors/ezhkov_d/author.njk" %}

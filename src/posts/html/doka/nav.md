@@ -1,8 +1,8 @@
 ---
 title: <nav>
 name: nav
-autor: vladimir
-co-autors:
+author: vladimir
+co-authors:
   - grachev
 designers:
 contributors:
@@ -106,8 +106,8 @@ nav {
 
 ## В работе
 
-{% include "autors/vladimir/in-work.njk" %}
+{% include "authors/vladimir/in-work.njk" %}
 
 🛠 `<nav>` — это набор функционально важных ссылок по разделам сайта. Важно выделить `<nav>`, чтобы поисковик понял, что находится в этом блоке.
 
-{% include "autors/vladimir/autor.njk" %}
+{% include "authors/vladimir/author.njk" %}
