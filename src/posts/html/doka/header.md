@@ -5,7 +5,7 @@ author: vladimir
 co-authors:
   - ABatickaya
 designers:
-contributors:
+contributors: skorobaeus
 summary:
   - тэг
   - тег
@@ -73,12 +73,7 @@ summary:
 </html>
 ```
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="max-grachev" data-slug-hash="vwKqXN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="&amp;lt;header&amp;gt;">
-  <span>See the Pen <a href="https://codepen.io/max-grachev/pen/vwKqXN">
-  &lt;header&gt;</a> by Max Grachev (<a href="https://codepen.io/max-grachev">@max-grachev</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+{% demo "/header/", "Хэдер", 630 %}
 
 ## В работе
 

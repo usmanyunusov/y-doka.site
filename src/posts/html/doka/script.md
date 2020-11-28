@@ -5,7 +5,7 @@ author: grachev
 co-authors:
   - ABatickaya
 designers:
-contributors:
+contributors: skorobaeus
 summary:
   - тэг
   - тег
@@ -92,12 +92,7 @@ HTML — создаёт структуру веб-страницы, CSS-сти�
 </html>
 ```
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="max-grachev" data-slug-hash="YMzKzP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="&amp;lt;script&amp;gt; blinking">
-  <span>See the Pen <a href="https://codepen.io/max-grachev/pen/YMzKzP">
-  &lt;script&gt; blinking</a> by Max Grachev (<a href="https://codepen.io/max-grachev">@max-grachev</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+{% demo "/script/", "Вставка скрипта на страницу", 220 %}
 
 ## В работе
 

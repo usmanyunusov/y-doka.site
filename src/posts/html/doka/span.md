@@ -74,7 +74,7 @@ summary:
 }
 ```
 
-{% demo "/span/show" %}
+{% demo "/span/show", "Буквица", 280 %}
 
 ## В работе
 
@@ -144,7 +144,7 @@ CSS
 }
 ```
 
-{% demo 'span/company', 'span demo' %}
+{% demo "span/company", "Цветовой акцент" %}
 
 {% include "authors/furtivite/in-work.njk" %}
 

@@ -4,7 +4,7 @@ name: img
 author: grachev
 co-authors:
 designers:
-contributors:
+contributors: skorobaeus
 summary:
   - картинка
   - img
@@ -71,29 +71,25 @@ summary:
 
 ## Ещё примеры
 
+HTML
+
 ```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Тег IMG</title>
-  </head>
-  <body>
-    <img
-      class="fit-picture"
-      src="https://y-doka.site/assets/images/posts/a/dogs.png"
-      alt="doka mainpage dog"
-    />
-  </body>
-</html>
+<img
+  class="fit-picture"
+  src="https://y-doka.site/assets/images/posts/a/dogs.png"
+  alt="doka mainpage dog"
+/>
 ```
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="y-doka" data-slug-hash="XWKXBmB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="&amp;lt;img&amp;gt;">
-  <span>See the Pen <a href="https://codepen.io/y-doka/pen/XWKXBmB">
-  &lt;img&gt;</a> by doka (<a href="https://codepen.io/y-doka">@y-doka</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+CSS
+
+```css
+.fit-picture {
+  width: 50%;
+}
+```
+
+{% demo "/img/", "Картинка с заданной шириной", 230 %}
 
 ## В работе
 

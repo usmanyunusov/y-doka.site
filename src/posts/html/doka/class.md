@@ -4,7 +4,7 @@ name: class
 author: ABatickaya
 co-authors:
 designers:
-contributors:
+contributors: skorobaeus
 summary:
   - класс
   - атрибут
@@ -32,11 +32,7 @@ summary:
 ...
 ```
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="solarrust" data-slug-hash="WBLaqo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="WBLaqo">
-  <span>See the Pen <a href="https://codepen.io/solarrust/pen/WBLaqo">
-  WBLaqo</a> by Alena (<a href="https://codepen.io/solarrust">@solarrust</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+{% demo "/class/nostyle", "Без классов", 380 %}
 
 🤖 Как при текущей разметке можно изменить цвет текста первого заголовка? Можно обернуть все заголовки в разные дополнительные теги. И использовать их комбинации в качестве селекторов для написания стилей. Но это решение будет неверным. Разметка _распухнет_, её сложно будет читать. Так делать не нужно.
 
@@ -60,16 +56,11 @@ summary:
 
 ```css
 .news__local {
-  color: #c00;
+  color: #ed6742;
 }
 ```
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="solarrust" data-slug-hash="yWGQBz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="yWGQBz">
-  <span>See the Pen <a href="https://codepen.io/solarrust/pen/yWGQBz">
-  yWGQBz</a> by Alena (<a href="https://codepen.io/solarrust">@solarrust</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+{% demo "/class/withstyle", "С классами", 380 %}
 
 Цель достигнута, при этом стили остальных заголовков второго уровня остались прежними.
 

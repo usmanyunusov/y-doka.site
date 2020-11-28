@@ -4,7 +4,7 @@ name: audio
 author: vladimir
 co-authors:
 designers:
-contributors:
+contributors: skorobaeus
 summary:
   - audio
   - аудио
@@ -97,24 +97,19 @@ HTML
     <title>audio</title>
   </head>
   <body>
-    <p>Эта песня заиграет автоматически</p>
-    <audio controls autoplay>
+    <p>Эта песня заиграет автоматически, но без звука</p>
+    <audio controls autoplay muted>
       <source src="audio.opus" type="audio/ogg; codecs=opus" />
       <source src="audio.ogg" type="audio/ogg; codecs=vorbis" />
       <source src="audio.mp3" type="audio/mpeg" />
       Ваш браузер не поддерживает встроенные аудио. Попробуйте
-      <a href="audio/audio.mp4" download>скачать</a> файл.
+      <a href="audio.mp3" download>скачать</a> файл.
     </audio>
   </body>
 </html>
 ```
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="max-grachev" data-slug-hash="vwKwbo" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="&amp;lt;audio&amp;gt;">
-  <span>See the Pen <a href="https://codepen.io/max-grachev/pen/vwKwbo">
-  &lt;audio&gt;</a> by Max Grachev (<a href="https://codepen.io/max-grachev">@max-grachev</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+{% demo "/audio/", "Аудио", 230 %}
 
 ## В работе
 

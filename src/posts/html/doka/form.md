@@ -5,7 +5,7 @@ author: vladimir
 co-authors:
   - ABatickaya
 designers:
-contributors:
+contributors: skorobaeus
 summary:
   - form
   - <form>
@@ -79,37 +79,33 @@ summary:
 ```html
 <!-- Эта форма отправит значение методом GET — мы получим URL с ответом -->
 <form action="" method="get">
-  <label for="GET-name">Имя первого гостя:</label>
-  <input id="GET-name" type="text" name="name" />
-  <input type="submit" value="Сохранить" />
+  <label for="GET-name" class="text-label">Имя первого гостя:</label>
+  <input id="GET-name" class="input" type="text" name="name" />
+  <input type="submit" class="button" value="Сохранить" />
 </form>
 
 <!-- Эта форма отправит данные методом POST -->
 <form action="" method="post">
-  <label for="POST-name">Имя второго гостя:</label>
-  <input id="POST-name" type="text" name="name" />
-  <input type="submit" value="Сохранить" />
+  <label for="POST-name" class="text-label">Имя второго гостя:</label>
+  <input id="POST-name" class="input" type="text" name="name" />
+  <input type="submit" class="button" value="Сохранить" />
 </form>
 
 <!-- Форма с булетами в рамочке -->
 <form action="" method="post">
   <fieldset>
     <legend>Выберите прожарку</legend>
-    <input type="radio" name="rare" id="radio" />
-    <label for="radio">Rare</label>
-    <input type="radio" name="medium" id="radio" />
-    <label for="radio">Medium</label>
-    <input type="radio" name="welldone" id="radio" />
-    <label for="radio">Well Done</label>
+    <input type="radio" name="level" id="rare" />
+    <label for="rare">Rare</label>
+    <input type="radio" name="level" id="medium" />
+    <label for="medium">Medium</label>
+    <input type="radio" name="level" id="well" />
+    <label for="well">Well Done</label>
   </fieldset>
 </form>
 ```
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="max-grachev" data-slug-hash="VOwQPM" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="&amp;lt;form&amp;gt;">
-  <span>See the Pen <a href="https://codepen.io/max-grachev/pen/VOwQPM">
-  &lt;form&gt;</a> by Max Grachev (<a href="https://codepen.io/max-grachev">@max-grachev</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+{% demo "/form/rest", "Три формы", 490 %}
 
 Попробуем отправить данные, которые введёт пользователь, на почту. Для этого, вместо URL-ссылки, мы пропишем `action="mailto:html@yandex.ru"`. Ключевое слово `mailto:` позволяет отправить что угодно на электронную почту. Не забудь добавить атрибут `enctype="text/plain"` в теге `<form>`, чтобы письмо отображалось корректно:
 
@@ -138,12 +134,7 @@ summary:
 </html>
 ```
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="max-grachev" data-slug-hash="dEydvz" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="&amp;lt;form&amp;gt; email">
-  <span>See the Pen <a href="https://codepen.io/max-grachev/pen/dEydvz">
-  &lt;form&gt; email</a> by Max Grachev (<a href="https://codepen.io/max-grachev">@max-grachev</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+{% demo "/form/tomail", "Форма с отправкой на email", 350 %}
 
 ## В работе
 

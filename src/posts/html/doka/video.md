@@ -5,7 +5,7 @@ author: vladimir
 co-authors:
   - grachev
 designers:
-contributors:
+contributors: skorobaeus
 summary:
   - video
   - <video>
@@ -106,7 +106,7 @@ HTML
 <video
   controls
   src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
-  poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217"
+  poster="big_buck_bunny.jpg"
   width="580"
 >
   Простите, но ваш браузер не поддерживает встроенные видео. Попробуйте скачать
@@ -115,22 +115,14 @@ HTML
 </video>
 ```
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="max-grachev" data-slug-hash="QREJgQ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="&amp;lt;video&amp;gt; example 1">
-  <span>See the Pen <a href="https://codepen.io/max-grachev/pen/QREJgQ">
-  &lt;video&gt; example 1</a> by Max Grachev (<a href="https://codepen.io/max-grachev">@max-grachev</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+{% demo "/video/poster", "Видео с обложкой", 420 %}
 
 А теперь добавим несколько форматов одного видео. Браузер попробует воспроизвести первый из поддерживаемых им форматов: сначала попробует проиграть mp4, потом ogg, затем avi. Если встраиваемые видео вообще не поддерживаются, то появится соответствующее сообщение:
 
 HTML
 
 ```html
-<video
-  width="580"
-  controls
-  poster="https://m.media-amazon.com/images/M/MV5BODU0NmViMDEtODEyZi00MjgyLWI4ZjktNzk0NmRiYjQwZDY0XkEyXkFqcGdeQXVyNTc0NjY1ODk@._V1_.jpg"
->
+<video width="580" controls poster="elephants_dream.jpg">
   <source
     src="https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4"
     type="video/mp4"
@@ -147,11 +139,7 @@ HTML
 </video>
 ```
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="max-grachev" data-slug-hash="vwKQJG" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="&amp;lt;video&amp;gt; example 2">
-  <span>See the Pen <a href="https://codepen.io/max-grachev/pen/vwKQJG">
-  &lt;video&gt; example 2</a> by Max Grachev (<a href="https://codepen.io/max-grachev">@max-grachev</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
+{% demo "/video/formats", "Видео разных форматов", 420 %}
 
 ## В работе
 
@@ -161,7 +149,7 @@ HTML
 
 ```html
 <video autoplay muted loop class="background-video">
-  <source src="http://epic.spb.ru/biostorm2.av1.mkv" type="video/mp4" />
+  <source src="storm.mkv" type="video/mp4" />
 </video>
 <div class="content">
   <h1>Heading</h1>
@@ -195,12 +183,7 @@ CSS
 }
 ```
 
-<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="solarrust" data-slug-hash="arWgPV" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="arWgPV">
-  <span>See the Pen <a href="https://codepen.io/solarrust/pen/arWgPV">
-  arWgPV</a> by Alena (<a href="https://codepen.io/solarrust">@solarrust</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+{% demo "/video/background", "Видео на фоне", 520 %}
 
 🛠 Обрати внимание на пару важных моментов, чтобы видео работало:
 

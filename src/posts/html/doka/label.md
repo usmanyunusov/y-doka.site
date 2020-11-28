@@ -4,7 +4,7 @@ name: label
 author: ezhkov_d
 co-authors:
 designers:
-contributors:
+contributors: skorobaeus
 summary:
   - лейбл
   - подпись поля ввода
@@ -45,12 +45,19 @@ summary:
 1. Задаём элементу формы атрибут `id`. Такое же значение задаём атрибуту `for` тега `<label>`.
 2. Оборачиваем элемент формы в тег `<label>`. В этом случае связь создаётся автоматически и нет необходимости в атрибутах `id` и `for`.
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="ezhkov" data-slug-hash="KKMMdXq" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="&amp;lt;label&amp;gt;">
-  <span>See the Pen <a href="https://codepen.io/ezhkov/pen/KKMMdXq">
-  &lt;label&gt;</a> by Denis Ezhkov (<a href="https://codepen.io/ezhkov">@ezhkov</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+```html
+<form action="">
+  <label for="phone">Ваш телефон:</label>
+  <input type="tel" name="phone" id="phone" class="input" />
+
+  <label>
+    <input type="checkbox" name="agree" class="checkbox" />Согласен на обработку
+    данных
+  </label>
+</form>
+```
+
+{% demo "/label/", "Див с фоном", 320 %}
 
 ## Атрибуты
 

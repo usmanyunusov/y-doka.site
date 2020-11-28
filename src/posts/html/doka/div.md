@@ -21,7 +21,7 @@ summary:
 
 ## Пример
 
-{% demo "/div/" %}
+{% demo "/div/", "Див с фоном", 160 %}
 
 HTML
 
