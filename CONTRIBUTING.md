@@ -1,4 +1,4 @@
-# Contributing.md
+# CONTRIBUTING.md
 
 [![Issues](https://img.shields.io/github/issues/Y-Doka/y-doka.site)](https://github.com/Y-Doka/y-doka.site/issues)
 
