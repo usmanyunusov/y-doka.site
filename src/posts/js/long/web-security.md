@@ -63,6 +63,10 @@ summary:
 
 Так, кстати, делает настоящий Twitter.
 
+#### Интерактивный пример
+
+На сайте application.security собраны интерактивные примеры подобных уязвимостей. Каждый из примеров расписан по шагам, это помогает лучше понять, в какой момент и что пошло не так. Посмотрите [на пример clickjacking](https://application.security/free-application-security-training/owasp-top-10-clickjacking) в 18 шагов :–)
+
 ### Cross Site Scripting, XSS
 
 _XSS_ — это внедрение вредоносного кода на страницы атакуемого сервиса.
@@ -100,6 +104,10 @@ _Экранирование (escaping)_ — это замена специаль
 
 Также на сервере следует проверять и при необходимости экранировать все данные, приходящие от клиента.
 
+#### Интерактивный пример
+
+Взгляните на [пример DOM XSS](https://application.security/free-application-security-training/owasp-top-10-dom-cross-site-scripting) и пример [отражённого XSS](https://application.security/free-application-security-training/owasp-top-10-reflected-cross-site-scripting) на application.security.
+
 ### SQL-Injection
 
 _SQL-инъекции (injection)_ — это один из видов XSS.
@@ -126,6 +134,10 @@ _SQL-инъекции (injection)_ — это один из видов XSS.
 Экранировать любой пользовательский ввод!
 
 Экранировать SQL-инъекции на клиенте, пожалуй, бессмысленно. Однако, у серверных разработчиков обязательно должны быть инструменты, которые позволят работать с пользовательским вводом безопасно.
+
+#### Интерактивный пример
+
+Взгляните на [пример SQL-инъекции](https://application.security/free-application-security-training/owas-top-10-sql-injection) на application.security.
 
 ### Stored XSS
 
@@ -170,6 +182,10 @@ Content-Security-Policy: default-src 'self' *.trusted.com
 // и всех своих поддоменов, а также от домена trusted.com
 // и всех его поддоменов.
 ```
+
+#### Интерактивный пример
+
+Взгляните на [пример stored XSS](https://application.security/free-application-security-training/owasp-top-10-stored-cross-site-scripting) на application.security.
 
 ### Key Logger
 
@@ -249,6 +265,10 @@ Set-Cookie: key=value; HttpOnly
 Для AJAX-запросов следует указывать CSP и CORS-политику.
 
 _Cross-Origin Resource Sharing, CORS_ — определяет, доступ к каким ресурсам есть у запросов с другого домена _(origin)_.
+
+#### Интерактивный пример
+
+Взгляните на [пример CSRF](https://application.security/free-application-security-training/owasp-top-10-cross-site-request-forgery) на application.security.
 
 ### Denial of Service, DoS
 
