@@ -1,0 +1,168 @@
+.contributors {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &__box {
+    display: flex;
+    align-items: center;
+  }
+
+  &__avatar {
+    display: flex;
+    margin-right: 14px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+
+    &-image {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      object-fit: cover;
+      vertical-align: top;
+    }
+
+    &:empty {
+      background-color: #000;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__name {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    font-weight: 500;
+
+    &:visited {
+      color: #000;
+    }
+
+    &:not([href]) {
+      &::after {
+        content: "";
+        border: 5px solid transparent;
+        border-top: 5px solid black;
+        font-size: 0;
+        left: 6px;
+        position: relative;
+        top: -3px;
+      }
+    }
+
+    &--all {
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    &--small {
+      font-size: 14px;
+      line-height: 1.5;
+      font-weight: 400;
+    }
+  }
+
+  &__date {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  &__socials {
+    display: flex;
+    margin-left: auto;
+  }
+
+  &__social {
+    display: flex;
+
+    & + & {
+      margin-left: 13px;
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    &--twitter {
+      &:hover,
+      &:focus {
+        svg {
+          fill: #1da1f2;
+        }
+      }
+    }
+
+    &--facebook {
+      &:hover,
+      &:focus {
+        svg {
+          fill: #4267b2;
+        }
+      }
+    }
+
+    &--small {
+      & + & {
+        margin-left: 3px;
+      }
+
+      svg {
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+
+  &__items {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 16px;
+    margin-left: 60px;
+    background-color: #f8f8f8;
+    padding: 4px 8px;
+    border-radius: 3px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin: 0;
+    }
+  }
+
+  #contributors_modal_controller {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+    opacity: 0;
+
+    &:checked ~ .contributors__items {
+      display: block;
+    }
+
+    &:checked ~ .contributors__box {
+      .contributors__name:not([href])::after {
+        border: 5px solid transparent;
+        border-bottom: 5px solid #000;
+        font-size: 0;
+        left: 6px;
+        position: relative;
+        top: -8px;
+      }
+    }
+  }
+}
