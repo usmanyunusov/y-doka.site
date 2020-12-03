@@ -27,11 +27,12 @@ summary:
 }
 ```
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="solarrust" data-slug-hash="WNxBzYP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="WNxBzYP">
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="solarrust" data-slug-hash="WNxBzYP" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="WNxBzYP">
   <span>See the Pen <a href="https://codepen.io/solarrust/pen/WNxBzYP">
   WNxBzYP</a> by Alena (<a href="https://codepen.io/solarrust">@solarrust</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 ## Как пишется
 
