@@ -41,7 +41,11 @@ CSS
 }
 ```
 
-[https://codepen.io/solarrust/pen/PLrweK?editors=1100](https://codepen.io/solarrust/pen/PLrweK?editors=1100)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="solarrust" data-slug-hash="PLrweK" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="PLrweK">
+  <span>See the Pen <a href="https://codepen.io/solarrust/pen/PLrweK">
+  PLrweK</a> by Alena (<a href="https://codepen.io/solarrust">@solarrust</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 ## Как это понять
 
@@ -106,7 +110,11 @@ selector {
 
 Понять текстовое описание этих стилей довольно сложно, посмотри пример ниже:
 
-[https://codepen.io/solarrust/pen/zbgzNw?editors=1010](https://codepen.io/solarrust/pen/zbgzNw?editors=1010)
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="result" data-user="solarrust" data-slug-hash="zbgzNw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="zbgzNw">
+  <span>See the Pen <a href="https://codepen.io/solarrust/pen/zbgzNw">
+  zbgzNw</a> by Alena (<a href="https://codepen.io/solarrust">@solarrust</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
 ### `border-color`
 
