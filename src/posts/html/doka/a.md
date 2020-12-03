@@ -37,7 +37,9 @@ summary:
 ## Как пишется
 
 ```html
-<a href="URL">...</a> <a name="идентификатор">...</a>
+<a href="URL">...</a>
+
+<a name="идентификатор">...</a>
 ```
 
 ## Атрибуты
@@ -74,10 +76,7 @@ summary:
 
 ```html
 <a href="https://y-doka.site/" target="_blank">
-  <img
-    src="https://y-doka.site/assets/images/posts/a/dogs.png"
-    alt="doka mainpage dog"
-  />
+  <img src="dogs.png" alt="doka mainpage dog" />
 </a>
 ```
 
