@@ -15,7 +15,7 @@ summary:
 
 Псевдокласс `:active` позволяет задать стили для элемента, с которым происходит взаимодействие прямо сейчас. Можно кнопке задать стиль, который будет виден в тот краткий миг, когда над кнопкой зажата клавиша мыши.
 
-![/assets/images/posts/active/active.gif](/assets/images/posts/active/active.gif)
+![Пример псевдокласса active при нажатии на кнопку](/assets/images/posts/active/active.gif)
 
 ## Пример
 

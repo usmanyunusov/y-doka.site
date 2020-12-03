@@ -161,7 +161,7 @@ selector {
 
 **Пример макета:**
 
-![/assets/images/posts/width/width.png](/assets/images/posts/width/width.png)
+![Пример макета](/assets/images/posts/width/width.png)
 
 **Как не надо делать:**
 

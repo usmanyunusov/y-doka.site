@@ -25,11 +25,11 @@ SVG — векторный формат графики, доступный в в
 
 Для сравнения посмотрим на PNG и SVG версии одного и того же изображения:
 
-![/assets/images/posts/svg/iconmonstr-menu-dot-horizontal-thin-48.png](/assets/images/posts/svg/iconmonstr-menu-dot-horizontal-thin-48.png)
+![Пример увеличенного в масштабе png-изображения](/assets/images/posts/svg/iconmonstr-menu-dot-horizontal-thin-48.png)
 
 Увеличенное в масштабе png-изображение
 
-![/assets/images/posts/svg/iconmonstr-menu-dot-horizontal-thin.svg](/assets/images/posts/svg/iconmonstr-menu-dot-horizontal-thin.svg)
+![Пример увеличенного в масштабе svg-изображения](/assets/images/posts/svg/iconmonstr-menu-dot-horizontal-thin.svg)
 
 Увеличенное в масштабе svg-изображение
 

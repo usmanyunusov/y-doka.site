@@ -159,7 +159,7 @@ content: unset;
 
 ### Результат
 
-![/assets/images/posts/content/MDN.svg](/assets/images/posts/content/MDN.svg)
+![Пример свойства content со значением url](/assets/images/posts/content/MDN.svg)
 
 ## Подсказки
 

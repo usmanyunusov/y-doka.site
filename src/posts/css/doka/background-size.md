@@ -17,7 +17,7 @@ summary:
 
 Создадим блок и в качестве фона зададим ему красивую панораму:
 
-![/assets/images/posts/background-size/151249.jpg](/assets/images/posts/background-size/151249.jpg)
+![Фон с красивой панорамой](/assets/images/posts/background-size/151249.jpg)
 
 HTML
 
@@ -66,7 +66,7 @@ CSS
 
 Теперь изображение подстраивается под размеры элемента без деформации. Лишнее просто отрезается. Именно значение `cover` используется чаще всего для создание красивых фонов.
 
-![/assets/images/posts/background-size/Untitled.png](/assets/images/posts/background-size/Untitled.png)
+![Примеры background-size](/assets/images/posts/background-size/Untitled.png)
 
 ## Как это понять
 

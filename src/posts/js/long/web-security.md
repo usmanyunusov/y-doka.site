@@ -280,7 +280,7 @@ _Cross-Origin Resource Sharing, CORS_ — определяет, доступ к 
 
 Когда дос-атака распределена на несколько машин (потоков, пачек, whatever), она называется распределённой _(distributed DoS, DDoS)_.
 
-![схемма DoS атаки](/assets/images/posts/js/web-security/ddos.png)
+![схема DoS атаки](/assets/images/posts/js/web-security/ddos.png)
 
 #### Как защититься
 
