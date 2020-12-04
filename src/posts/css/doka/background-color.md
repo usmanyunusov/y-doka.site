@@ -78,8 +78,8 @@ selector {
 	background-color: #FFFFFF80; /* Белый полупрозрачный */
 	background-color: rgb(255, 255, 0); /* Жёлтый */
 	background-color: rgb(255 255 0 / 0.5); /* Жёлтый полупрозрачный */
-	background-color: rgba(0, 0, 0, 0.5) /* Полупрозрачный чёрный */
-	background-color: rgba(0 0 0 / 0.5) /* Полупрозрачный чёрный v.2 */
+	background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный чёрный */
+	background-color: rgba(0 0 0 / 0.5); /* Полупрозрачный чёрный v.2 */
 }
 ```
 

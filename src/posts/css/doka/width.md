@@ -65,7 +65,7 @@ summary:
 }
 
 .inline-block {
-	width: 100% /* Сделаем каждый элемент на всю ширину окна */
+	width: 100%; /* Сделаем каждый элемент на всю ширину окна */
 	display: inline-block;
 	border: 1px solid gray;
 	background-color: #90ee90;
