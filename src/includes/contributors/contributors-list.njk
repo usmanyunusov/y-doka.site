@@ -20,12 +20,12 @@
             {% for social in contributor.socials %}
               {% if social.twitter %}
                 <a class="contributors__social contributors__social--small contributors__social--twitter" href={{ social.twitter }} target="_blank" aria-label="twitter">
-                  {% include 'svg/twitter.njk' %}
+                  {% include '../../assets/icons/twitter.svg' %}
                 </a>
               {% endif%}
               {% if social.facebook %}
                 <a class="contributors__social contributors__social--small  contributors__social--facebook" href={{ social.facebook }} target="_blank" aria-label="facebook">
-                  {% include 'svg/facebook.njk' %}
+                  {% include '../../assets/icons/facebook.svg' %}
                 </a>
               {% endif%}
             {% endfor %}
