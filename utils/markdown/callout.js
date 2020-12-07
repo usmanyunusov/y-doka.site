@@ -13,10 +13,10 @@ const callout = {
 
     if (nesting === 1) {
       const icon = utils.escapeHtml(matches[1])
-      return `<aside class="callout"><span>${icon}</span>`
+      return `<aside class="callout"><div class="callout__content"><span>${icon}</span><div>`
     }
 
-    return `</aside>`
+    return `</div></div></aside>`
   },
 }
 
