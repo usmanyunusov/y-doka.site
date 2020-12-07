@@ -1,0 +1,12 @@
+.callout {
+  display: grid;
+  grid-template-columns: max-content auto;
+  column-gap: 0.5em;
+  padding: 2em;
+  margin-block-start: 0.5em;
+  background: $callout-background;
+
+  & > * {
+    margin: 0;
+  }
+}
