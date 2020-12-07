@@ -16,6 +16,6 @@
   font-display: swap;
   font-weight: 400;
   src: local("Menlo"), local("Menlo-Regular"),
-    url("/assets/fonts/Menlo-Regular.woff") format("woff"),
-    url("/assets/fonts/Menlo-Regular.woff2") format("woff2");
+    url("/assets/fonts/Menlo-Regular.woff2") format("woff2")
+    url("/assets/fonts/Menlo-Regular.woff") format("woff");
 }
