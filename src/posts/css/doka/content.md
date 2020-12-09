@@ -49,7 +49,7 @@ content: no-open-quote;
 content: no-close-quote;
 
 /* Использование нескольких значений одновременно.
-	Исключение - ключевые слова normal и none */
+  Исключение - ключевые слова normal и none */
 content: open-quote counter(chapter_counter);
 
 /* Ключевые слова, которые нельзя комбинировать с другими значениями */

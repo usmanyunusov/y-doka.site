@@ -73,13 +73,13 @@ CSS
 
 ```css
 selector {
-	background-color: black; /* Чёрный */
-	background-color: #FFFFFF; /* Белый */
-	background-color: #FFFFFF80; /* Белый полупрозрачный */
-	background-color: rgb(255, 255, 0); /* Жёлтый */
-	background-color: rgb(255 255 0 / 0.5); /* Жёлтый полупрозрачный */
-	background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный чёрный */
-	background-color: rgba(0 0 0 / 0.5); /* Полупрозрачный чёрный v.2 */
+  background-color: black; /* Чёрный */
+  background-color: #ffffff; /* Белый */
+  background-color: #ffffff80; /* Белый полупрозрачный */
+  background-color: rgb(255, 255, 0); /* Жёлтый */
+  background-color: rgb(255 255 0 / 0.5); /* Жёлтый полупрозрачный */
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный чёрный */
+  background-color: rgba(0 0 0 / 0.5); /* Полупрозрачный чёрный v.2 */
 }
 ```
 

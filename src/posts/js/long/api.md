@@ -177,36 +177,36 @@ _SOAP (Simple Object Access Protocol)_ — формат обмена данны�
 <!-- Сообщение-запрос к интернет-магазину может выглядеть так: -->
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-   xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-   <soap:Body>
-     <getOrderDetails xmlns="https://example-store.com/orders">
-       <orderID>42</orderID>
-     </getOrderDetails>
-   </soap:Body>
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <getOrderDetails xmlns="https://example-store.com/orders">
+      <orderID>42</orderID>
+    </getOrderDetails>
+  </soap:Body>
 </soap:Envelope>
 
 <!-- А ответ: -->
 <?xml version="1.0" encoding="utf-8"?>
 <soap:Envelope
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-   xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-   <soap:Body>
-     <getOrderDetailsResponse xmlns="https://example-store.com/orders">
-       <getOrderDetailsResult>
-         <orderID>42</orderID>
-         <userID>43</userID>
-         <dateTime>2020-10-10T12:00:00</dateTime>
-         <products>
-             <productID>1</productID>
-             <productID>23</productID>
-             <productID>45</productID>
-         </products>
-       </getOrderDetailsResult>
-     </getOrderDetailsResponse>
-   </soap:Body>
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <getOrderDetailsResponse xmlns="https://example-store.com/orders">
+      <getOrderDetailsResult>
+        <orderID>42</orderID>
+        <userID>43</userID>
+        <dateTime>2020-10-10T12:00:00</dateTime>
+        <products>
+            <productID>1</productID>
+            <productID>23</productID>
+            <productID>45</productID>
+        </products>
+      </getOrderDetailsResult>
+    </getOrderDetailsResponse>
+  </soap:Body>
 </soap:Envelope>
 ```
 

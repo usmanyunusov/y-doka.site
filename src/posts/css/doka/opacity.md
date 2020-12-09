@@ -78,7 +78,7 @@ selector:before {
   bottom: 0;
   background-color: rgb(0 0 0 / 0.5);
   /* или в формате HEX
-	background-color: #00000080; */
+  background-color: #00000080; */
 }
 ```
 

@@ -46,9 +46,9 @@ CSS
 
 ```css
 .element {
-	...
-	background-position: 100% 100%; /* Позиция в процентах */
-	background-position: bottom right; /* Или при помощи ключевых слов */
+  ...
+  background-position: 100% 100%; /* Позиция в процентах */
+  background-position: bottom right; /* Или при помощи ключевых слов */
 }
 ```
 

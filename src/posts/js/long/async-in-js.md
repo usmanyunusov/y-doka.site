@@ -473,47 +473,47 @@ async function loadPosts() {
 
 ```jsx
 function request(url) {
-	return new Promise(function(resolve, reject) {
-		let responseFromServer;
-		/*...*/
-		resolve(responseFromServer);
-	});
+  return new Promise(function(resolve, reject) {
+    let responseFromServer;
+    /*...*/
+    resolve(responseFromServer);
+  });
 }
 
 function findId(user) {
-	let id;
-	/* ... */
+  let id;
+  /* ... */
   return id;
 }
 
 // ...то вызывать цепочку просто так
 // у нас бы уже не получилось:
 request('/api/users/1')
-	.then(user => findId(user)
-	// Упс, функция findId Промис не возвращает, так нельзя.
-	.then(user => request(`/api/photos/${user.id}/`))
+  .then(user => findId(user)
+  // Упс, функция findId Промис не возвращает, так нельзя.
+  .then(user => request(`/api/photos/${user.id}/`))
   .then(photo => request(`/api/crop/${photo.id}/`))
-	.then(response => console.log(response))
-	.catch(error => console.error(error));
+  .then(response => console.log(response))
+  .catch(error => console.error(error));
 ```
 
 Нам бы приходилось делать нечто вроде:
 
 ```jsx
 request('/api/users/1')
-	.then(user => Promise.resolve(findId(user))
-	// ...
+  .then(user => Promise.resolve(findId(user))
+  // ...
 
 // А если операция включала бы в себя обработку ошибок,
 // то возможно, и...
 
 request('/api/users/1')
-	.then(user => {
-		return new Promise(function(resolve, reject) {
-			/* ... */
-		});
-	})
-	// ...
+  .then(user => {
+    return new Promise(function(resolve, reject) {
+      /* ... */
+    });
+  })
+  // ...
 ```
 
 С асинхронными функциями такой проблемы нет, `await` автоматически разворачивает значение сам.
