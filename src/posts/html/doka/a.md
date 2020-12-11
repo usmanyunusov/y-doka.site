@@ -5,7 +5,9 @@ author: grachev
 co-authors:
   - ABatickaya
 designers:
-contributors: skorobaeus
+contributors:
+  - ABatickaya
+  - grachev
 summary:
   - ссылка
   - <a>
