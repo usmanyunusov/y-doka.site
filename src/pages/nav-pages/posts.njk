@@ -63,6 +63,14 @@ eleventyNavigation:
         </a>
         {%- endfor -%}
       </ul>
+      <h3>Инструменты</h3>
+      <ul class="navpage__list">
+        {%- for postInTools in collections.jsTools -%}
+        <a href="/posts/{{ postInTools.data.section }}/{{ postInTools.data.type }}/{{ postInTools.data.name }}">
+          <li class="navpage__list-item">{{ postInTools.data.title }}</li>
+        </a>
+        {%- endfor -%}
+      </ul>
     </div>
   </div>
 </div>
