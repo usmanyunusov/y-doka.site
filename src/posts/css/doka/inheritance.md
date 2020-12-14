@@ -1,5 +1,5 @@
 ---
-title: Наследование в CSS
+title: "Наследование в CSS"
 name: inheritance
 author: Roman_Ganin
 co-authors:

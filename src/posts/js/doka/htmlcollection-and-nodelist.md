@@ -1,5 +1,5 @@
 ---
-title: HTMLCollection и NodeList
+title: "HTMLCollection и NodeList"
 name: htmlcollection-and-nodelist
 author: N_Lopin
 co-authors:

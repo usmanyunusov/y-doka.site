@@ -1,5 +1,5 @@
 ---
-title: Системы управления версиями
+title: "Системы управления версиями"
 name: version-control
 author: kamyshev
 co-authors:

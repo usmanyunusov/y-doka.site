@@ -1,5 +1,5 @@
 ---
-title: Рекурсия
+title: "Рекурсия"
 name: recursion
 author: bespoyasov
 co-authors:

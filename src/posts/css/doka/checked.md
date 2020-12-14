@@ -1,5 +1,5 @@
 ---
-title: :checked
+title: ":checked"
 name: checked
 author: ABatickaya
 co-authors:

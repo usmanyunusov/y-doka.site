@@ -1,5 +1,5 @@
 ---
-title: ::before
+title: "::before"
 name: before
 author: ezhkov_d
 co-authors:

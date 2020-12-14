@@ -1,5 +1,5 @@
 ---
-title: Debounce на примере формы поиска
+title: "Debounce на примере формы поиска"
 name: debounce
 author: bespoyasov
 co-authors:

@@ -1,5 +1,5 @@
 ---
-title: <svg>
+title: "<svg>"
 name: svg
 author: ABatickaya
 co-authors:

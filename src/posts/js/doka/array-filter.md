@@ -1,5 +1,5 @@
 ---
-title: Array.filter
+title: "Array.filter"
 name: array-filter
 author: windrushfarer
 co-authors:

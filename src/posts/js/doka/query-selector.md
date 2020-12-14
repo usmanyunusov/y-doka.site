@@ -1,5 +1,5 @@
 ---
-title: querySelector
+title: "querySelector"
 name: query-selector
 author: N_Lopin
 co-authors:

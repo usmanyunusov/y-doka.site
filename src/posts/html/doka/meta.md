@@ -1,5 +1,5 @@
 ---
-title: <meta>
+title: "<meta>"
 name: meta
 author: grachev
 co-authors:

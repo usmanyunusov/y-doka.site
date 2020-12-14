@@ -1,5 +1,5 @@
 ---
-title: letter-spacing
+title: "letter-spacing"
 name: letter-spacing
 author: grachev
 co-authors:

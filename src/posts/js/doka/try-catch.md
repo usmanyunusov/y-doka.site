@@ -1,5 +1,5 @@
 ---
-title: try-catch
+title: "try-catch"
 name: try-catch
 author: windrushfarer
 co-authors:

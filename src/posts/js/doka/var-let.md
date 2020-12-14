@@ -1,5 +1,5 @@
 ---
-title: var/let
+title: "var/let"
 name: var-let
 author: vindi-r
 co-authors:

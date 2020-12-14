@@ -1,5 +1,5 @@
 ---
-title: События
+title: "События"
 name: events
 author: N_Lopin
 co-authors:

@@ -1,5 +1,5 @@
 ---
-title: Пакетные менеджеры
+title: "Пакетные менеджеры"
 name: package-managers
 author: kamyshev
 co-authors:

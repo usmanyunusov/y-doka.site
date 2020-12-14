@@ -1,5 +1,5 @@
 ---
-title: box-sizing
+title: "box-sizing"
 name: box-sizing
 author: ABatickaya
 co-authors:

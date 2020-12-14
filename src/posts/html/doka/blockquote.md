@@ -1,5 +1,5 @@
 ---
-title: <blockquote>
+title: "<blockquote>"
 name: blockquote
 author: ABatickaya
 co-authors:

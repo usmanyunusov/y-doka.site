@@ -1,5 +1,5 @@
 ---
-title: Почти всё в JavaScript — объект
+title: "Почти всё в JavaScript — объект"
 name: objects-objects-everywhere
 author: windrushfarer
 co-authors:

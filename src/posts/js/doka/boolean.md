@@ -1,5 +1,5 @@
 ---
-title: Boolean
+title: "Boolean"
 name: boolean
 author: bespoyasov
 co-authors:

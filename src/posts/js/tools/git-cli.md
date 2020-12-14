@@ -1,5 +1,5 @@
 ---
-title: Git CLI — минимум для работы
+title: "Git CLI — минимум для работы"
 name: git-cli
 author: kamyshev
 co-authors:

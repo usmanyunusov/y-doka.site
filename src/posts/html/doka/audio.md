@@ -1,5 +1,5 @@
 ---
-title: <audio>
+title: "<audio>"
 name: audio
 author: vladimir
 co-authors:

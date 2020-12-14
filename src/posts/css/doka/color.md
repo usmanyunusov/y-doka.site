@@ -1,5 +1,5 @@
 ---
-title: color
+title: "color"
 name: color
 author: grachev
 co-authors:

@@ -1,5 +1,5 @@
 ---
-title: Element.click
+title: "Element.click"
 name: element-click
 author: N_Lopin
 co-authors:

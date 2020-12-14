@@ -1,5 +1,5 @@
 ---
-title: Math.floor()
+title: "Math.floor()"
 name: math-floor
 author: N_Lopin
 co-authors:

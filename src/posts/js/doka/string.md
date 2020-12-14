@@ -1,5 +1,5 @@
 ---
-title: Строка
+title: "Строка"
 name: string
 author: vindi-r
 co-authors:

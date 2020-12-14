@@ -1,5 +1,5 @@
 ---
-title: Парадигмы программирования
+title: "Парадигмы программирования"
 name: programming-paradigms
 author: bespoyasov
 co-authors:

@@ -1,5 +1,5 @@
 ---
-title: Element.addEventListener()
+title: "Element.addEventListener()"
 name: element-addeventlistener
 author: vindi-r
 co-authors:

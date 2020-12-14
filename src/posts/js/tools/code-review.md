@@ -1,5 +1,5 @@
 ---
-title: Код-ревью — как, зачем, почему
+title: "Код-ревью — как, зачем, почему"
 name: code-review
 author: kamyshev
 co-authors:

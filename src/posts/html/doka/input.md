@@ -1,5 +1,5 @@
 ---
-title: <input>
+title: "<input>"
 name: input
 author: vladimir
 co-authors:

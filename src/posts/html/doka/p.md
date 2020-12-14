@@ -1,5 +1,5 @@
 ---
-title: <p>
+title: "<p>"
 name: p
 author: vladimir
 co-authors:

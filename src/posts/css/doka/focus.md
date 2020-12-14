@@ -1,5 +1,5 @@
 ---
-title: :focus
+title: ":focus"
 name: focus
 author: ABatickaya
 co-authors:

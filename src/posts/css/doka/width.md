@@ -1,5 +1,5 @@
 ---
-title: width
+title: "width"
 name: width
 author: ABatickaya
 co-authors:

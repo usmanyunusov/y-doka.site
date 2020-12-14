@@ -1,5 +1,5 @@
 ---
-title: transition-property
+title: "transition-property"
 name: transition-property
 author: ezhkov_d
 co-authors:

@@ -1,5 +1,5 @@
 ---
-title: list-style-type
+title: "list-style-type"
 name: list-style-type
 author: Roman_Ganin
 co-authors:

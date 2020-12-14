@@ -1,5 +1,5 @@
 ---
-title: vertical-align
+title: "vertical-align"
 name: vertical-align
 author: ABatickaya
 co-authors:

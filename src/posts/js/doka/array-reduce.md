@@ -1,5 +1,5 @@
 ---
-title: Array.reduce
+title: "Array.reduce"
 name: array-reduce
 author: windrushfarer
 co-authors:

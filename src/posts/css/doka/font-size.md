@@ -1,5 +1,5 @@
 ---
-title: font-size
+title: "font-size"
 name: font-size
 author: grachev
 co-authors:

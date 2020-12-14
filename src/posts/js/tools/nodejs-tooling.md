@@ -1,5 +1,5 @@
 ---
-title: Node.js — дом инструментов разработки
+title: "Node.js — дом инструментов разработки"
 name: nodejs-tooling
 author: kamyshev
 co-authors:

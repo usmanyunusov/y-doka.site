@@ -1,5 +1,5 @@
 ---
-title: Версии языка, транспайлеры, бандлеры
+title: "Версии языка, транспайлеры, бандлеры"
 name: language-versions
 author: bespoyasov
 co-authors:

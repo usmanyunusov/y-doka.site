@@ -1,5 +1,5 @@
 ---
-title: <textarea>
+title: "<textarea>"
 name: textarea
 author: ezhkov_d
 co-authors:

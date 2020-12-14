@@ -1,5 +1,5 @@
 ---
-title: list-style-image
+title: "list-style-image"
 name: list-style-image
 author: ezhkov_d
 co-authors:

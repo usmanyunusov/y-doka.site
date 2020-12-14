@@ -1,5 +1,5 @@
 ---
-title: margin
+title: "margin"
 name: margin
 author: grachev
 co-authors:

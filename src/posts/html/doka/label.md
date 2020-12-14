@@ -1,5 +1,5 @@
 ---
-title: <label>
+title: "<label>"
 name: label
 author: ezhkov_d
 co-authors:

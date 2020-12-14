@@ -1,5 +1,5 @@
 ---
-title: Событие load и DOMContentLoaded
+title: "Событие load и DOMContentLoaded"
 name: event-load-and-domcontentloaded
 author: N_Lopin
 co-authors:

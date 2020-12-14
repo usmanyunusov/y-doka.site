@@ -1,5 +1,5 @@
 ---
-title: Гайд по grid
+title: "Гайд по grid"
 name: grid-guide
 author: ABatickaya
 co-authors:

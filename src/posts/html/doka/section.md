@@ -1,5 +1,5 @@
 ---
-title: <section>
+title: "<section>"
 name: section
 author: vladimir
 co-authors:

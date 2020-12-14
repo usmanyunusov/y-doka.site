@@ -1,5 +1,5 @@
 ---
-title: cursor
+title: "cursor"
 name: cursor
 author: ABatickaya
 co-authors:

@@ -1,5 +1,5 @@
 ---
-title: <hidden>
+title: "<hidden>"
 name: hidden
 author: ABatickaya
 co-authors:

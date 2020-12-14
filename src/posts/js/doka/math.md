@@ -1,5 +1,5 @@
 ---
-title: Math
+title: "Math"
 name: math
 author: vindi-r
 co-authors:

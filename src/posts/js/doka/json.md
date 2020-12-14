@@ -1,5 +1,5 @@
 ---
-title: JSON
+title: "JSON"
 name: json
 author: stegur
 co-authors:

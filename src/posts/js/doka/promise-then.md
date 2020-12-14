@@ -1,5 +1,5 @@
 ---
-title: Promise. Метод then
+title: "Promise. Метод then"
 name: promise-then
 author: N_Lopin
 co-authors:

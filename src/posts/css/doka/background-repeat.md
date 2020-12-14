@@ -1,5 +1,5 @@
 ---
-title: background-repeat
+title: "background-repeat"
 name: background-repeat
 author: ABatickaya
 co-authors:

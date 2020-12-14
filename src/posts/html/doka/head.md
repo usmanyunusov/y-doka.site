@@ -1,5 +1,5 @@
 ---
-title: <head>
+title: "<head>"
 name: head
 author: vladimir
 co-authors:

@@ -1,5 +1,5 @@
 ---
-title: Array.map
+title: "Array.map"
 name: array-map
 author: windrushfarer
 co-authors:

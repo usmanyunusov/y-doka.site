@@ -1,5 +1,5 @@
 ---
-title: background-size
+title: "background-size"
 name: background-size
 author: ABatickaya
 co-authors:

@@ -1,5 +1,5 @@
 ---
-title: Как работают веб-приложения
+title: "Как работают веб-приложения"
 name: web-app-works
 author: bespoyasov
 co-authors:

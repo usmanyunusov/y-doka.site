@@ -1,5 +1,5 @@
 ---
-title: Массивы
+title: "Массивы"
 name: arrays
 author: N_Lopin
 co-authors:

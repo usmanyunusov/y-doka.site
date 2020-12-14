@@ -1,5 +1,5 @@
 ---
-title: Math.random()
+title: "Math.random()"
 name: math-random
 author: N_Lopin
 co-authors:

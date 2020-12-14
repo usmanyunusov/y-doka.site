@@ -1,5 +1,5 @@
 ---
-title: object-fit
+title: "object-fit"
 name: object-fit
 author: ABatickaya
 co-authors:

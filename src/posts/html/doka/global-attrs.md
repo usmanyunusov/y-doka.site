@@ -1,5 +1,5 @@
 ---
-title: Глобальные атрибуты
+title: "Глобальные атрибуты"
 name: global-attrs
 author: ABatickaya
 co-authors:

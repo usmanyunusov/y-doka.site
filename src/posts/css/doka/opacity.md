@@ -1,5 +1,5 @@
 ---
-title: opacity
+title: "opacity"
 name: opacity
 author: ABatickaya
 co-authors:

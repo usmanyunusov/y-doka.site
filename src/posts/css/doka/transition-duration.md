@@ -1,5 +1,5 @@
 ---
-title: transition-duration
+title: "transition-duration"
 name: transition-duration
 author: ezhkov_d
 co-authors:

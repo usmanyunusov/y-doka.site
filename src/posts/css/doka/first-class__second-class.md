@@ -1,5 +1,5 @@
 ---
-title: .first-class, .second-class
+title: ".first-class, .second-class"
 name: first-class__second-class
 author: ABatickaya
 co-authors:

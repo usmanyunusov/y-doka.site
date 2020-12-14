@@ -1,5 +1,5 @@
 ---
-title: Модули, import/export
+title: "Модули, import/export"
 name: modules
 author: bespoyasov
 co-authors:

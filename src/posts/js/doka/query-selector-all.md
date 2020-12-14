@@ -1,5 +1,5 @@
 ---
-title: querySelectorAll
+title: "querySelectorAll"
 name: query-selector-all
 author: N_Lopin
 co-authors:

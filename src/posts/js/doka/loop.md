@@ -1,5 +1,5 @@
 ---
-title: Цикл
+title: "Цикл"
 name: loop
 author: N_Lopin
 co-authors:

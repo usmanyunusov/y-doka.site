@@ -1,5 +1,5 @@
 ---
-title: alert()
+title: "alert()"
 name: alert
 author: vindi-r
 co-authors:

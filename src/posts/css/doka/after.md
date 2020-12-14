@@ -1,5 +1,5 @@
 ---
-title: ::after
+title: "::after"
 name: after
 author: ezhkov_d
 co-authors:

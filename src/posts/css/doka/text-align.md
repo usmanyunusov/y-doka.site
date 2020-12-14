@@ -1,5 +1,5 @@
 ---
-title: text-align
+title: "text-align"
 name: text-align
 author: ABatickaya
 co-authors:

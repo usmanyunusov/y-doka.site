@@ -1,5 +1,5 @@
 ---
-title: promt()
+title: "promt()"
 name: promt
 author: vindi-r
 co-authors:

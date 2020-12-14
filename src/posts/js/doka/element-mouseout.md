@@ -1,5 +1,5 @@
 ---
-title: Element.mouseout
+title: "Element.mouseout"
 name: element-mouseout
 author: N_Lopin
 co-authors:

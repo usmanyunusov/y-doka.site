@@ -1,5 +1,5 @@
 ---
-title: Хранение по ссылке vs. по значению
+title: "Хранение по ссылке vs. по значению"
 name: ref-type-vs-value-type
 author: windrushfarer
 co-authors:

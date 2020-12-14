@@ -1,5 +1,5 @@
 ---
-title: async/await
+title: "async/await"
 name: async-await
 author: N_Lopin
 co-authors:

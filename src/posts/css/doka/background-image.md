@@ -1,5 +1,5 @@
 ---
-title: background-image
+title: "background-image"
 name: background-image
 author: grachev
 co-authors:

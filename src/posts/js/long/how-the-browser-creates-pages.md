@@ -1,5 +1,5 @@
 ---
-title: Как браузер рисует страницы
+title: "Как браузер рисует страницы"
 name: how-the-browser-creates-pages
 author: bespoyasov
 co-authors:

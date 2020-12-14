@@ -1,5 +1,5 @@
 ---
-title: Системы сборки
+title: "Системы сборки"
 name: bundlers
 author: kamyshev
 co-authors:

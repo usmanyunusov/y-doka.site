@@ -1,5 +1,5 @@
 ---
-title: Псевдоэлементы
+title: "Псевдоэлементы"
 name: pseudoelements
 author: ABatickaya
 co-authors:

@@ -1,5 +1,5 @@
 ---
-title: Гайд по flexbox
+title: "Гайд по flexbox"
 name: flexbox-guide
 author: ABatickaya
 co-authors:

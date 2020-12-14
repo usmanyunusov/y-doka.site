@@ -1,5 +1,5 @@
 ---
-title: Области видимости
+title: "Области видимости"
 name: closures
 author: bespoyasov
 co-authors:

@@ -1,5 +1,5 @@
 ---
-title: Объект
+title: "Объект"
 name: object
 author: vindi-r
 co-authors:
