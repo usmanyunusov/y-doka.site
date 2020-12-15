@@ -13,7 +13,8 @@
   "private": true,
   "scripts": {
     "sassWatch": "sass --watch src/assets/styles:dist/assets/styles",
-    "sassBuild": "sass src/assets/styles/main.scss:dist/assets/styles/main.css",
+    "sassBuild": "sass src/assets/styles/main.scss:dist/assets/styles/main.css && npm run cssPrefix",
+    "cssPrefix": "postcss dist/assets/styles/main.css --use autoprefixer -d dist/assets/styles",
     "start": "npm-run-all dev --parallel sassWatch",
     "dev": "run-s clean eleventy:dev --print-label",
     "build": "run-s clean eleventy:prod --print-label",
@@ -49,6 +50,7 @@
   "devDependencies": {
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.4",
+    "autoprefixer": "^10.1.0",
     "cross-env": "^7.0.3",
     "editorconfig-checker": "^3.3.0",
     "husky": "^4.3.0",
@@ -56,6 +58,8 @@
     "markdown-it-anchor": "^6.0.1",
     "markdown-it-container": "^3.0.0",
     "npm-run-all": "^4.1.5",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
     "prettier": "^2.2.1"
   },
   "husky": {
