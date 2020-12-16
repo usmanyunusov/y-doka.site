@@ -31,4 +31,8 @@ module.exports = {
         return contributor.data
       })
   },
+
+  dropPostsFolder: function (path) {
+    return path.replace(/^\/posts/, "")
+  },
 }
