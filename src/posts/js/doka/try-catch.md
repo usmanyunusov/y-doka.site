@@ -125,6 +125,8 @@ try {
 }
 ```
 
+![блок-схема try...catch с finally](/assets/images/posts/js/try-catch/try-catch-finally.png)
+
 Наличие блока `finally` необязательно. `finally` можно использовать и без блока `catch`.
 
 ```javascript
