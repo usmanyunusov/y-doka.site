@@ -67,6 +67,23 @@ module.exports = function (config) {
     collection.getFilteredByGlob("./src/posts/**/*.md")
   )
 
+  // Sortables collections
+  new Array(
+    "htmlDoka",
+    "htmlLong",
+    "cssDoka",
+    "cssLong",
+    "jsDoka",
+    "jsLong",
+    "jsTools"
+  ).forEach((collectionsName) => {
+    config.addCollection(collectionsName, (collection) => {
+      return collection
+        .getFilteredByTag(collectionsName)
+        .sort((a, b) => a.data.title.localeCompare(b.data.title))
+    })
+  })
+
   // Pass-through files
   config.addPassthroughCopy("src/robots.txt")
   config.addPassthroughCopy("src/site.webmanifest")
