@@ -12,7 +12,7 @@ function toggleAside() {
 
 function asideOpener() {
   let postPath = window.location.pathname.split("/").filter((el) => el)
-  let [tmp, postSection, postType, postName] = postPath
+  let [postSection, postType, postName] = postPath
 
   // TODO: оптимизировать
   aside.querySelector(`.aside__${postSection}`).open = "true"
