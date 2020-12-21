@@ -72,10 +72,10 @@ element.style.marginTop = "20px" // css свойство margin-top
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-- [`getElementsByClassName`](/js/doka/getelementsbyclassname/) – поиск среди дочерних элементов по названию класса;
-- [`getElementsByTagName`](/js/doka/getelementsbytagname/) – поиск среди дочерних элементов по названию тега;
-- [`querySelector`](/js/doka/query-selector/) – поиск первого дочернего элемента, подходящего под CSS-селектор;
-- [`querySelectorAll`](/js/doka/query-selector-all/) – поиск всех дочерних элементов подходящих под CSS-селектор;
+- [`getElementsByClassName`](/js/doka/getelementsbyclassname/) — поиск среди дочерних элементов по названию класса;
+- [`getElementsByTagName`](/js/doka/getelementsbytagname/) — поиск среди дочерних элементов по названию тега;
+- [`querySelector`](/js/doka/query-selector/) — поиск первого дочернего элемента, подходящего под CSS-селектор;
+- [`querySelectorAll`](/js/doka/query-selector-all/) — поиск всех дочерних элементов подходящих под CSS-селектор;
 
 С помощью этих свойств и методов можно перемещаться по дереву и даже обойти все его элементы, если это нужно.
 

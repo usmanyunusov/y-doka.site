@@ -78,7 +78,7 @@ let episodesPerSeasons = [10, 10, 10, 10, 10, 9, 7, 6]
 
 console.log(episodesPerSeasons[5]) // 9
 
-episodesPerSeasons[5] = 10 // <– запись в ячейку с индексом 5
+episodesPerSeasons[5] = 10 // <- запись в ячейку с индексом 5
 console.log(episodesPerSeasons[5]) // 10
 ```
 
@@ -160,7 +160,7 @@ console.log(iWatched) // ["GameOfThrones", "Breaking Bad", "American Gods"] 🤷
 
 ```jsx
 let iWatched = ["GameOfThrones", "Breaking Bad"]
-let vitalikWatched = iWatched.slice() // <– делаем копию массива
+let vitalikWatched = iWatched.slice() // <- делаем копию массива
 
 vitalikWatched.push("American Gods")
 console.log(iWatched) // ["GameOfThrones", "Breaking Bad"] 👍

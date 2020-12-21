@@ -25,10 +25,10 @@ summary:
 
 Свойство `transition` комплексное. Как, например, [margin](/css/doka/margin/) или `background`. Оно включает в себя несколько подсвойств:
 
-- `transition-property` - указываем свойство, которое хотим плавно изменить
-- `transition-duration` - длительность перехода
-- `transition-timing-function` - функция, описывающая скорость изменения свойства
-- `transition-delay` - задержка перед началом изменения
+- `transition-property` — указываем свойство, которое хотим плавно изменить
+- `transition-duration` — длительность перехода
+- `transition-timing-function` — функция, описывающая скорость изменения свойства
+- `transition-delay` — задержка перед началом изменения
 
 ## Как записывается
 
