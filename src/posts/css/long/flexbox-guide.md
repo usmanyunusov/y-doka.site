@@ -6,6 +6,8 @@ co-authors:
   - furtivite
 designers:
 contributors:
+tags:
+  - sprint-4
 summary:
   - флексбокс
   - flexbox

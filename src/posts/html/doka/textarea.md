@@ -5,6 +5,8 @@ author: ezhkov_d
 co-authors:
 designers:
 contributors: skorobaeus
+tags:
+  - sprint-4
 summary:
   - поле ввода многострочного текста
   - элемент формы

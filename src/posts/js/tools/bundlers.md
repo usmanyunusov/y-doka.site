@@ -5,6 +5,8 @@ author: kamyshev
 co-authors:
 designers:
 contributors:
+tags:
+  - sprint-8
 summary:
   - webpack
   - вебпак

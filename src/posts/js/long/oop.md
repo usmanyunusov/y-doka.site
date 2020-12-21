@@ -5,6 +5,8 @@ author: bespoyasov
 co-authors:
 designers:
 contributors:
+tags:
+  - sprint-8
 summary:
   - use strict
   - строгий режим

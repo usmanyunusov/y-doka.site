@@ -5,6 +5,9 @@ author: kamyshev
 co-authors:
 designers:
 contributors:
+tags:
+  - sprint-4
+  - sprint-10
 summary:
   - git
   - vcs

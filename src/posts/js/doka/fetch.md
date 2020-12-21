@@ -5,6 +5,9 @@ author: windrushfarer
 co-authors:
 designers:
 contributors:
+tags:
+  - sprint-10
+  - sprint-12
 summary:
   - фетч
   - запрос

@@ -5,6 +5,9 @@ author: ezhkov_d
 co-authors:
 designers:
 contributors: skorobaeus
+tags:
+  - sprint-4
+  - sprint-6
 summary:
   - лейбл
   - подпись поля ввода

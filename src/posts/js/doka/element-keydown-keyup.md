@@ -5,6 +5,9 @@ author: stegur
 co-authors:
 designers:
 contributors:
+tags:
+  - sprint-4
+  - sprint-6
 summary:
   - события
   - клавиатура

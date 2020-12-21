@@ -5,6 +5,8 @@ author: bespoyasov
 co-authors:
 designers:
 contributors:
+tags:
+  - sprint-14
 summary:
   - click jacking
   - xss

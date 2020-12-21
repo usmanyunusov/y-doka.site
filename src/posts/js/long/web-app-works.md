@@ -5,6 +5,9 @@ author: bespoyasov
 co-authors:
 designers:
 contributors:
+tags:
+  - sprint-10
+  - sprint-12
 summary:
   - web application
   - frontend фронтенд

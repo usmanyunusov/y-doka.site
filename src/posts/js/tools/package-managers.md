@@ -5,6 +5,8 @@ author: kamyshev
 co-authors:
 designers:
 contributors:
+tags:
+  - sprint-12
 summary:
   - npm
   - nodejs
