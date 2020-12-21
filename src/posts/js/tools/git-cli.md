@@ -169,7 +169,12 @@ build
 
 Вот несколько красивых и простых клиентов:
 
-- [https://www.git-tower.com/](https://www.git-tower.com/)
-- [https://www.gitkraken.com](https://www.gitkraken.com/)
-- [https://git-fork.com](https://git-fork.com/)
-- [https://www.sourcetreeapp.com](https://www.sourcetreeapp.com/)
+**Бесплатные**
+- [GitKraken](https://www.gitkraken.com/) для Windows, macOS и Linux
+- [Sourcetree](https://www.sourcetreeapp.com/) для Windows и macOS
+- [GitHub Desktop](https://desktop.github.com) для Windows и macOS
+
+**Платные**
+- [Tower](https://www.git-tower.com/) для Windows и macOS
+- [Fork](https://git-fork.com/) для Windows и macOS
+- [Sublime Merge](https://www.sublimemerge.com/) для Windows, macOS и Linux
