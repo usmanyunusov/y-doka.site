@@ -1,5 +1,5 @@
 ---
-title: "for(iterator; condition; action) {}"
+title: "for()"
 name: for
 author: vindi-r
 co-authors:

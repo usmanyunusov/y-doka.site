@@ -1,5 +1,5 @@
 ---
-title: "indexOf(');"
+title: "indexOf()"
 name: index-of
 author: N_Lopin
 co-authors:

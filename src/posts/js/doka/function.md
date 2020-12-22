@@ -1,5 +1,5 @@
 ---
-title: "function() { }"
+title: "function()"
 name: function
 author: vindi-r
 co-authors:
