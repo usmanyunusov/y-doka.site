@@ -1,6 +1,6 @@
 ---
-title: "promt()"
-name: promt
+title: "prompt()"
+name: prompt
 author: vindi-r
 co-authors:
 designers:
