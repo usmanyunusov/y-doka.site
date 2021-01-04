@@ -27,8 +27,8 @@
     "clean": "del-cli dist",
     "editorconfig": "editorconfig-checker",
     "linthtml": "npm run linthtml:templates; npm run linthtml:content",
-    "linthtml:templates": "linthtml src/**/!(*.md)",
-    "linthtml:content": "linthtml src/posts/**/*.md",
+    "linthtml:templates": "linthtml 'src/**/*.{njk, html}'",
+    "linthtml:content": "linthtml 'src/posts/**/*.md'",
     "test": "npm run editorconfig"
   },
   "dependencies": {
