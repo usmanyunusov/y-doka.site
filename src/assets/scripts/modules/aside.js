@@ -2,7 +2,7 @@ const body = document.querySelector("body")
 const aside = document.querySelector("aside")
 
 function asideMoving() {
-  const arrow = aside.querySelector(".footer__arrow-btn")
+  const arrow = aside.querySelector(".aside__arrow-btn")
   arrow.addEventListener("click", toggleAside)
 }
 
