@@ -40,11 +40,11 @@
   }
 
   &__footer {
-    width: 100%;
-    height: 104px;
     position: fixed;
     left: 0;
     bottom: 0;
+
+    padding: 20px 23px 15px 37px;
   }
 
   &__logo {
@@ -188,20 +188,6 @@
   } /* Firefox 18- */
   :-ms-input-placeholder {
     color: $gray;
-  }
-
-  &__footer-links {
-    font-size: 12px;
-    line-height: 15px;
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-  }
-
-  &__footer-link {
-    &_bold {
-      font-weight: bold;
-    }
   }
 
   &__mascot {

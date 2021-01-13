@@ -50,6 +50,11 @@
     padding: 20px 23px 15px 37px;
     background-color: $nb-grey-background;
     transition: transform 0.2s ease-in;
+    font-size: 10px;
+    line-height: 12px;
+
+    font-size: 10px;
+    line-height: 12px;
 
     &_shadow {
       -webkit-box-shadow: 0 -4px 4px 0 rgba(183, 183, 183, 0.25);
@@ -222,5 +227,12 @@
         }
       }
     }
+  }
+
+  &__footer {
+    color: $nb-gray-darkest;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
