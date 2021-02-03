@@ -1,4 +1,3 @@
 dist
 node_modules
-src/posts/html
-src/posts/css
+src/posts
